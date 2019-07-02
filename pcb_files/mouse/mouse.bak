@@ -1,0 +1,54 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy3.2 U1
+U 1 1 5D1BEBE0
+P 8550 3250
+F 0 "U1" H 8550 4837 60  0000 C CNN
+F 1 "Teensy3.2" H 8550 4731 60  0000 C CNN
+F 2 "" H 8550 2450 60  0000 C CNN
+F 3 "" H 8550 2450 60  0000 C CNN
+	1    8550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN754410NE:SN754410NE U2
+U 1 1 5D1BEE18
+P 2300 6250
+F 0 "U2" H 2300 7220 50  0000 C CNN
+F 1 "SN754410NE" H 2300 7129 50  0000 C CNN
+F 2 "DIP254P762X508-16" H 2300 6250 50  0001 L BNN
+F 3 "PDIP-16 Texas Instruments" H 2300 6250 50  0001 L BNN
+F 4 "Texas Instruments" H 2300 6250 50  0001 L BNN "Field4"
+F 5 "None" H 2300 6250 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 2300 6250 50  0001 L BNN "Field6"
+F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 2300 6250 50  0001 L BNN "Field7"
+F 8 "SN754410NE" H 2300 6250 50  0001 L BNN "Field8"
+	1    2300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM7805_TO220 U3
+U 1 1 5D1BF038
+P 1350 4550
+F 0 "U3" H 1350 4792 50  0000 C CNN
+F 1 "LM7805_TO220" H 1350 4701 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1350 4775 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 1350 4500 50  0001 C CNN
+	1    1350 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
