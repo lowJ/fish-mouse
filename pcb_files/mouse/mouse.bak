@@ -76,12 +76,12 @@ $EndComp
 $Comp
 L RF:NRF24L01_Breakout U?
 U 1 1 5D1C0351
-P 4850 1850
-F 0 "U?" H 5328 1828 50  0000 L CNN
-F 1 "NRF24L01_Breakout" H 5328 1737 50  0000 L CNN
-F 2 "RF_Module:nRF24L01_Breakout" H 5000 2450 50  0001 L CIN
-F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 4850 1750 50  0001 C CNN
-	1    4850 1850
+P 6400 1750
+F 0 "U?" H 6878 1728 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 6878 1637 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 6550 2350 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 6400 1650 50  0001 C CNN
+	1    6400 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -116,11 +116,11 @@ Wire Wire Line
 	10250 6200 9000 6200
 Wire Wire Line
 	9000 6200 9000 6100
-Text Label 4850 1250 0    50   ~ 0
+Text Label 6400 1150 0    50   ~ 0
 3.3v
 Text Label 7550 3450 2    50   ~ 0
 3.3v
-Text Label 4850 2450 0    50   ~ 0
+Text Label 6400 2350 0    50   ~ 0
 GND
 Text Label 7550 3250 2    50   ~ 0
 u1_MISO
@@ -132,15 +132,15 @@ Text Label 7550 3050 2    50   ~ 0
 u1_CS
 Text Label 7550 2950 2    50   ~ 0
 u1_CE
-Text Label 4350 1550 2    50   ~ 0
+Text Label 5900 1450 2    50   ~ 0
 u1_MOSI
-Text Label 4350 1650 2    50   ~ 0
+Text Label 5900 1550 2    50   ~ 0
 u1_MISO
-Text Label 4350 1750 2    50   ~ 0
+Text Label 5900 1650 2    50   ~ 0
 u1_SCK
-Text Label 4350 1850 2    50   ~ 0
+Text Label 5900 1750 2    50   ~ 0
 u1_CS
-Text Label 4350 2050 2    50   ~ 0
+Text Label 5900 1950 2    50   ~ 0
 u1_CE
 Text Label 5300 4600 2    50   ~ 0
 5v
@@ -271,4 +271,299 @@ Wire Wire Line
 	2700 6350 2700 6250
 Wire Wire Line
 	2700 6250 3000 6250
+Text Label 4250 4550 0    50   ~ 0
+M1_encoder_A
+Text Label 4250 4450 0    50   ~ 0
+M1_encoder_B
+Text Label 4250 4350 0    50   ~ 0
+GND
+Text Label 4200 5800 0    50   ~ 0
+GND
+Text Label 4200 5900 0    50   ~ 0
+M2_encoder_B
+Text Label 4200 6000 0    50   ~ 0
+M2_encoder_A
+$Comp
+L Device:R R0
+U 1 1 5D1C6062
+P 1400 1450
+F 0 "R0" H 1470 1496 50  0000 L CNN
+F 1 "R" H 1470 1405 50  0000 L CNN
+F 2 "" V 1330 1450 50  0001 C CNN
+F 3 "~" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D1C60B5
+P 1900 1450
+F 0 "R1" H 1970 1496 50  0000 L CNN
+F 1 "R" H 1970 1405 50  0000 L CNN
+F 2 "" V 1830 1450 50  0001 C CNN
+F 3 "~" H 1900 1450 50  0001 C CNN
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D1C60EA
+P 2900 1450
+F 0 "R3" H 2970 1496 50  0000 L CNN
+F 1 "R" H 2970 1405 50  0000 L CNN
+F 2 "" V 2830 1450 50  0001 C CNN
+F 3 "~" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D1C6161
+P 2400 1450
+F 0 "R2" H 2470 1496 50  0000 L CNN
+F 1 "R" H 2470 1405 50  0000 L CNN
+F 2 "" V 2330 1450 50  0001 C CNN
+F 3 "~" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IRL81A D3
+U 1 1 5D1C62CE
+P 2900 1050
+F 0 "D3" V 2804 1202 50  0000 L CNN
+F 1 "IRL81A" V 2895 1202 50  0000 L CNN
+F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 2900 1225 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 2850 1050 50  0001 C CNN
+	1    2900 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:IRL81A D2
+U 1 1 5D1C6343
+P 2400 1050
+F 0 "D2" V 2304 1202 50  0000 L CNN
+F 1 "IRL81A" V 2395 1202 50  0000 L CNN
+F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 2400 1225 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 2350 1050 50  0001 C CNN
+	1    2400 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:IRL81A D1
+U 1 1 5D1C637B
+P 1900 1050
+F 0 "D1" V 1804 1202 50  0000 L CNN
+F 1 "IRL81A" V 1895 1202 50  0000 L CNN
+F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 1900 1225 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 1850 1050 50  0001 C CNN
+	1    1900 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:IRL81A D0
+U 1 1 5D1C63B2
+P 1400 1050
+F 0 "D0" V 1304 1202 50  0000 L CNN
+F 1 "IRL81A" V 1395 1202 50  0000 L CNN
+F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 1400 1225 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 1350 1050 50  0001 C CNN
+	1    1400 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 850  1900 850 
+Connection ~ 1900 850 
+Wire Wire Line
+	1900 850  2400 850 
+Connection ~ 2400 850 
+Wire Wire Line
+	2400 850  2900 850 
+Connection ~ 2900 850 
+Wire Wire Line
+	2900 850  3550 850 
+Text Label 1400 1600 3    50   ~ 0
+D0
+Text Label 1900 1600 3    50   ~ 0
+D1
+Text Label 2400 1600 3    50   ~ 0
+D2
+Text Label 2900 1600 3    50   ~ 0
+D3
+Wire Wire Line
+	2900 1300 2900 1150
+Wire Wire Line
+	2400 1300 2400 1150
+Wire Wire Line
+	1900 1300 1900 1150
+Wire Wire Line
+	1400 1300 1400 1150
+Wire Wire Line
+	1400 3200 2300 3200
+$Comp
+L Device:Q_Photo_NPN Q0
+U 1 1 5D1CEBFF
+P 1500 2850
+F 0 "Q0" H 1323 2804 50  0000 R CNN
+F 1 "Q_Photo_NPN" H 1323 2895 50  0000 R CNN
+F 2 "" H 1700 2950 50  0001 C CNN
+F 3 "~" H 1500 2850 50  0001 C CNN
+	1    1500 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_Photo_NPN Q1
+U 1 1 5D1CECAF
+P 2400 2850
+F 0 "Q1" H 2223 2804 50  0000 R CNN
+F 1 "Q_Photo_NPN" H 2223 2895 50  0000 R CNN
+F 2 "" H 2600 2950 50  0001 C CNN
+F 3 "~" H 2400 2850 50  0001 C CNN
+	1    2400 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_Photo_NPN Q2
+U 1 1 5D1CECF5
+P 3300 2850
+F 0 "Q2" H 3123 2804 50  0000 R CNN
+F 1 "Q_Photo_NPN" H 3123 2895 50  0000 R CNN
+F 2 "" H 3500 2950 50  0001 C CNN
+F 3 "~" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_Photo_NPN Q3
+U 1 1 5D1CED3B
+P 4150 2850
+F 0 "Q3" H 3973 2804 50  0000 R CNN
+F 1 "Q_Photo_NPN" H 3973 2895 50  0000 R CNN
+F 2 "" H 4350 2950 50  0001 C CNN
+F 3 "~" H 4150 2850 50  0001 C CNN
+	1    4150 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 3200 1400 3050
+Wire Wire Line
+	2300 3050 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 3200 3200
+Wire Wire Line
+	3200 3050 3200 3200
+Connection ~ 3200 3200
+Wire Wire Line
+	3200 3200 4050 3200
+Wire Wire Line
+	4050 3050 4050 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4050 3200 5100 3200
+$Comp
+L Device:R R?
+U 1 1 5D1D45B8
+P 1400 2250
+F 0 "R?" H 1470 2296 50  0000 L CNN
+F 1 "R" H 1470 2205 50  0000 L CNN
+F 2 "" V 1330 2250 50  0001 C CNN
+F 3 "~" H 1400 2250 50  0001 C CNN
+	1    1400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1D464D
+P 2300 2250
+F 0 "R?" H 2370 2296 50  0000 L CNN
+F 1 "R" H 2370 2205 50  0000 L CNN
+F 2 "" V 2230 2250 50  0001 C CNN
+F 3 "~" H 2300 2250 50  0001 C CNN
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1D46A2
+P 3200 2250
+F 0 "R?" H 3270 2296 50  0000 L CNN
+F 1 "R" H 3270 2205 50  0000 L CNN
+F 2 "" V 3130 2250 50  0001 C CNN
+F 3 "~" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D1D46F2
+P 4050 2250
+F 0 "R?" H 4120 2296 50  0000 L CNN
+F 1 "R" H 4120 2205 50  0000 L CNN
+F 2 "" V 3980 2250 50  0001 C CNN
+F 3 "~" H 4050 2250 50  0001 C CNN
+	1    4050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2650 4050 2550
+Wire Wire Line
+	3200 2400 3200 2550
+Wire Wire Line
+	2300 2400 2300 2550
+Wire Wire Line
+	1400 2400 1400 2550
+Wire Wire Line
+	1400 2550 1600 2550
+Connection ~ 1400 2550
+Wire Wire Line
+	1400 2550 1400 2650
+Wire Wire Line
+	2300 2550 2500 2550
+Connection ~ 2300 2550
+Wire Wire Line
+	2300 2550 2300 2650
+Wire Wire Line
+	3200 2550 3400 2550
+Connection ~ 3200 2550
+Wire Wire Line
+	3200 2550 3200 2650
+Connection ~ 4050 2550
+Wire Wire Line
+	4050 2550 4050 2400
+Wire Wire Line
+	4050 2550 4250 2550
+Text Label 1600 2550 0    50   ~ 0
+A0
+Text Label 2500 2550 0    50   ~ 0
+A1
+Text Label 3400 2550 0    50   ~ 0
+A2
+Text Label 4250 2550 0    50   ~ 0
+A3
+Text Label 5100 3200 0    50   ~ 0
+3.3v
+Wire Wire Line
+	1400 1900 2300 1900
+Wire Wire Line
+	4050 2100 4050 1900
+Connection ~ 4050 1900
+Wire Wire Line
+	4050 1900 5100 1900
+Wire Wire Line
+	3200 2100 3200 1900
+Connection ~ 3200 1900
+Wire Wire Line
+	3200 1900 4050 1900
+Wire Wire Line
+	2300 2100 2300 1900
+Connection ~ 2300 1900
+Wire Wire Line
+	2300 1900 3200 1900
+Wire Wire Line
+	1400 2100 1400 1900
+Text Label 5100 1900 0    50   ~ 0
+GND
+Text Label 3550 850  0    50   ~ 0
+GND
 $EndSCHEMATC
