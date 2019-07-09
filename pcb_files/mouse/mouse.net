@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/Jonathan/Desktop/xMouse/pcb_files/mouse/mouse.sch)
-    (date "Monday, July 08, 2019 at 05:45:16 PM")
+    (date "Monday, July 08, 2019 at 06:28:18 PM")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -64,12 +64,14 @@
       (tstamp 5D1C070D))
     (comp (ref M1)
       (value Motor_DC)
+      (footprint misc:Mouse_motor)
       (datasheet ~)
       (libsource (lib Motor) (part Motor_DC) (description "DC Motor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D1C3AFC))
     (comp (ref M2)
       (value Motor_DC)
+      (footprint misc:Mouse_motor)
       (datasheet ~)
       (libsource (lib Motor) (part Motor_DC) (description "DC Motor"))
       (sheetpath (names /) (tstamps /))
