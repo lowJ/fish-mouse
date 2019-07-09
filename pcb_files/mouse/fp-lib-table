@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/resources/Footprints/teensy.pretty)(options "")(descr ""))
+  (lib (name misc)(type KiCad)(uri ${KIPRJMOD}/resources/Footprints/misc.pretty)(options "")(descr ""))
+  (lib (name SN754410NE.kicad_mod)(type Legacy)(uri ${KIPRJMOD}/resources/Footprints/misc.pretty/SN754410NE.kicad_mod.mod)(options "")(descr ""))
+)
