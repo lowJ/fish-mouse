@@ -30,7 +30,7 @@ U 1 1 5D1BEE18
 P 5000 5700
 F 0 "U2" H 5000 6670 50  0000 C CNN
 F 1 "SN754410NE" H 5000 6579 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 5000 5700 50  0001 L BNN
+F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 5000 5700 50  0001 L BNN
 F 3 "PDIP-16 Texas Instruments" H 5000 5700 50  0001 L BNN
 F 4 "Texas Instruments" H 5000 5700 50  0001 L BNN "Field4"
 F 5 "None" H 5000 5700 50  0001 L BNN "Field5"
@@ -39,17 +39,6 @@ F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 5000 5700 50  0001 L BNN "
 F 8 "SN754410NE" H 5000 5700 50  0001 L BNN "Field8"
 	1    5000 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM7805_TO220 U3
-U 1 1 5D1BF038
-P 9000 5650
-F 0 "U3" V 8954 5755 50  0000 L CNN
-F 1 "LM7805_TO220" V 9045 5755 50  0000 L CNN
-F 2 "misc:VRM_LM108X" H 9000 5875 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 9000 5600 50  0001 C CNN
-	1    9000 5650
-	0    1    1    0   
 $EndComp
 $Comp
 L encoder_3081:Encoder_3081 U4
@@ -576,4 +565,15 @@ Text Label 7550 4550 2    50   ~ 0
 Emitter_2
 Text Label 9550 4550 0    50   ~ 0
 Emitter_3
+$Comp
+L Regulator_Linear:LM1084-5.0 U3
+U 1 1 5D2418A8
+P 9000 5650
+F 0 "U3" V 8954 5755 50  0000 L CNN
+F 1 "LM1084-5.0" V 9045 5755 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9000 5900 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 9000 5650 50  0001 C CNN
+	1    9000 5650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
