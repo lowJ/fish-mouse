@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mouse-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -198,7 +199,7 @@ U 1 1 5D1C3AFC
 P 1300 5150
 F 0 "M1" H 1458 5146 50  0000 L CNN
 F 1 "Motor_DC" H 1458 5055 50  0000 L CNN
-F 2 "" H 1300 5060 50  0001 C CNN
+F 2 "misc:Motor_mouse" H 1300 5060 50  0001 C CNN
 F 3 "~" H 1300 5060 50  0001 C CNN
 	1    1300 5150
 	1    0    0    -1  
@@ -209,7 +210,7 @@ U 1 1 5D1C3BC7
 P 1300 6550
 F 0 "M2" H 1458 6546 50  0000 L CNN
 F 1 "Motor_DC" H 1458 6455 50  0000 L CNN
-F 2 "" H 1300 6460 50  0001 C CNN
+F 2 "misc:Motor_mouse" H 1300 6460 50  0001 C CNN
 F 3 "~" H 1300 6460 50  0001 C CNN
 	1    1300 6550
 	1    0    0    -1  
@@ -575,5 +576,16 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9000 5900 50 
 F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 9000 5650 50  0001 C CNN
 	1    9000 5650
 	0    1    1    0   
+$EndComp
+$Comp
+L Motor:Motor_DC M3
+U 1 1 5D240B05
+P 1100 4150
+F 0 "M3" H 1258 4146 50  0000 L CNN
+F 1 "Motor_DC" H 1258 4055 50  0000 L CNN
+F 2 "misc:Mouse_caster" H 1100 4060 50  0001 C CNN
+F 3 "~" H 1100 4060 50  0001 C CNN
+	1    1100 4150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

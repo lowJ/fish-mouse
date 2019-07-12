@@ -125,7 +125,7 @@ Text Label 5900 1750 2    50   ~ 0
 u1_CS
 Text Label 5900 1950 2    50   ~ 0
 u1_CE
-Text Label 4250 5100 2    50   ~ 0
+Text Label 4300 5100 2    50   ~ 0
 5v
 Wire Wire Line
 	7900 5500 7600 5500
@@ -582,10 +582,98 @@ L Motor:Motor_DC M3
 U 1 1 5D240B05
 P 1100 4150
 F 0 "M3" H 1258 4146 50  0000 L CNN
-F 1 "Motor_DC" H 1258 4055 50  0000 L CNN
+F 1 "CASTER_BALL" H 1258 4055 50  0000 L CNN
 F 2 "misc:Mouse_caster" H 1100 4060 50  0001 C CNN
 F 3 "~" H 1100 4060 50  0001 C CNN
 	1    1100 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5D27C02F
+P 6700 3550
+F 0 "BZ1" H 6853 3579 50  0000 L CNN
+F 1 "Buzzer" H 6853 3488 50  0000 L CNN
+F 2 "" V 6675 3650 50  0001 C CNN
+F 3 "~" V 6675 3650 50  0001 C CNN
+	1    6700 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D28EC87
+P 6800 3200
+F 0 "R10" V 6593 3200 50  0000 C CNN
+F 1 "R" V 6684 3200 50  0000 C CNN
+F 2 "" V 6730 3200 50  0001 C CNN
+F 3 "~" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3450 6800 3350
+Text Label 6600 3450 1    50   ~ 0
+GND
+Wire Wire Line
+	6800 2850 6800 3050
+$Comp
+L Device:LED D4
+U 1 1 5D292553
+P 5900 3650
+F 0 "D4" H 5891 3866 50  0000 C CNN
+F 1 "STATUS_0" H 5900 3800 50  0000 C CNN
+F 2 "" H 5900 3650 50  0001 C CNN
+F 3 "~" H 5900 3650 50  0001 C CNN
+	1    5900 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D292B44
+P 5900 3350
+F 0 "R8" H 5830 3304 50  0000 R CNN
+F 1 "R" H 5830 3395 50  0000 R CNN
+F 2 "" V 5830 3350 50  0001 C CNN
+F 3 "~" H 5900 3350 50  0001 C CNN
+	1    5900 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5D2990A5
+P 6300 3650
+F 0 "D5" H 6291 3866 50  0000 C CNN
+F 1 "STATUS_1" H 6300 3800 50  0000 C CNN
+F 2 "" H 6300 3650 50  0001 C CNN
+F 3 "~" H 6300 3650 50  0001 C CNN
+	1    6300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D2990AB
+P 6300 3350
+F 0 "R9" H 6230 3304 50  0000 R CNN
+F 1 "R" H 6230 3395 50  0000 R CNN
+F 2 "" V 6230 3350 50  0001 C CNN
+F 3 "~" H 6300 3350 50  0001 C CNN
+	1    6300 3350
+	-1   0    0    1   
+$EndComp
+Text Label 5900 3200 1    50   ~ 0
+STATUS_LED_0
+Text Label 6300 3200 1    50   ~ 0
+STATUS_LED_1
+Text Label 5900 3800 3    50   ~ 0
+GND
+Text Label 6300 3800 3    50   ~ 0
+GND
+Text Label 7550 2350 2    50   ~ 0
+STATUS_LED_0
+Text Label 7550 2450 2    50   ~ 0
+STATUS_LED_1
+Text Label 6800 2850 1    50   ~ 0
+Buzzer
+Text Label 7550 2550 2    50   ~ 0
+Buzzer
 $EndSCHEMATC
