@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mouse-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -64,17 +64,6 @@ F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 450 6750 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF:NRF24L01_Breakout U6
-U 1 1 5D1C0351
-P 6400 1750
-F 0 "U6" H 6878 1728 50  0000 L CNN
-F 1 "NRF24L01_Breakout" H 6878 1637 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 6550 2350 50  0001 L CIN
-F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 6400 1650 50  0001 C CNN
-	1    6400 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Battery_Cell BT1
 U 1 1 5D1C070D
 P 7900 5700
@@ -99,32 +88,8 @@ Wire Wire Line
 	10250 4050 10250 6200
 Wire Wire Line
 	10250 6200 9000 6200
-Text Label 6400 1150 0    50   ~ 0
-3.3v
 Text Label 7550 3450 2    50   ~ 0
 3.3v
-Text Label 6400 2350 0    50   ~ 0
-GND
-Text Label 7550 3250 2    50   ~ 0
-u1_MISO
-Text Label 7550 3150 2    50   ~ 0
-u1_MOSI
-Text Label 7550 3850 2    50   ~ 0
-u1_SCK
-Text Label 7550 3050 2    50   ~ 0
-u1_CS
-Text Label 7550 2950 2    50   ~ 0
-u1_CE
-Text Label 5900 1450 2    50   ~ 0
-u1_MOSI
-Text Label 5900 1550 2    50   ~ 0
-u1_MISO
-Text Label 5900 1650 2    50   ~ 0
-u1_SCK
-Text Label 5900 1750 2    50   ~ 0
-u1_CS
-Text Label 5900 1950 2    50   ~ 0
-u1_CE
 Text Label 4300 5100 2    50   ~ 0
 5v
 Wire Wire Line
@@ -355,7 +320,7 @@ Emitter_0
 Text Label 2050 1450 3    50   ~ 0
 Emitter_1
 Text Label 2550 1450 3    50   ~ 0
-Emiter_2
+Emitter_2
 Text Label 3050 1450 3    50   ~ 0
 Emitter_3
 Wire Wire Line
@@ -676,4 +641,49 @@ Text Label 6800 2850 1    50   ~ 0
 Buzzer
 Text Label 7550 2550 2    50   ~ 0
 Buzzer
+Text Label 7550 2750 2    50   ~ 0
+M1_forward
+Text Label 7550 2850 2    50   ~ 0
+M1_backward
+Text Label 7550 2950 2    50   ~ 0
+M2_forward
+Text Label 7550 3050 2    50   ~ 0
+M2_backward
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D2BB906
+P 6270 2200
+F 0 "SW?" H 6270 2485 50  0000 C CNN
+F 1 "SW_Push" H 6270 2394 50  0000 C CNN
+F 2 "" H 6270 2400 50  0001 C CNN
+F 3 "~" H 6270 2400 50  0001 C CNN
+	1    6270 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2250 7460 2250
+Wire Wire Line
+	7460 2250 7460 1990
+Wire Wire Line
+	7460 1990 6470 1990
+Wire Wire Line
+	6470 1990 6470 2200
+Text Label 6070 2200 2    50   ~ 0
+3.3v
+Wire Wire Line
+	6470 2200 6470 2270
+Connection ~ 6470 2200
+$Comp
+L Device:R R?
+U 1 1 5D2C4CD1
+P 6470 2420
+F 0 "R?" H 6540 2466 50  0000 L CNN
+F 1 "R" H 6540 2375 50  0000 L CNN
+F 2 "" V 6400 2420 50  0001 C CNN
+F 3 "~" H 6470 2420 50  0001 C CNN
+	1    6470 2420
+	1    0    0    -1  
+$EndComp
+Text Label 6470 2570 3    50   ~ 0
+GND
 $EndSCHEMATC
