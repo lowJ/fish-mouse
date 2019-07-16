@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mouse-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -320,7 +320,7 @@ Emitter_0
 Text Label 2050 1450 3    50   ~ 0
 Emitter_1
 Text Label 2550 1450 3    50   ~ 0
-Emiter_2
+Emitter_2
 Text Label 3050 1450 3    50   ~ 0
 Emitter_3
 Wire Wire Line
@@ -507,7 +507,7 @@ Text Label 7550 4150 2    50   ~ 0
 Reciever_2
 Text Label 7550 4250 2    50   ~ 0
 Reciever_3
-Text Label 7550 4350 2    50   ~ 0
+Text Label 7550 3150 2    50   ~ 0
 Emitter_0
 Connection ~ 9000 6200
 Wire Wire Line
@@ -525,7 +525,7 @@ Wire Wire Line
 	7700 6200 9000 6200
 Text Label 7700 6200 2    50   ~ 0
 5v
-Text Label 7550 4450 2    50   ~ 0
+Text Label 7550 3250 2    50   ~ 0
 Emitter_1
 Text Label 7550 4550 2    50   ~ 0
 Emitter_2
@@ -649,4 +649,71 @@ Text Label 7550 2950 2    50   ~ 0
 M2_forward
 Text Label 7550 3050 2    50   ~ 0
 M2_backward
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D2BB906
+P 6270 2200
+F 0 "SW?" H 6270 2485 50  0000 C CNN
+F 1 "SW_Push" H 6270 2394 50  0000 C CNN
+F 2 "" H 6270 2400 50  0001 C CNN
+F 3 "~" H 6270 2400 50  0001 C CNN
+	1    6270 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2250 7460 2250
+Wire Wire Line
+	7460 2250 7460 1990
+Wire Wire Line
+	7460 1990 6470 1990
+Wire Wire Line
+	6470 1990 6470 2200
+Text Label 6070 2200 2    50   ~ 0
+3.3v
+Wire Wire Line
+	6470 2200 6470 2270
+Connection ~ 6470 2200
+$Comp
+L Device:R R?
+U 1 1 5D2C4CD1
+P 6470 2420
+F 0 "R?" H 6540 2466 50  0000 L CNN
+F 1 "R" H 6540 2375 50  0000 L CNN
+F 2 "" V 6400 2420 50  0001 C CNN
+F 3 "~" H 6470 2420 50  0001 C CNN
+	1    6470 2420
+	1    0    0    -1  
+$EndComp
+Text Label 6470 2570 3    50   ~ 0
+GND
+$Comp
+L Mechanical:MountingHole_Pad MH_SCL
+U 1 1 5D2CDA5E
+P 5550 1300
+F 0 "MH_SCL" V 5504 1450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 1450 50  0000 L CNN
+F 2 "" H 5550 1300 50  0001 C CNN
+F 3 "~" H 5550 1300 50  0001 C CNN
+	1    5550 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH_SDA
+U 1 1 5D2CDD65
+P 5550 1050
+F 0 "MH_SDA" V 5504 1200 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 1200 50  0000 L CNN
+F 2 "" H 5550 1050 50  0001 C CNN
+F 3 "~" H 5550 1050 50  0001 C CNN
+	1    5550 1050
+	0    1    1    0   
+$EndComp
+Text Label 7550 4350 2    50   ~ 0
+i2c_SDA
+Text Label 7550 4450 2    50   ~ 0
+i2c_SCL
+Text Label 5450 1050 2    50   ~ 0
+i2c_SDA
+Text Label 5450 1300 2    50   ~ 0
+i2c_SCL
 $EndSCHEMATC

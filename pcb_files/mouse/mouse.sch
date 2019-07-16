@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mouse-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -507,7 +507,7 @@ Text Label 7550 4150 2    50   ~ 0
 Reciever_2
 Text Label 7550 4250 2    50   ~ 0
 Reciever_3
-Text Label 7550 4350 2    50   ~ 0
+Text Label 7550 3150 2    50   ~ 0
 Emitter_0
 Connection ~ 9000 6200
 Wire Wire Line
@@ -525,7 +525,7 @@ Wire Wire Line
 	7700 6200 9000 6200
 Text Label 7700 6200 2    50   ~ 0
 5v
-Text Label 7550 4450 2    50   ~ 0
+Text Label 7550 3250 2    50   ~ 0
 Emitter_1
 Text Label 7550 4550 2    50   ~ 0
 Emitter_2
@@ -685,5 +685,61 @@ F 3 "~" H 6470 2420 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6470 2570 3    50   ~ 0
+GND
+$Comp
+L Mechanical:MountingHole_Pad MH_SCL
+U 1 1 5D2CDA5E
+P 5550 1300
+F 0 "MH_SCL" V 5504 1450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 1450 50  0000 L CNN
+F 2 "" H 5550 1300 50  0001 C CNN
+F 3 "~" H 5550 1300 50  0001 C CNN
+	1    5550 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH_SDA
+U 1 1 5D2CDD65
+P 5550 1050
+F 0 "MH_SDA" V 5504 1200 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 1200 50  0000 L CNN
+F 2 "" H 5550 1050 50  0001 C CNN
+F 3 "~" H 5550 1050 50  0001 C CNN
+	1    5550 1050
+	0    1    1    0   
+$EndComp
+Text Label 7550 4350 2    50   ~ 0
+i2c_SDA
+Text Label 7550 4450 2    50   ~ 0
+i2c_SCL
+Text Label 5450 1050 2    50   ~ 0
+i2c_SDA
+Text Label 5450 1300 2    50   ~ 0
+i2c_SCL
+$Comp
+L Mechanical:MountingHole_Pad MH_GND
+U 1 1 5D2D0AFA
+P 5550 1550
+F 0 "MH_GND" V 5504 1700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 1700 50  0000 L CNN
+F 2 "" H 5550 1550 50  0001 C CNN
+F 3 "~" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH_vBatt
+U 1 1 5D2D0CC0
+P 5550 800
+F 0 "MH_vBatt" V 5504 950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5595 950 50  0000 L CNN
+F 2 "" H 5550 800 50  0001 C CNN
+F 3 "~" H 5550 800 50  0001 C CNN
+	1    5550 800 
+	0    1    1    0   
+$EndComp
+Text Label 5450 800  2    50   ~ 0
+vBatt
+Text Label 5450 1550 2    50   ~ 0
 GND
 $EndSCHEMATC
