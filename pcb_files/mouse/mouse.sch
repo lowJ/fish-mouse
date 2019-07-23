@@ -650,10 +650,10 @@ M2_forward
 Text Label 7550 3050 2    50   ~ 0
 M2_backward
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 5D2BB906
 P 6270 2200
-F 0 "SW?" H 6270 2485 50  0000 C CNN
+F 0 "SW1" H 6270 2485 50  0000 C CNN
 F 1 "SW_Push" H 6270 2394 50  0000 C CNN
 F 2 "" H 6270 2400 50  0001 C CNN
 F 3 "~" H 6270 2400 50  0001 C CNN
@@ -674,10 +674,10 @@ Wire Wire Line
 	6470 2200 6470 2270
 Connection ~ 6470 2200
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5D2C4CD1
 P 6470 2420
-F 0 "R?" H 6540 2466 50  0000 L CNN
+F 0 "R11" H 6540 2466 50  0000 L CNN
 F 1 "R" H 6540 2375 50  0000 L CNN
 F 2 "" V 6400 2420 50  0001 C CNN
 F 3 "~" H 6470 2420 50  0001 C CNN
@@ -687,10 +687,10 @@ $EndComp
 Text Label 6470 2570 3    50   ~ 0
 GND
 $Comp
-L Mechanical:MountingHole_Pad MH_SCL
+L Mechanical:MountingHole_Pad MH_SCL1
 U 1 1 5D2CDA5E
 P 5550 1300
-F 0 "MH_SCL" V 5504 1450 50  0000 L CNN
+F 0 "MH_SCL1" V 5504 1450 50  0000 L CNN
 F 1 "MountingHole_Pad" V 5595 1450 50  0000 L CNN
 F 2 "" H 5550 1300 50  0001 C CNN
 F 3 "~" H 5550 1300 50  0001 C CNN
@@ -698,10 +698,10 @@ F 3 "~" H 5550 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad MH_SDA
+L Mechanical:MountingHole_Pad MH_SDA1
 U 1 1 5D2CDD65
 P 5550 1050
-F 0 "MH_SDA" V 5504 1200 50  0000 L CNN
+F 0 "MH_SDA1" V 5504 1200 50  0000 L CNN
 F 1 "MountingHole_Pad" V 5595 1200 50  0000 L CNN
 F 2 "" H 5550 1050 50  0001 C CNN
 F 3 "~" H 5550 1050 50  0001 C CNN
@@ -717,10 +717,10 @@ i2c_SDA
 Text Label 5450 1300 2    50   ~ 0
 i2c_SCL
 $Comp
-L Mechanical:MountingHole_Pad MH_GND
+L Mechanical:MountingHole_Pad MH_GND1
 U 1 1 5D2D0AFA
 P 5550 1550
-F 0 "MH_GND" V 5504 1700 50  0000 L CNN
+F 0 "MH_GND1" V 5504 1700 50  0000 L CNN
 F 1 "MountingHole_Pad" V 5595 1700 50  0000 L CNN
 F 2 "" H 5550 1550 50  0001 C CNN
 F 3 "~" H 5550 1550 50  0001 C CNN
@@ -728,10 +728,10 @@ F 3 "~" H 5550 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad MH_vBatt
+L Mechanical:MountingHole_Pad MH_vBatt1
 U 1 1 5D2D0CC0
 P 5550 800
-F 0 "MH_vBatt" V 5504 950 50  0000 L CNN
+F 0 "MH_vBatt1" V 5504 950 50  0000 L CNN
 F 1 "MountingHole_Pad" V 5595 950 50  0000 L CNN
 F 2 "" H 5550 800 50  0001 C CNN
 F 3 "~" H 5550 800 50  0001 C CNN
