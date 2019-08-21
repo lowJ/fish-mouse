@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 37)
@@ -1275,7 +1275,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D24ECC2)
-    (at 148.463 58.801 270)
+    (at 149.098 59.563 270)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5D2418A8)
@@ -1317,7 +1317,7 @@
   )
 
   (module Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical (layer F.Cu) (tedit 59FED667) (tstamp 5D262315)
-    (at 163.1442 61.1505 270)
+    (at 164.211 59.563 270)
     (descr "Through hole straight pin header, 1x06, 2.00mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.00mm single row")
     (path /5D1C0154)
@@ -1365,7 +1365,7 @@
   )
 
   (module Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical (layer F.Cu) (tedit 59FED667) (tstamp 5D2621DF)
-    (at 169.291 59.944 90)
+    (at 169.291 59.436 90)
     (descr "Through hole straight pin header, 1x06, 2.00mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.00mm single row")
     (path /5D1C0226)
@@ -1412,7 +1412,7 @@
     )
   )
 
-  (module misc:Motor_mouse (layer F.Cu) (tedit 5D2409DE) (tstamp 5D53D774)
+  (module misc:Motor_mouse (layer F.Cu) (tedit 5D2409DE) (tstamp 5D66B9B3)
     (at 157.1117 69.723)
     (path /5D1C3AFC)
     (fp_text reference M1 (at -3.885601 -8.956901) (layer F.SilkS)
@@ -1449,7 +1449,7 @@
     (pad "" np_thru_hole circle (at -26.75 9) (size 2.1844 2.1844) (drill 2.1844) (layers *.Cu *.Mask))
   )
 
-  (module misc:Motor_mouse (layer F.Cu) (tedit 5D2409DE) (tstamp 5D53D791)
+  (module misc:Motor_mouse (layer F.Cu) (tedit 5D2409DE) (tstamp 5D66BB88)
     (at 160.02 69.723 180)
     (path /5D1C3BC7)
     (fp_text reference M2 (at -7.366 8.6106 180) (layer F.SilkS)
@@ -1893,6 +1893,18 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
+  (dimension 2.921 (width 0.3) (layer F.SilkS)
+    (gr_text "2.921 mm" (at 128.9685 49.208) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 127.508 60.706) (xy 127.508 50.721579)))
+    (feature2 (pts (xy 130.429 60.706) (xy 130.429 50.721579)))
+    (crossbar (pts (xy 130.429 51.308) (xy 127.508 51.308)))
+    (arrow1a (pts (xy 127.508 51.308) (xy 128.634504 50.721579)))
+    (arrow1b (pts (xy 127.508 51.308) (xy 128.634504 51.894421)))
+    (arrow2a (pts (xy 130.429 51.308) (xy 129.302496 50.721579)))
+    (arrow2b (pts (xy 130.429 51.308) (xy 129.302496 51.894421)))
+  )
   (dimension 99.579663 (width 0.3) (layer Dwgs.User)
     (gr_text "99.580 mm" (at 246.925839 105.237574 89.12309226) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))

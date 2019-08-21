@@ -47,7 +47,7 @@ U 1 1 5D1C0154
 P 2550 6600
 F 0 "U4" H 2550 7217 50  0000 C CNN
 F 1 "Encoder_3081" H 2550 7126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 2700 6100 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2700 6100 50  0001 L CNN
 F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 400 8200 50  0001 C CNN
 	1    2550 6600
 	1    0    0    -1  
@@ -58,7 +58,7 @@ U 1 1 5D1C0226
 P 2600 5150
 F 0 "U5" H 2600 5767 50  0000 C CNN
 F 1 "Encoder_3081" H 2600 5676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 2750 4650 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2750 4650 50  0001 L CNN
 F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 450 6750 50  0001 C CNN
 	1    2600 5150
 	1    0    0    -1  
