@@ -77,8 +77,6 @@ $EndComp
 Wire Wire Line
 	7900 5500 7900 5350
 Wire Wire Line
-	7900 5350 9000 5350
-Wire Wire Line
 	8700 5650 8700 5800
 Wire Wire Line
 	8700 5800 8350 5800
@@ -134,9 +132,9 @@ Wire Wire Line
 	4150 6350 4150 6400
 Text Label 4000 6350 2    50   ~ 0
 GND
-Text Label 9550 4350 0    50   ~ 0
+Text Label 7550 2450 2    50   ~ 0
 M1_speed
-Text Label 9550 4450 0    50   ~ 0
+Text Label 7550 2550 2    50   ~ 0
 M2_speed
 Text Label 5700 5100 0    50   ~ 0
 OUT1
@@ -146,13 +144,13 @@ Text Label 5700 5300 0    50   ~ 0
 OUT3
 Text Label 5700 5400 0    50   ~ 0
 OUT4
-Text Label 3200 5350 0    50   ~ 0
-OUT1
 Text Label 3200 5250 0    50   ~ 0
+OUT1
+Text Label 3200 5350 0    50   ~ 0
 OUT2
-Text Label 3150 6800 0    50   ~ 0
-OUT3
 Text Label 3150 6700 0    50   ~ 0
+OUT3
+Text Label 3150 6800 0    50   ~ 0
 OUT4
 Text Label 3200 5150 0    50   ~ 0
 5v
@@ -499,15 +497,15 @@ Text Label 5200 2450 0    50   ~ 0
 GND
 Text Label 3700 700  0    50   ~ 0
 GND
-Text Label 7550 3950 2    50   ~ 0
+Text Label 7550 4150 2    50   ~ 0
 Reciever_0
 Text Label 7550 4050 2    50   ~ 0
 Reciever_1
-Text Label 7550 4150 2    50   ~ 0
+Text Label 7550 3850 2    50   ~ 0
 Reciever_2
-Text Label 7550 4250 2    50   ~ 0
+Text Label 7550 3950 2    50   ~ 0
 Reciever_3
-Text Label 7550 3150 2    50   ~ 0
+Text Label 9550 4350 0    50   ~ 0
 Emitter_0
 Connection ~ 9000 6200
 Wire Wire Line
@@ -525,7 +523,7 @@ Wire Wire Line
 	7700 6200 9000 6200
 Text Label 7700 6200 2    50   ~ 0
 5v
-Text Label 7550 3250 2    50   ~ 0
+Text Label 9550 4450 0    50   ~ 0
 Emitter_1
 Text Label 7550 4550 2    50   ~ 0
 Emitter_2
@@ -633,58 +631,36 @@ Text Label 5900 3800 3    50   ~ 0
 GND
 Text Label 6300 3800 3    50   ~ 0
 GND
-Text Label 7550 2350 2    50   ~ 0
+Text Label 7550 3050 2    50   ~ 0
 STATUS_LED_0
-Text Label 7550 2450 2    50   ~ 0
+Text Label 7550 3150 2    50   ~ 0
 STATUS_LED_1
 Text Label 6800 2850 1    50   ~ 0
 Buzzer
-Text Label 7550 2550 2    50   ~ 0
+Text Label 7550 4250 2    50   ~ 0
 Buzzer
-Text Label 7550 2750 2    50   ~ 0
+Text Label 7550 2150 2    50   ~ 0
 M1_forward
-Text Label 7550 2850 2    50   ~ 0
+Text Label 7550 2050 2    50   ~ 0
 M1_backward
-Text Label 7550 2950 2    50   ~ 0
+Text Label 7550 2250 2    50   ~ 0
 M2_forward
-Text Label 7550 3050 2    50   ~ 0
+Text Label 7550 2350 2    50   ~ 0
 M2_backward
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5D2BB906
-P 6270 2200
-F 0 "SW1" H 6270 2485 50  0000 C CNN
-F 1 "SW_Push" H 6270 2394 50  0000 C CNN
-F 2 "keyswitches:MX" H 6270 2400 50  0001 C CNN
-F 3 "~" H 6270 2400 50  0001 C CNN
-	1    6270 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 2250 7460 2250
-Wire Wire Line
-	7460 2250 7460 1990
-Wire Wire Line
-	7460 1990 6470 1990
-Wire Wire Line
-	6470 1990 6470 2200
-Text Label 6070 2200 2    50   ~ 0
+Text Label 5875 2200 2    50   ~ 0
 3.3v
-Wire Wire Line
-	6470 2200 6470 2270
-Connection ~ 6470 2200
 $Comp
 L Device:R R11
 U 1 1 5D2C4CD1
-P 6470 2420
-F 0 "R11" H 6540 2466 50  0000 L CNN
-F 1 "R" H 6540 2375 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6400 2420 50  0001 C CNN
-F 3 "~" H 6470 2420 50  0001 C CNN
-	1    6470 2420
+P 6475 2350
+F 0 "R11" H 6545 2396 50  0000 L CNN
+F 1 "R" H 6545 2305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6405 2350 50  0001 C CNN
+F 3 "~" H 6475 2350 50  0001 C CNN
+	1    6475 2350
 	1    0    0    -1  
 $EndComp
-Text Label 6470 2570 3    50   ~ 0
+Text Label 6475 2500 3    50   ~ 0
 GND
 $Comp
 L Mechanical:MountingHole_Pad MH_SCL1
@@ -742,4 +718,74 @@ Text Label 5450 800  2    50   ~ 0
 vBatt
 Text Label 5450 1550 2    50   ~ 0
 GND
+Text Label 6700 1975 0    50   ~ 0
+PUSH_SW
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D2BB906
+P 6075 2200
+F 0 "SW1" H 6075 2485 50  0000 C CNN
+F 1 "SW_Push" H 6075 2394 50  0000 C CNN
+F 2 "keyswitches:MX" H 6075 2400 50  0001 C CNN
+F 3 "~" H 6075 2400 50  0001 C CNN
+	1    6075 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 2200 6350 2200
+Wire Wire Line
+	6350 2200 6350 2075
+Wire Wire Line
+	6350 2075 6525 2075
+Wire Wire Line
+	6525 2075 6525 1975
+Wire Wire Line
+	6525 1975 6700 1975
+Connection ~ 6350 2200
+Wire Wire Line
+	6350 2200 6275 2200
+Text Label 7550 2850 2    50   ~ 0
+M1_encoder_A
+Text Label 7550 2950 2    50   ~ 0
+M1_encoder_B
+Text Label 7550 2650 2    50   ~ 0
+M2_encoder_A
+Text Label 7550 2750 2    50   ~ 0
+M2_encoder_B
+NoConn ~ 1100 3950
+NoConn ~ 1100 4450
+NoConn ~ 9550 2050
+NoConn ~ 9550 2150
+NoConn ~ 9550 2250
+Text Label 7550 3250 2    50   ~ 0
+PUSH_SW
+Text Label 7550 1950 2    50   ~ 0
+GND
+NoConn ~ 9550 4150
+NoConn ~ 9550 4250
+NoConn ~ 9550 3950
+NoConn ~ 9550 3850
+NoConn ~ 9550 3750
+NoConn ~ 9550 3650
+NoConn ~ 9550 3550
+NoConn ~ 9550 3450
+NoConn ~ 9550 3350
+NoConn ~ 9550 3250
+NoConn ~ 9550 3150
+NoConn ~ 9550 3050
+NoConn ~ 9550 2950
+NoConn ~ 9550 2850
+NoConn ~ 9550 2750
+NoConn ~ 9550 2350
+NoConn ~ 9550 2450
+NoConn ~ 9550 2550
+NoConn ~ 9550 2650
+NoConn ~ 9550 1950
+NoConn ~ 7550 3350
+NoConn ~ 7550 3750
+NoConn ~ 7550 3650
+Text Label 7550 3550 2    50   ~ 0
+GND
+Wire Wire Line
+	7900 5350 9000 5350
 $EndSCHEMATC
