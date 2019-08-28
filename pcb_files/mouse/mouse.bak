@@ -144,13 +144,13 @@ Text Label 5700 5300 0    50   ~ 0
 OUT3
 Text Label 5700 5400 0    50   ~ 0
 OUT4
-Text Label 3200 5350 0    50   ~ 0
-OUT1
 Text Label 3200 5250 0    50   ~ 0
+OUT1
+Text Label 3200 5350 0    50   ~ 0
 OUT2
-Text Label 3150 6800 0    50   ~ 0
-OUT3
 Text Label 3150 6700 0    50   ~ 0
+OUT3
+Text Label 3150 6800 0    50   ~ 0
 OUT4
 Text Label 3200 5150 0    50   ~ 0
 5v
