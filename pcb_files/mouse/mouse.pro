@@ -1,4 +1,4 @@
-update=Tuesday, August 27, 2019 at 09:57:34 AM
+update=Friday, September 06, 2019 at 01:53:11 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=version3.1.net
+LastNetListRead=version4.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524

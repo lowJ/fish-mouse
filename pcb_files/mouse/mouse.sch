@@ -647,7 +647,7 @@ Text Label 7550 2250 2    50   ~ 0
 M2_forward
 Text Label 7550 2350 2    50   ~ 0
 M2_backward
-Text Label 5875 2200 2    50   ~ 0
+Text Label 6475 2500 3    50   ~ 0
 3.3v
 $Comp
 L Device:R R11
@@ -660,7 +660,7 @@ F 3 "~" H 6475 2350 50  0001 C CNN
 	1    6475 2350
 	1    0    0    -1  
 $EndComp
-Text Label 6475 2500 3    50   ~ 0
+Text Label 5875 2200 2    50   ~ 0
 GND
 $Comp
 L Mechanical:MountingHole_Pad MH_SCL1
