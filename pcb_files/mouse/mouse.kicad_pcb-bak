@@ -1794,7 +1794,7 @@
     (descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x06 2.54mm single row")
     (path /5D1C0154)
-    (fp_text reference U4 (at 2.1844 6.4516 180) (layer F.SilkS)
+    (fp_text reference U4 (at 2.54 6.4516 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Encoder_3081 (at 0 15.47 90) (layer F.Fab)
