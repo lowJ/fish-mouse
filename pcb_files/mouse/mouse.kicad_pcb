@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 48)
+    (drawings 49)
     (tracks 452)
     (zones 0)
     (modules 37)
@@ -1771,12 +1771,12 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D72CD27)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 5D72D3FE) (tstamp 5D72CD27)
     (at 157.988 100.203)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /5D2CDA5E)
-    (fp_text reference MH_SCL1 (at 0 -2.33) (layer F.SilkS)
+    (fp_text reference SCL (at 3.175 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 2.33) (layer F.Fab)
@@ -1809,12 +1809,12 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D72CCEB)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 5D72D3E6) (tstamp 5D72CCEB)
     (at 155.575 100.203)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /5D2CDD65)
-    (fp_text reference MH_SDA1 (at 0 -2.33) (layer F.SilkS)
+    (fp_text reference SDA (at -3.556 -0.127) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 2.33) (layer F.Fab)
@@ -1885,6 +1885,9 @@
     )
   )
 
+  (gr_text "version 1.0" (at 127.254 135.382 135) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text IN (at 155.956 57.15) (layer F.SilkS) (tstamp 5D72BB59)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
