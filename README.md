@@ -6,7 +6,7 @@
 ![alt text](https://i.gyazo.com/c64162fd798aef0fdc69f54d9545e707.png "pcb traces")
 ![alt text](https://i.gyazo.com/9caa049c938e77acb3995b97b3d5b04c.png "schematic")
 
-<h1> Parts </h1>
+<h2> Parts </h2>
 
 1. SN754410NE (U2) - Motor driver, used to control the speed and direction of the two motors.
 1. Teensy 3.2 (U1)- Processor, will run code.
@@ -24,7 +24,7 @@ R4, R5, R6, R7 - ...
 R11 - ...
 R8, R9 - ...
 
-<h1> Building Notes </h1>
+<h2> Building Notes </h2>
 
 1. Use header pins and sockets for the Teensy and Motor driver to make replacing parts easier.
 1. With the ir emitters and receievers short end is positive.
