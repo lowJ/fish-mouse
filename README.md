@@ -48,8 +48,9 @@ Note: This is not a full parts list
 
 #### Interrupts
 
-Interrupts are needed to keep track of the wheels revolution. When the wheels position changes, the motor encoder will send a signal to the Teensy. Interrupts allow it so the Teensy can update values as soon as the encoder sends the signal (asynchronously). If the encoders were scanned in the main loop thers a good chance for some ticks to be missed, causing the revolution count to be inaccurate.   
-To add an interrupt run the [attatchInterrupt](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) function in setup. Syntax is attatchInterrupt(pin, func, mode). The second parameter specifies the function that gets executed when the interrupt is triggered. In our case we want to put in a function that will add to the count of an encoder variable. The third parameter specifies what will trigger the interrupt. For example "CHANGE" will make the interrupt trigger whenever the pin changes value, however, "FALLING" will make the interrupt trigger only when the pin goes from HIGH to LOW. Read link for more info.
+* Interrupts are needed to keep track of the wheels revolution. When the wheels position changes, the motor encoder will send a signal to the Teensy. Interrupts allow it so the Teensy can update values as soon as the encoder sends the signal (asynchronously). If the encoders were scanned in the main loop thers a good chance for some ticks to be missed, causing the revolution count to be inaccurate.   
+
+* To add an interrupt run the [attatchInterrupt](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) function in setup. Syntax is **attatchInterrupt(pin, func, mode)**. The second parameter specifies the function that gets executed when the interrupt is triggered. In our case we want to put in a function that will add to the count of an encoder variable. The third parameter specifies what will trigger the interrupt. For example "CHANGE" will make the interrupt trigger whenever the pin changes value, however, "FALLING" will make the interrupt trigger only when the pin goes from HIGH to LOW. Read link for more info.
 
 #### Variables
 
