@@ -62,4 +62,13 @@ To add an interrupt run the [attatchInterrupt](https://www.arduino.cc/reference/
 * getSwitchState() - Return the value of the switch
 * runMotorTime(m, speed, sec) - Set specific motor at speed for given amount of seconds. Uses delay function to count time.
 * runMotorRev(m, speed, rev) - Runs a specific motor at speed for given amount of revolutions. Uses the encoder varible to count revolutions.
+* setLED(l, brightness) - Sets a specific led to a certian brightness.
+* setBuzzer(strength) - Sets the buzzer to a given strength.
+
+#### More Functions
+* turnRight() - Use encoders to make a percise right turn
+* turnLeft() - similar to turnRight()
+* goForward() - Use encoders to go straight.
+* turnAround() - turnRight * 2
+
 
