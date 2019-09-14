@@ -19,13 +19,13 @@
 
 <h2> Parts </h2>
 
-1. SN754410NE (U2) - Motor driver, used to control the speed and direction of the two motors.
-1. Teensy 3.2 (U1)- Processor, will run code.
-1. IR Emitters (D0-D3) - Send an IR signal. Each is connected to a digital pin on the Teensy, allowing them to individual turn on and off.
-1. IR Reciever (Q0-Q3) - Will give , depending on the value the reciever is able to detect if there is a wall, and how may cells away it is.
-1. Pololu 3081 (U5, U4) - Motor encoders, used to keep track of wheel rotations.
-1. LM1084 (U3)- Voltage regulator, a LDO regulator that gives a 5V source from the LiPo.
-1. Switch (SW1), Buzzer (BZ1), LEDs (D4, D5) - used for interfacing with the mouse.
+1. __SN754410NE__ (U2) - Motor driver, used to control the speed and direction of the two motors.
+1. __Teensy 3.2__ (U1)- Processor, will run code.
+1. __IR Emitters__ (D0-D3) - Send an IR signal. Each is connected to a digital pin on the Teensy, allowing them to individual turn on and off.
+1. __IR Reciever__ (Q0-Q3) - Will give , depending on the value the reciever is able to detect if there is a wall, and how may cells away it is.
+1. __Pololu 3081__ (U5, U4) - Motor encoders, used to keep track of wheel rotations.
+1. __LM1084__ (U3)- Voltage regulator, a LDO regulator that gives a 5V source from the LiPo.
+1. __Switch (SW1), Buzzer (BZ1), LEDs (D4, D5)__ - used for interfacing with the mouse.
 Switch socket is designed for a mechanical keyboard switch
 LED size so .... will work
 Buzzer pin spacing is ....
