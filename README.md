@@ -19,21 +19,21 @@
 
 <h2> Parts </h2>
 
-1. __SN754410NE__ (U2) - _Motor driver, used to control the speed and direction of the two motors._
-1. __Teensy 3.2__ (U1)- _Processor, will run code._
-1. __IR Emitters__ (D0-D3) - _Send an IR signal. Each is connected to a digital pin on the Teensy, allowing them to individual turn on and off._
-1. __IR Reciever__ (Q0-Q3) - _Will give , depending on the value the reciever is able to detect if there is a wall, and how may cells away it is._
-1. __Pololu 3081__ (U5, U4) - _Motor encoders, used to keep track of wheel rotations._
-1. __LM1084__ (U3) - _Voltage regulator, a LDO regulator that gives a 5V source from the LiPo._
-1. __Switch__ (SW1), __Buzzer__ (BZ1), __LEDs___ (D4, D5) - _used for interfacing with the mouse._
+* __SN754410NE__ _(U2)_ - Motor driver, used to control the speed and direction of the two motors.
+* __Teensy 3.2__ _(U1)_- Processor, will run code.
+* __IR Emitters__ _(D0-D3)_ - Send an IR signal. Each is connected to a digital pin on the Teensy, allowing them to individual turn on and off.
+* __IR Reciever__ _(Q0-Q3)_ - Reads how strong the IR signal is, depending on the value it reads it is able to detect if there is a wall, and how may cells away it is.
+* __Pololu 3081__ _(U5, U4)_ - Motor encoders, used to keep track of wheel rotations.
+* __LM1084__ _(U3)_ - Voltage regulator, a LDO regulator that gives a 5V source from the LiPo.
+* __Switch__ _(SW1)_, __Buzzer__ _(BZ1)_, __LEDs___ _(D4, D5)_ - Used for interfacing with the mouse.
+* __...Ω__ _(R0, R1, R2, R3)_ - Current limiting resistors for Emitters.
+* __...Ω__ _(R4, R5, R6, R7)_ - Current limiting resistor for Recievers.
+* __...Ω__ _(R11)_ - Pull Up resistor for switch.
+* __...Ω__ _(R8, R9)_ - Current limiting resistors for LEDs.
+
 Switch socket is designed for a mechanical keyboard switch
 LED size so .... will work
 Buzzer pin spacing is ....
-
-R0, R1, R2, R3 - ...
-R4, R5, R6, R7 - ...
-R11 - ...
-R8, R9 - ...
 
 <h2> Building Notes </h2>
 
