@@ -42,15 +42,13 @@ Note: This is not a full parts list
 1. When connecting wires to the motor encoder, make sure none of the wires are rubbing against the magnetic disk.
 1. When connecting the encoder make sure to double check wires are connected correctly.
 
-<h3> **ARTICLE ENDS HERE** </h3>
+### **ARTICLE ENDS HERE**
 
 ### Software Notes
 
 #### Interrupts
 
-Interrupts .
-
-To add an interrupt run the [attatchInterrupt(pin, func, mode)](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) in setup. The func parameter specifies the function that gets executed when the interrupt is triggered. In our case we want to put in a function that will add to the count of an encoder variable. The mode parameter specifies what will trigger the interrupt. For example "CHANGE" will make the interrupt trigger whenever the pin changes value and "FALLING" will make the interrupt trigger only when the pin goes from HIGH to LOW. Read link for more info.
+To add an interrupt run the [attatchInterrupt](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) function in setup. Syntax is attatchInterrupt(pin, func, mode). The second parameter specifies the function that gets executed when the interrupt is triggered. In our case we want to put in a function that will add to the count of an encoder variable. The third parameter specifies what will trigger the interrupt. For example "CHANGE" will make the interrupt trigger whenever the pin changes value, however, "FALLING" will make the interrupt trigger only when the pin goes from HIGH to LOW. Read link for more info.
 
 #### Variables
 
