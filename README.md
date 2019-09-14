@@ -43,15 +43,19 @@ Note: This is not a full parts list
 1. When connecting the encoder make sure to double check wires are connected correctly.
 
 ***ARTICLE ENDS HERE***
-Software Notes
-Variables
-encoder - Two variables. Updated by the interrupt routine
-emitterState - One for each emitter. Stores the current state of the emitter
 
-Functions
-readReciever() - One method for each reciever. Returns the value read by reciever
-setEmitterState(x) - One method for each emitter. Set the state of the emitter to on or off.
-getSwitchState() - Return the value of the switch
-runMotorTime(speed, sec) - Run motors at speed for given amount of seconds
-runMotorRev(speed, rev) - Run motors at speed for given amount of revolutions. Use the encoder varible to count revolutions
+###Software Notes
+
+####Variables
+
+* encoder - Two variables. Updated by the interrupt routine
+* emitterState - One for each emitter. Stores the current state of the emitter
+
+####Functions
+
+* readReciever() - One method for each reciever. Returns the value read by reciever
+* setEmitterState(x) - One method for each emitter. Set the state of the emitter to on or off.
+* getSwitchState() - Return the value of the switch
+* runMotorTime(speed, sec) - Run motors at speed for given amount of seconds
+* runMotorRev(speed, rev) - Run motors at speed for given amount of revolutions. Use the encoder varible to count revolutions
 
