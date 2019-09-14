@@ -44,18 +44,18 @@ Note: This is not a full parts list
 
 ***ARTICLE ENDS HERE***
 
-###Software Notes
+### Software Notes
 
-####Variables
+#### Variables
 
 * encoder - Two variables. Updated by the interrupt routine
 * emitterState - One for each emitter. Stores the current state of the emitter
 
-####Functions
+#### Functions
 
 * readReciever() - One method for each reciever. Returns the value read by reciever
 * setEmitterState(x) - One method for each emitter. Set the state of the emitter to on or off.
 * getSwitchState() - Return the value of the switch
-* runMotorTime(speed, sec) - Run motors at speed for given amount of seconds
-* runMotorRev(speed, rev) - Run motors at speed for given amount of revolutions. Use the encoder varible to count revolutions
+* runMotorTime(m, speed, sec) - Set specific motor at speed for given amount of seconds. Uses delay function to count time.
+* runMotorRev(m, speed, rev) - Runs a specific motor at speed for given amount of revolutions. Uses the encoder varible to count revolutions.
 
