@@ -30,10 +30,10 @@ Note: This is not a full parts list
 * [__Switch__](http://www.google.com/search?q=mechanical+keyboard+switch) _(SW1)_ - Any mechanical keyboard switch
 * [__Buzzer__](https://www.amazon.com/BETAFPV-Terminals-Electronic-Continuous-12X9-5mm/dp/B073RH8TQK) _(BZ1)_ - ~5mm buzzer pin spacing, the small ones in the link fit.
 * [__LEDs__](http://www.google.com/search?q=3528+smd+led) _(D4, D5)_ - Any 3528 sized led rated for at least 3.3v
-* __...Ω__ _(R0, R1, R2, R3)_ - Current limiting resistors for Emitters.
-* __...Ω__ _(R4, R5, R6, R7)_ - Current limiting resistor for Recievers.
-* __...Ω__ _(R11)_ - Pull Up resistor for switch.
-* __...Ω__ _(R8, R9)_ - Current limiting resistors for LEDs.
+* __120Ω__ _(R0, R1, R2, R3)_ - Current limiting resistors for Emitters.
+* __1.8KΩ__ _(R4, R5, R6, R7)_ - Current limiting resistor for Recievers.
+* __...Ω__ _(R11)_ - Pull Up resistor for switch. Value based on the LED bought.
+* __1-10kΩ__ _(R8, R9)_ - Current limiting resistors for LEDs.
 
 <h2> Building Notes </h2>
 
