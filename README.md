@@ -41,6 +41,7 @@ Note: This is not a full parts list
 1. With the ir emitters and receievers short end is positive.
 1. When connecting wires to the motor encoder, make sure none of the wires are rubbing against the magnetic disk.
 1. When connecting the encoder make sure to double check wires are connected correctly.
+1. [Early Testing](https://github.com/lowj/micromouse-team/wiki/Meetings)
 
 ### **ARTICLE ENDS HERE**
 
