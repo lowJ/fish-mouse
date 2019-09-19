@@ -32,7 +32,7 @@ Note: This is not a full parts list
 * [__LEDs__](http://www.google.com/search?q=3528+smd+led) _(D4, D5)_ - Any 3528 sized led rated for at least 3.3v
 * __120Ω__ _(R0, R1, R2, R3)_ - Current limiting resistors for Emitters.
 * __1.8KΩ__ _(R4, R5, R6, R7)_ - Current limiting resistor for Recievers.
-* __...Ω__ _(R11)_ - Pull Up resistor for switch. Value based on the LED bought.
+* __...Ω__ _(R11)_ - Pull Up resistor for switch. Value based on the LED bought. [Calculate](http://www.ohmslawcalculator.com/led-resistor-calculator)
 * __1-10kΩ__ _(R8, R9)_ - Current limiting resistors for LEDs.
 
 <h2> Building Notes </h2>
