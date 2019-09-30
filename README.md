@@ -43,8 +43,6 @@ Note: This is not a full parts list
 1. When connecting the encoder make sure to double check wires are connected correctly.
 1. [Early Testing](https://github.com/lowj/micromouse-team/wiki/Meetings)
 
-### **ARTICLE ENDS HERE**
-
 ### Software Notes
 
 #### Interrupts
