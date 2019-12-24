@@ -406,7 +406,7 @@ Text Label 7550 4150 2    50   ~ 0
 Reciever_0
 Text Label 7550 4050 2    50   ~ 0
 Reciever_1
-Text Label 7550 3850 2    50   ~ 0
+Text Label 7550 4250 2    50   ~ 0
 Reciever_2
 Text Label 7550 3950 2    50   ~ 0
 Reciever_3
@@ -542,7 +542,7 @@ Text Label 7550 3150 2    50   ~ 0
 STATUS_LED_1
 Text Label 10900 2300 1    50   ~ 0
 Buzzer
-Text Label 7550 4250 2    50   ~ 0
+Text Label 7550 2950 2    50   ~ 0
 Buzzer
 Text Label 7550 2150 2    50   ~ 0
 M1_forward
@@ -651,7 +651,7 @@ Wire Wire Line
 	8750 900  8675 900 
 Text Label 7550 2850 2    50   ~ 0
 M1_encoder_A
-Text Label 7550 2950 2    50   ~ 0
+Text Label 7550 3850 2    50   ~ 0
 M1_encoder_B
 Text Label 7550 2650 2    50   ~ 0
 M2_encoder_A

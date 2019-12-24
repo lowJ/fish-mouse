@@ -807,7 +807,7 @@ F 3 "~" H 3900 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3750 1800 3    50   ~ 0
-Emitter_3
+Emitter_2
 Wire Wire Line
 	4450 1100 4450 1200
 Wire Wire Line
@@ -878,7 +878,7 @@ F 3 "~" H 900 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 750  1800 3    50   ~ 0
-Emitter_3
+Emitter_0
 Wire Wire Line
 	1450 1100 1450 1200
 Wire Wire Line
@@ -949,7 +949,7 @@ F 3 "~" H 2400 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2250 1800 3    50   ~ 0
-Emitter_3
+Emitter_1
 Wire Wire Line
 	2950 1100 2950 1200
 Wire Wire Line
