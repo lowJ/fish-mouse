@@ -220,7 +220,7 @@ U 1 1 5D1C60EA
 P 5950 1350
 F 0 "R8" H 6020 1396 50  0000 L CNN
 F 1 "33" H 6020 1305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5880 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 5880 1350 50  0001 C CNN
 F 3 "~" H 5950 1350 50  0001 C CNN
 	1    5950 1350
 	1    0    0    -1  
@@ -305,7 +305,7 @@ U 1 1 5D1D45B8
 P 1420 3460
 F 0 "R1" H 1490 3506 50  0000 L CNN
 F 1 "R" H 1490 3415 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1350 3460 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 1350 3460 50  0001 C CNN
 F 3 "~" H 1420 3460 50  0001 C CNN
 	1    1420 3460
 	1    0    0    -1  
@@ -316,7 +316,7 @@ U 1 1 5D1D464D
 P 2320 3460
 F 0 "R2" H 2390 3506 50  0000 L CNN
 F 1 "R" H 2390 3415 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2250 3460 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 2250 3460 50  0001 C CNN
 F 3 "~" H 2320 3460 50  0001 C CNN
 	1    2320 3460
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 5D1D46A2
 P 3220 3460
 F 0 "R3" H 3290 3506 50  0000 L CNN
 F 1 "R" H 3290 3415 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3150 3460 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 3150 3460 50  0001 C CNN
 F 3 "~" H 3220 3460 50  0001 C CNN
 	1    3220 3460
 	1    0    0    -1  
@@ -338,7 +338,7 @@ U 1 1 5D1D46F2
 P 4070 3460
 F 0 "R4" H 4140 3506 50  0000 L CNN
 F 1 "R" H 4140 3415 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4000 3460 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 4000 3460 50  0001 C CNN
 F 3 "~" H 4070 3460 50  0001 C CNN
 	1    4070 3460
 	1    0    0    -1  
@@ -406,7 +406,7 @@ Text Label 7550 4150 2    50   ~ 0
 Reciever_0
 Text Label 7550 4050 2    50   ~ 0
 Reciever_1
-Text Label 7550 3850 2    50   ~ 0
+Text Label 7550 4250 2    50   ~ 0
 Reciever_2
 Text Label 7550 3950 2    50   ~ 0
 Reciever_3
@@ -542,7 +542,7 @@ Text Label 7550 3150 2    50   ~ 0
 STATUS_LED_1
 Text Label 10900 2300 1    50   ~ 0
 Buzzer
-Text Label 7550 4250 2    50   ~ 0
+Text Label 7550 2950 2    50   ~ 0
 Buzzer
 Text Label 7550 2150 2    50   ~ 0
 M1_forward
@@ -651,7 +651,7 @@ Wire Wire Line
 	8750 900  8675 900 
 Text Label 7550 2850 2    50   ~ 0
 M1_encoder_A
-Text Label 7550 2950 2    50   ~ 0
+Text Label 7550 3850 2    50   ~ 0
 M1_encoder_B
 Text Label 7550 2650 2    50   ~ 0
 M2_encoder_A
@@ -694,12 +694,12 @@ GND
 Wire Wire Line
 	7900 5350 9000 5350
 $Comp
-L Device:Q_NMOS_DGS Q3
+L Device:Q_NMOS_DGS T3
 U 1 1 5E006E8C
 P 5850 1800
-F 0 "Q3" H 6055 1846 50  0000 L CNN
+F 0 "T3" H 6055 1846 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 6055 1755 50  0000 L CNN
-F 2 "" H 6050 1900 50  0001 C CNN
+F 2 "misc:TN0104(TO-92)" H 6050 1900 50  0001 C CNN
 F 3 "~" H 5850 1800 50  0001 C CNN
 	1    5850 1800
 	1    0    0    -1  
@@ -750,7 +750,7 @@ U 1 1 5E01EC6A
 P 4450 1350
 F 0 "R7" H 4520 1396 50  0000 L CNN
 F 1 "33" H 4520 1305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4380 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 4380 1350 50  0001 C CNN
 F 3 "~" H 4450 1350 50  0001 C CNN
 	1    4450 1350
 	1    0    0    -1  
@@ -767,12 +767,12 @@ F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 4400 900 50  0001 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q2
+L Device:Q_NMOS_DGS T2
 U 1 1 5E01EC76
 P 4350 1800
-F 0 "Q2" H 4555 1846 50  0000 L CNN
+F 0 "T2" H 4555 1846 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 4555 1755 50  0000 L CNN
-F 2 "" H 4550 1900 50  0001 C CNN
+F 2 "misc:TN0104(TO-92)" H 4550 1900 50  0001 C CNN
 F 3 "~" H 4350 1800 50  0001 C CNN
 	1    4350 1800
 	1    0    0    -1  
@@ -821,7 +821,7 @@ U 1 1 5E02C7EF
 P 1450 1350
 F 0 "R5" H 1520 1396 50  0000 L CNN
 F 1 "33" H 1520 1305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1380 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 1380 1350 50  0001 C CNN
 F 3 "~" H 1450 1350 50  0001 C CNN
 	1    1450 1350
 	1    0    0    -1  
@@ -838,12 +838,12 @@ F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 1400 900 50  0001 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q0
+L Device:Q_NMOS_DGS T0
 U 1 1 5E02C7FB
 P 1350 1800
-F 0 "Q0" H 1555 1846 50  0000 L CNN
+F 0 "T0" H 1555 1846 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 1555 1755 50  0000 L CNN
-F 2 "" H 1550 1900 50  0001 C CNN
+F 2 "misc:TN0104(TO-92)" H 1550 1900 50  0001 C CNN
 F 3 "~" H 1350 1800 50  0001 C CNN
 	1    1350 1800
 	1    0    0    -1  
@@ -872,7 +872,7 @@ U 1 1 5E02C80C
 P 900 1800
 F 0 "R9" V 693 1800 50  0000 C CNN
 F 1 "1k" V 784 1800 50  0000 C CNN
-F 2 "" V 830 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 830 1800 50  0001 C CNN
 F 3 "~" H 900 1800 50  0001 C CNN
 	1    900  1800
 	0    1    1    0   
@@ -892,7 +892,7 @@ U 1 1 5E0358B1
 P 2950 1350
 F 0 "R6" H 3020 1396 50  0000 L CNN
 F 1 "33" H 3020 1305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2880 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 2880 1350 50  0001 C CNN
 F 3 "~" H 2950 1350 50  0001 C CNN
 	1    2950 1350
 	1    0    0    -1  
@@ -909,12 +909,12 @@ F 3 "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf" H 2900 900 50  0001 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q1
+L Device:Q_NMOS_DGS T1
 U 1 1 5E0358BD
 P 2850 1800
-F 0 "Q1" H 3055 1846 50  0000 L CNN
+F 0 "T1" H 3055 1846 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 3055 1755 50  0000 L CNN
-F 2 "" H 3050 1900 50  0001 C CNN
+F 2 "misc:TN0104(TO-92)" H 3050 1900 50  0001 C CNN
 F 3 "~" H 2850 1800 50  0001 C CNN
 	1    2850 1800
 	1    0    0    -1  
@@ -943,7 +943,7 @@ U 1 1 5E0358CE
 P 2400 1800
 F 0 "R10" V 2193 1800 50  0000 C CNN
 F 1 "1k" V 2284 1800 50  0000 C CNN
-F 2 "" V 2330 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P7.62mm_Vertical" V 2330 1800 50  0001 C CNN
 F 3 "~" H 2400 1800 50  0001 C CNN
 	1    2400 1800
 	0    1    1    0   
