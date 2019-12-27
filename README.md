@@ -19,7 +19,7 @@
 </details>
 
 <h2> Parts and Labels </h2>
-
+***Need to update labels
 Note: This is not a full parts list
 * [__SN754410NE__](https://www.digikey.com/product-detail/en/texas-instruments/SN754410NE/296-9911-5-ND/380180) _(U2)_ - Motor driver, used to control the speed and direction of the two motors.
 * [__Teensy 3.2__](https://www.pjrc.com/teensy/teensy31.html) _(U1)_- Processor, will run code.
