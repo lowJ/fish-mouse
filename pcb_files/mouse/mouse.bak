@@ -404,11 +404,11 @@ Text Label 5120 3110 0    50   ~ 0
 GND
 Text Label 9550 4350 0    50   ~ 0
 Reciever_0
-Text Label 7550 4050 2    50   ~ 0
+Text Label 9550 4550 0    50   ~ 0
 Reciever_1
-Text Label 7550 4250 2    50   ~ 0
-Reciever_2
 Text Label 7550 3950 2    50   ~ 0
+Reciever_2
+Text Label 7550 4150 2    50   ~ 0
 Reciever_3
 Text Label 9550 4450 0    50   ~ 0
 Emitter_0
@@ -428,11 +428,11 @@ Wire Wire Line
 	7700 6200 9000 6200
 Text Label 7700 6200 2    50   ~ 0
 5v
-Text Label 7550 4150 2    50   ~ 0
-Emitter_1
 Text Label 7550 4550 2    50   ~ 0
+Emitter_1
+Text Label 7550 4050 2    50   ~ 0
 Emitter_2
-Text Label 9550 4550 0    50   ~ 0
+Text Label 7550 4250 2    50   ~ 0
 Emitter_3
 $Comp
 L Regulator_Linear:LM1084-5.0 U3
