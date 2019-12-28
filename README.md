@@ -3,23 +3,22 @@
 <h2> Pictures </h2>
 <details><summary> 3D Renders </summary> 
  
-![alt text](https://i.gyazo.com/6f8037a90cf6d5079d7c5b4d399169a1.png "top")
-![alt text](https://i.gyazo.com/6857428b345924a1912f8933cdfc5366.png "side")
-![alt text](https://i.gyazo.com/76046006bc29e7ea5711500e6e7092ed.png "front")
+![alt text](https://i.gyazo.com/e77168a4619b628cfedec8a1f364aaf0.png "top")
+![alt text](https://i.gyazo.com/c8c2ac69ebd2ae9f82ab681595781440.png "wo components")
 </details>
 
 <details><summary> PCB traces </summary> 
   
-![alt text](https://i.gyazo.com/c64162fd798aef0fdc69f54d9545e707.png "pcb traces")
+![alt text](https://i.gyazo.com/5c6fd6a8261336d81391e4fb3ab51d00.png "pcb traces")
 </details>
 
 <details><summary> Schematic </summary> 
   
-![alt text](https://i.gyazo.com/9caa049c938e77acb3995b97b3d5b04c.png "schematic")
+![alt text](https://i.gyazo.com/89efa0ac9cc537552984ef675a00df28.png "schematic")
 </details>
 
-<h2> Parts and Labels </h2>
-***Need to update labels
+<h2> Parts and Labels [NOT UPDATED!!] </h2>
+
 Note: This is not a full parts list
 * [__SN754410NE__](https://www.digikey.com/product-detail/en/texas-instruments/SN754410NE/296-9911-5-ND/380180) _(U2)_ - Motor driver, used to control the speed and direction of the two motors.
 * [__Teensy 3.2__](https://www.pjrc.com/teensy/teensy31.html) _(U1)_- Processor, will run code.
