@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 38)
     (tracks 400)
     (zones 0)
     (modules 50)
@@ -1201,7 +1201,7 @@
   (module "misc:9x5.5mm Buzzer" (layer B.Cu) (tedit 5D379E15) (tstamp 5D44E9A6)
     (at 158.496 68.326 90)
     (path /5D27C02F)
-    (fp_text reference BZ1 (at 0.1 -5.55 90) (layer B.SilkS)
+    (fp_text reference BZ1 (at 0.381 5.6896 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Buzzer (at -0.05 -6.8 90) (layer B.Fab)
@@ -2596,6 +2596,12 @@
       (xy -17.514243 9.234959) (xy -17.398524 9.272784) (xy -17.254912 9.256059)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text GND (at 167.894 57.15) (layer F.SilkS) (tstamp 5E07045B)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (gr_text GND (at 136.652 57.15) (layer F.SilkS) (tstamp 5E070459)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
   (gr_text - (at 202.3618 100.076) (layer F.SilkS) (tstamp 5E06F838)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )

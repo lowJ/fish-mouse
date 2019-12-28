@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 38)
     (tracks 400)
     (zones 0)
     (modules 50)
@@ -2596,6 +2596,12 @@
       (xy -17.514243 9.234959) (xy -17.398524 9.272784) (xy -17.254912 9.256059)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text GND (at 167.894 57.15) (layer F.SilkS) (tstamp 5E07045B)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (gr_text GND (at 136.652 57.15) (layer F.SilkS) (tstamp 5E070459)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
   (gr_text - (at 202.3618 100.076) (layer F.SilkS) (tstamp 5E06F838)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
@@ -2678,7 +2684,7 @@
   (gr_text + (at 112.649 111.252) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))
   )
-  (gr_text "GND\n" (at 128.9304 93.3704) (layer F.SilkS) (tstamp 5E05EAA3)
+  (gr_text "GND\n" (at 131.4704 93.5228) (layer F.SilkS) (tstamp 5E05EAA3)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 205.867 84.582) (end 190.754 84.582) (layer Edge.Cuts) (width 0.15))
