@@ -26,22 +26,6 @@ F 3 "" H 8550 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SN754410NE:SN754410NE U2
-U 1 1 5D1BEE18
-P 5000 5700
-F 0 "U2" H 5000 6670 50  0000 C CNN
-F 1 "SN754410NE" H 5000 6579 50  0000 C CNN
-F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 5000 5700 50  0001 L BNN
-F 3 "PDIP-16 Texas Instruments" H 5000 5700 50  0001 L BNN
-F 4 "Texas Instruments" H 5000 5700 50  0001 L BNN "Field4"
-F 5 "None" H 5000 5700 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 5000 5700 50  0001 L BNN "Field6"
-F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 5000 5700 50  0001 L BNN "Field7"
-F 8 "SN754410NE" H 5000 5700 50  0001 L BNN "Field8"
-	1    5000 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L encoder_3081:Encoder_3081 U4
 U 1 1 5D1C0154
 P 2550 6600
@@ -79,8 +63,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 5650 8700 5800
 Wire Wire Line
-	8700 5800 8350 5800
-Wire Wire Line
 	9550 4050 10250 4050
 Wire Wire Line
 	10250 4050 10250 6200
@@ -88,61 +70,61 @@ Wire Wire Line
 	10250 6200 9000 6200
 Text Label 7550 3450 2    50   ~ 0
 3.3v
-Text Label 4300 5100 2    50   ~ 0
+Text Label 4450 5050 2    50   ~ 0
 5v
 Wire Wire Line
 	7900 5500 7600 5500
 Connection ~ 7900 5500
 Text Label 7600 5500 2    50   ~ 0
 vBatt
-Text Label 4300 5200 2    50   ~ 0
+Text Label 4450 5150 2    50   ~ 0
 5v
-Text Label 4300 5400 2    50   ~ 0
+Text Label 5050 5350 2    50   ~ 0
 M1_speed
-Text Label 4300 5500 2    50   ~ 0
+Text Label 5050 5450 2    50   ~ 0
 M2_speed
-Text Label 4300 5700 2    50   ~ 0
+Text Label 5050 5650 2    50   ~ 0
 M1_forward
-Text Label 4300 5800 2    50   ~ 0
+Text Label 5050 5750 2    50   ~ 0
 M1_backward
-Text Label 4300 5900 2    50   ~ 0
+Text Label 5050 5850 2    50   ~ 0
 M2_forward
-Text Label 4300 6000 2    50   ~ 0
+Text Label 5050 5950 2    50   ~ 0
 M2_backward
 Wire Wire Line
-	4300 6200 4150 6200
+	5050 6150 4900 6150
 Wire Wire Line
-	4150 6200 4150 6300
+	4900 6150 4900 6250
 Wire Wire Line
-	4150 6500 4300 6500
+	4900 6450 5050 6450
 Wire Wire Line
-	4300 6400 4150 6400
-Connection ~ 4150 6400
+	5050 6350 4900 6350
+Connection ~ 4900 6350
 Wire Wire Line
-	4150 6400 4150 6500
+	4900 6350 4900 6450
 Wire Wire Line
-	4300 6300 4150 6300
-Connection ~ 4150 6300
+	5050 6250 4900 6250
+Connection ~ 4900 6250
 Wire Wire Line
-	4150 6300 4150 6350
+	4900 6250 4900 6300
 Wire Wire Line
-	4150 6350 4000 6350
-Connection ~ 4150 6350
+	4900 6300 4750 6300
+Connection ~ 4900 6300
 Wire Wire Line
-	4150 6350 4150 6400
-Text Label 4000 6350 2    50   ~ 0
+	4900 6300 4900 6350
+Text Label 4750 6300 2    50   ~ 0
 GND
 Text Label 7550 2450 2    50   ~ 0
 M1_speed
 Text Label 7550 2550 2    50   ~ 0
 M2_speed
-Text Label 5700 5100 0    50   ~ 0
+Text Label 6450 5050 0    50   ~ 0
 OUT1
-Text Label 5700 5200 0    50   ~ 0
+Text Label 6450 5150 0    50   ~ 0
 OUT2
-Text Label 5700 5300 0    50   ~ 0
+Text Label 6450 5250 0    50   ~ 0
 OUT3
-Text Label 5700 5400 0    50   ~ 0
+Text Label 6450 5350 0    50   ~ 0
 OUT4
 Text Label 3200 5250 0    50   ~ 0
 OUT1
@@ -413,19 +395,12 @@ Reciever_3
 Text Label 9550 4450 0    50   ~ 0
 Emitter_0
 Connection ~ 9000 6200
-Wire Wire Line
-	8350 5800 8350 6000
-Wire Wire Line
-	8350 6000 7700 6000
-Connection ~ 8350 5800
-Wire Wire Line
-	8350 5800 7900 5800
 Text Label 7700 6000 2    50   ~ 0
 GND
 Wire Wire Line
 	9000 5950 9000 6200
 Wire Wire Line
-	7700 6200 9000 6200
+	7700 6200 8150 6200
 Text Label 7700 6200 2    50   ~ 0
 5v
 Text Label 7550 4550 2    50   ~ 0
@@ -988,5 +963,84 @@ Wire Wire Line
 Text Label 6550 700  0    50   ~ 0
 5v
 Text Label 6650 2400 0    50   ~ 0
+GND
+$Comp
+L Device:CP1 CP1
+U 1 1 5E08B3B9
+P 8150 6050
+F 0 "CP1" H 8035 6004 50  0000 R CNN
+F 1 "10uF (Tantalum)" H 8035 6095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 6050 50  0001 C CNN
+F 3 "~" H 8150 6050 50  0001 C CNN
+	1    8150 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 5800 8150 5800
+Wire Wire Line
+	7700 6000 7900 6000
+Wire Wire Line
+	7900 6000 7900 5800
+Connection ~ 7900 5800
+Connection ~ 8150 6200
+Wire Wire Line
+	8150 5900 8150 5800
+Wire Wire Line
+	8150 6200 9000 6200
+Connection ~ 8150 5800
+Wire Wire Line
+	8150 5800 8700 5800
+$Comp
+L SN754410NE:SN754410NE U2
+U 1 1 5D1BEE18
+P 5750 5650
+F 0 "U2" H 5750 6620 50  0000 C CNN
+F 1 "SN754410NE" H 5750 6529 50  0000 C CNN
+F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 5750 5650 50  0001 L BNN
+F 3 "PDIP-16 Texas Instruments" H 5750 5650 50  0001 L BNN
+F 4 "Texas Instruments" H 5750 5650 50  0001 L BNN "Field4"
+F 5 "None" H 5750 5650 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5750 5650 50  0001 L BNN "Field6"
+F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 5750 5650 50  0001 L BNN "Field7"
+F 8 "SN754410NE" H 5750 5650 50  0001 L BNN "Field8"
+	1    5750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 5E0B1B16
+P 4550 4950
+F 0 "C2" H 4450 4900 50  0000 R CNN
+F 1 "0.1uF" H 4459 4995 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 4950 50  0001 C CNN
+F 3 "~" H 4550 4950 50  0001 C CNN
+	1    4550 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C3
+U 1 1 5E0B1E54
+P 4550 5250
+F 0 "C3" H 4350 5300 50  0000 L CNN
+F 1 "1.0uF" H 4250 5200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 5250 50  0001 C CNN
+F 3 "~" H 4550 5250 50  0001 C CNN
+	1    4550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5050 4550 5050
+Connection ~ 5050 5050
+Wire Wire Line
+	4450 5150 4550 5150
+Connection ~ 4550 5050
+Wire Wire Line
+	4550 5050 4450 5050
+Connection ~ 4550 5150
+Wire Wire Line
+	4550 5150 5050 5150
+Text Label 4550 4850 2    50   ~ 0
+GND
+Text Label 4550 5350 3    50   ~ 0
 GND
 $EndSCHEMATC
