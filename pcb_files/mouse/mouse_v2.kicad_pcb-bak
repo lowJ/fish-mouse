@@ -966,7 +966,7 @@
   (module SN754410NE.kicad_mod:DIP254P762X508-16 (layer F.Cu) (tedit 5D6769CE) (tstamp 5E05C808)
     (at 185.42 94.996 270)
     (path /5D1BEE18)
-    (fp_text reference U2 (at 2.4638 -8.3566) (layer F.SilkS)
+    (fp_text reference U2 (at 2.0066 -4.3434) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SN754410NE (at -4.32349 2.72126 270) (layer F.SilkS) hide
