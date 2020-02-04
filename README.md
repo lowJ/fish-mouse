@@ -17,7 +17,7 @@
 ![alt text](https://i.gyazo.com/89efa0ac9cc537552984ef675a00df28.png "schematic")
 </details>
 
-<h2> Parts and Labels [NOT UPDATED!!] </h2>
+<h2> Parts and Labels [Labels not fully updated!] </h2>
 
 Note: This is not a full parts list
 * [__SN754410NE__](https://www.digikey.com/product-detail/en/texas-instruments/SN754410NE/296-9911-5-ND/380180) _(U2)_ - Motor driver, used to control the speed and direction of the two motors.
