@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name encoder_3081)(type Legacy)(uri ${KIPRJMOD}/resources/Symbols/misc/encoder_3081.lib)(options "")(descr ""))
+  (lib (name SN754410NE)(type Legacy)(uri ${KIPRJMOD}/resources/Symbols/misc/SN754410NE.lib)(options "")(descr ""))
+  (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri ${KIPRJMOD}/resources/Symbols/misc/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
+)
