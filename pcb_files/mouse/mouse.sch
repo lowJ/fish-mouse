@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
 LIBS:mouse-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -993,7 +993,7 @@ GND
 Text Label 4550 5350 3    50   ~ 0
 GND
 $Comp
-L dk_Slide-Switches:EG1218 S1
+L mouse-rescue:EG1218-dk_Slide-Switches S1
 U 1 1 5E600D6A
 P 8350 5200
 F 0 "S1" H 8350 5479 50  0000 C CNN
@@ -1044,4 +1044,228 @@ F 3 "~" H 10050 1050 50  0001 C CNN
 	1    10050 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5E73F901
+P 4700 7350
+F 0 "D?" H 4850 7050 50  0000 L CNN
+F 1 "WS2812B" H 4850 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4750 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4800 6975 50  0001 L TNN
+	1    4700 7350
+	-1   0    0    1   
+$EndComp
+Text Label 4700 7050 1    50   ~ 0
+GND
+$Comp
+L LED:WS2812B D?
+U 1 1 5E753007
+P 5500 7350
+F 0 "D?" H 5650 7050 50  0000 L CNN
+F 1 "WS2812B" H 5650 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5550 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5600 6975 50  0001 L TNN
+	1    5500 7350
+	-1   0    0    1   
+$EndComp
+Text Label 5500 7050 1    50   ~ 0
+GND
+$Comp
+L LED:WS2812B D?
+U 1 1 5E7574E8
+P 6300 7350
+F 0 "D?" H 6450 7050 50  0000 L CNN
+F 1 "WS2812B" H 6450 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6350 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 6975 50  0001 L TNN
+	1    6300 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5E757D3C
+P 7100 7350
+F 0 "D?" H 7250 7050 50  0000 L CNN
+F 1 "WS2812B" H 7250 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7150 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 6975 50  0001 L TNN
+	1    7100 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5E758FA4
+P 7900 7350
+F 0 "D?" H 8050 7050 50  0000 L CNN
+F 1 "WS2812B" H 8050 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7950 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 6975 50  0001 L TNN
+	1    7900 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5E75DC2B
+P 8700 7350
+F 0 "D?" H 8850 7050 50  0000 L CNN
+F 1 "WS2812B" H 8850 6950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8750 7050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8800 6975 50  0001 L TNN
+	1    8700 7350
+	-1   0    0    1   
+$EndComp
+Text Label 6300 7050 1    50   ~ 0
+GND
+Text Label 7100 7050 1    50   ~ 0
+GND
+Text Label 7900 7050 1    50   ~ 0
+GND
+Text Label 8700 7050 1    50   ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 5E7696F4
+P 4950 8050
+F 0 "C?" H 5065 8096 50  0000 L CNN
+F 1 "104" H 5065 8005 50  0000 L CNN
+F 2 "" H 4988 7900 50  0001 C CNN
+F 3 "~" H 4950 8050 50  0001 C CNN
+	1    4950 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E76A1C1
+P 5700 8050
+F 0 "C?" H 5815 8096 50  0000 L CNN
+F 1 "104" H 5815 8005 50  0000 L CNN
+F 2 "" H 5738 7900 50  0001 C CNN
+F 3 "~" H 5700 8050 50  0001 C CNN
+	1    5700 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E76AA57
+P 6550 8050
+F 0 "C?" H 6665 8096 50  0000 L CNN
+F 1 "104" H 6665 8005 50  0000 L CNN
+F 2 "" H 6588 7900 50  0001 C CNN
+F 3 "~" H 6550 8050 50  0001 C CNN
+	1    6550 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E76C090
+P 7350 8050
+F 0 "C?" H 7465 8096 50  0000 L CNN
+F 1 "104" H 7465 8005 50  0000 L CNN
+F 2 "" H 7388 7900 50  0001 C CNN
+F 3 "~" H 7350 8050 50  0001 C CNN
+	1    7350 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E76C6FC
+P 8150 8000
+F 0 "C?" H 8265 8046 50  0000 L CNN
+F 1 "104" H 8265 7955 50  0000 L CNN
+F 2 "" H 8188 7850 50  0001 C CNN
+F 3 "~" H 8150 8000 50  0001 C CNN
+	1    8150 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E76CDAE
+P 8950 8000
+F 0 "C?" H 9065 8046 50  0000 L CNN
+F 1 "104" H 9065 7955 50  0000 L CNN
+F 2 "" H 8988 7850 50  0001 C CNN
+F 3 "~" H 8950 8000 50  0001 C CNN
+	1    8950 8000
+	1    0    0    -1  
+$EndComp
+Text Label 4700 8000 3    50   ~ 0
+5v
+Wire Wire Line
+	4700 7650 4700 7900
+Wire Wire Line
+	5500 7650 5500 7900
+Wire Wire Line
+	6300 7650 6300 7900
+Wire Wire Line
+	7900 7650 7900 7850
+Wire Wire Line
+	8700 7650 8700 7850
+Text Label 5500 8000 3    50   ~ 0
+5v
+Text Label 6300 8000 3    50   ~ 0
+5v
+Text Label 7100 8000 3    50   ~ 0
+5v
+Text Label 7900 8000 3    50   ~ 0
+5v
+Text Label 8700 8000 3    50   ~ 0
+5v
+Wire Wire Line
+	4950 7900 4700 7900
+Connection ~ 4700 7900
+Wire Wire Line
+	4700 7900 4700 8000
+Wire Wire Line
+	5700 7900 5500 7900
+Connection ~ 5500 7900
+Wire Wire Line
+	5500 7900 5500 8000
+Wire Wire Line
+	6550 7900 6300 7900
+Connection ~ 6300 7900
+Wire Wire Line
+	6300 7900 6300 8000
+Wire Wire Line
+	7350 7900 7100 7900
+Wire Wire Line
+	7100 7650 7100 7900
+Connection ~ 7100 7900
+Wire Wire Line
+	7100 7900 7100 8000
+Wire Wire Line
+	8150 7850 7900 7850
+Connection ~ 7900 7850
+Wire Wire Line
+	7900 7850 7900 8000
+Wire Wire Line
+	8950 7850 8700 7850
+Connection ~ 8700 7850
+Wire Wire Line
+	8700 7850 8700 8000
+Wire Wire Line
+	5200 7350 5000 7350
+Text Label 4950 8200 3    50   ~ 0
+GND
+Text Label 5700 8200 3    50   ~ 0
+GND
+Text Label 6550 8200 3    50   ~ 0
+GND
+Text Label 7350 8200 3    50   ~ 0
+GND
+Text Label 8150 8150 3    50   ~ 0
+GND
+Text Label 8950 8150 3    50   ~ 0
+GND
+Wire Wire Line
+	9000 7350 9550 7350
+Text Label 9550 7350 0    50   ~ 0
+RGB_DATA
+Wire Wire Line
+	8400 7350 8200 7350
+Wire Wire Line
+	7600 7350 7400 7350
+Wire Wire Line
+	6800 7350 6600 7350
+Wire Wire Line
+	6000 7350 5800 7350
 $EndSCHEMATC
