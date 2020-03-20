@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mouse-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -17,158 +17,158 @@ $EndDescr
 $Comp
 L teensy:Teensy3.2 U1
 U 1 1 5D1BEBE0
-P 8550 3250
-F 0 "U1" H 8550 4837 60  0000 C CNN
-F 1 "Teensy3.2" H 8550 4731 60  0000 C CNN
-F 2 "teensy:Teensy30_31_32_LC" H 8550 2450 60  0001 C CNN
-F 3 "" H 8550 2450 60  0000 C CNN
-	1    8550 3250
+P 8650 5300
+F 0 "U1" H 8650 6887 60  0000 C CNN
+F 1 "Teensy3.2" H 8650 6781 60  0000 C CNN
+F 2 "teensy:Teensy30_31_32_LC" H 8650 4500 60  0001 C CNN
+F 3 "" H 8650 4500 60  0000 C CNN
+	1    8650 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L encoder_3081:Encoder_3081 U4
 U 1 1 5D1C0154
-P 2550 6600
-F 0 "U4" H 2550 7217 50  0000 C CNN
-F 1 "Encoder_3081" H 2550 7126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2700 6100 50  0001 L CNN
-F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 400 8200 50  0001 C CNN
-	1    2550 6600
+P 3000 9700
+F 0 "U4" H 3000 10317 50  0000 C CNN
+F 1 "Encoder_3081" H 3000 10226 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3150 9200 50  0001 L CNN
+F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 850 11300 50  0001 C CNN
+	1    3000 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L encoder_3081:Encoder_3081 U5
 U 1 1 5D1C0226
-P 2600 5150
-F 0 "U5" H 2600 5767 50  0000 C CNN
-F 1 "Encoder_3081" H 2600 5676 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2750 4650 50  0001 L CNN
-F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 450 6750 50  0001 C CNN
-	1    2600 5150
+P 3000 8400
+F 0 "U5" H 3000 9017 50  0000 C CNN
+F 1 "Encoder_3081" H 3000 8926 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3150 7900 50  0001 L CNN
+F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 850 10000 50  0001 C CNN
+	1    3000 8400
 	1    0    0    -1  
 $EndComp
-Text Label 7550 3450 2    50   ~ 0
+Text Label 7650 5500 2    50   ~ 0
 3.3v
-Text Label 4450 5050 2    50   ~ 0
+Text Label 4750 8250 2    50   ~ 0
 5v
-Text Label 4450 5150 2    50   ~ 0
+Text Label 4750 8350 2    50   ~ 0
 5v
-Text Label 5050 5350 2    50   ~ 0
+Text Label 5350 8550 2    50   ~ 0
 M1_speed
-Text Label 5050 5450 2    50   ~ 0
+Text Label 5350 8650 2    50   ~ 0
 M2_speed
-Text Label 5050 5650 2    50   ~ 0
+Text Label 5350 8850 2    50   ~ 0
 M1_forward
-Text Label 5050 5750 2    50   ~ 0
+Text Label 5350 8950 2    50   ~ 0
 M1_backward
-Text Label 5050 5850 2    50   ~ 0
+Text Label 5350 9050 2    50   ~ 0
 M2_forward
-Text Label 5050 5950 2    50   ~ 0
+Text Label 5350 9150 2    50   ~ 0
 M2_backward
 Wire Wire Line
-	5050 6150 4900 6150
+	5350 9350 5200 9350
 Wire Wire Line
-	4900 6150 4900 6250
+	5200 9350 5200 9450
 Wire Wire Line
-	4900 6450 5050 6450
+	5200 9650 5350 9650
 Wire Wire Line
-	5050 6350 4900 6350
-Connection ~ 4900 6350
+	5350 9550 5200 9550
+Connection ~ 5200 9550
 Wire Wire Line
-	4900 6350 4900 6450
+	5200 9550 5200 9650
 Wire Wire Line
-	5050 6250 4900 6250
-Connection ~ 4900 6250
+	5350 9450 5200 9450
+Connection ~ 5200 9450
 Wire Wire Line
-	4900 6250 4900 6300
+	5200 9450 5200 9500
 Wire Wire Line
-	4900 6300 4750 6300
-Connection ~ 4900 6300
+	5200 9500 5050 9500
+Connection ~ 5200 9500
 Wire Wire Line
-	4900 6300 4900 6350
-Text Label 4750 6300 2    50   ~ 0
+	5200 9500 5200 9550
+Text Label 5050 9500 2    50   ~ 0
 GND
-Text Label 7550 2450 2    50   ~ 0
+Text Label 7650 4500 2    50   ~ 0
 M1_speed
-Text Label 7550 2550 2    50   ~ 0
+Text Label 7650 4600 2    50   ~ 0
 M2_speed
-Text Label 6450 5050 0    50   ~ 0
+Text Label 6750 8250 0    50   ~ 0
 OUT1
-Text Label 6450 5150 0    50   ~ 0
+Text Label 6750 8350 0    50   ~ 0
 OUT2
-Text Label 6450 5250 0    50   ~ 0
+Text Label 6750 8450 0    50   ~ 0
 OUT3
-Text Label 6450 5350 0    50   ~ 0
+Text Label 6750 8550 0    50   ~ 0
 OUT4
-Text Label 3200 5250 0    50   ~ 0
+Text Label 3600 8500 0    50   ~ 0
 OUT1
-Text Label 3200 5350 0    50   ~ 0
+Text Label 3600 8600 0    50   ~ 0
 OUT2
-Text Label 3150 6700 0    50   ~ 0
+Text Label 3600 9800 0    50   ~ 0
 OUT3
-Text Label 3150 6800 0    50   ~ 0
+Text Label 3600 9900 0    50   ~ 0
 OUT4
-Text Label 3200 5150 0    50   ~ 0
+Text Label 3600 8400 0    50   ~ 0
 5v
-Text Label 3150 6600 0    50   ~ 0
+Text Label 3600 9700 0    50   ~ 0
 5v
 $Comp
 L Motor:Motor_DC M1
 U 1 1 5D1C3AFC
-P 1300 5150
-F 0 "M1" H 1458 5146 50  0000 L CNN
-F 1 "Motor_DC" H 1458 5055 50  0000 L CNN
-F 2 "misc:Motor_mouse" H 1300 5060 50  0001 C CNN
-F 3 "~" H 1300 5060 50  0001 C CNN
-	1    1300 5150
+P 1700 8400
+F 0 "M1" H 1858 8396 50  0000 L CNN
+F 1 "Motor_DC" H 1858 8305 50  0000 L CNN
+F 2 "misc:Motor_mouse" H 1700 8310 50  0001 C CNN
+F 3 "~" H 1700 8310 50  0001 C CNN
+	1    1700 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Motor:Motor_DC M2
 U 1 1 5D1C3BC7
-P 1300 6550
-F 0 "M2" H 1458 6546 50  0000 L CNN
-F 1 "Motor_DC" H 1458 6455 50  0000 L CNN
-F 2 "misc:Motor_mouse" H 1300 6460 50  0001 C CNN
-F 3 "~" H 1300 6460 50  0001 C CNN
-	1    1300 6550
+P 1750 9650
+F 0 "M2" H 1908 9646 50  0000 L CNN
+F 1 "Motor_DC" H 1908 9555 50  0000 L CNN
+F 2 "misc:Motor_mouse" H 1750 9560 50  0001 C CNN
+F 3 "~" H 1750 9560 50  0001 C CNN
+	1    1750 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5000 1650 5000
+	2400 8250 2050 8250
 Wire Wire Line
-	1650 5000 1650 4950
+	2050 8250 2050 8200
 Wire Wire Line
-	1650 4950 1300 4950
+	2050 8200 1700 8200
 Wire Wire Line
-	2000 5300 1650 5300
+	2400 8550 2050 8550
 Wire Wire Line
-	1650 5300 1650 5450
+	2050 8550 2050 8700
 Wire Wire Line
-	1650 5450 1300 5450
+	2050 8700 1700 8700
 Wire Wire Line
-	1950 6450 1650 6450
+	2400 9550 2100 9550
 Wire Wire Line
-	1650 6450 1650 6350
+	2100 9550 2100 9450
 Wire Wire Line
-	1650 6350 1300 6350
+	2100 9450 1750 9450
 Wire Wire Line
-	1300 6850 1650 6850
+	1750 9950 2100 9950
 Wire Wire Line
-	1650 6850 1650 6750
+	2100 9950 2100 9850
 Wire Wire Line
-	1650 6750 1950 6750
-Text Label 3200 5050 0    50   ~ 0
+	2100 9850 2400 9850
+Text Label 3600 8300 0    50   ~ 0
 M1_encoder_A
-Text Label 3200 4950 0    50   ~ 0
+Text Label 3600 8200 0    50   ~ 0
 M1_encoder_B
-Text Label 3200 4850 0    50   ~ 0
+Text Label 3600 8100 0    50   ~ 0
 GND
-Text Label 3150 6300 0    50   ~ 0
+Text Label 3600 9400 0    50   ~ 0
 GND
-Text Label 3150 6400 0    50   ~ 0
+Text Label 3600 9500 0    50   ~ 0
 M2_encoder_B
-Text Label 3150 6500 0    50   ~ 0
+Text Label 3600 9600 0    50   ~ 0
 M2_encoder_A
 $Comp
 L Device:R R8
@@ -358,221 +358,219 @@ Wire Wire Line
 	1420 3310 1420 3110
 Text Label 5120 3110 0    50   ~ 0
 GND
-Text Label 9550 4350 0    50   ~ 0
+Text Label 9650 6400 0    50   ~ 0
 Reciever_0
-Text Label 9550 4550 0    50   ~ 0
+Text Label 9650 6600 0    50   ~ 0
 Reciever_1
-Text Label 7550 3950 2    50   ~ 0
+Text Label 7650 6000 2    50   ~ 0
 Reciever_2
-Text Label 7550 4150 2    50   ~ 0
+Text Label 7650 6200 2    50   ~ 0
 Reciever_3
-Text Label 9550 4450 0    50   ~ 0
+Text Label 9650 6500 0    50   ~ 0
 Emitter_0
-Text Label 7550 4550 2    50   ~ 0
+Text Label 7650 6600 2    50   ~ 0
 Emitter_1
-Text Label 7550 4050 2    50   ~ 0
+Text Label 7650 6100 2    50   ~ 0
 Emitter_2
-Text Label 7550 4250 2    50   ~ 0
+Text Label 7650 6300 2    50   ~ 0
 Emitter_3
 $Comp
 L Motor:Motor_DC M3
 U 1 1 5D240B05
-P 740 4550
-F 0 "M3" H 898 4546 50  0000 L CNN
-F 1 "CASTER_BALL" H 898 4455 50  0000 L CNN
-F 2 "misc:Mouse_caster" H 740 4460 50  0001 C CNN
-F 3 "~" H 740 4460 50  0001 C CNN
-	1    740  4550
+P 1675 7250
+F 0 "M3" H 1833 7246 50  0000 L CNN
+F 1 "CASTER_BALL" H 1833 7155 50  0000 L CNN
+F 2 "misc:Mouse_caster" H 1675 7160 50  0001 C CNN
+F 3 "~" H 1675 7160 50  0001 C CNN
+	1    1675 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Buzzer BZ1
 U 1 1 5D27C02F
-P 10800 3000
-F 0 "BZ1" H 10953 3029 50  0000 L CNN
-F 1 "Buzzer" H 10953 2938 50  0000 L CNN
-F 2 "misc:9x5.5mm Buzzer" V 10775 3100 50  0001 C CNN
-F 3 "~" V 10775 3100 50  0001 C CNN
-	1    10800 3000
+P 15100 7400
+F 0 "BZ1" H 15253 7429 50  0000 L CNN
+F 1 "Buzzer" H 15253 7338 50  0000 L CNN
+F 2 "misc:9x5.5mm Buzzer" V 15075 7500 50  0001 C CNN
+F 3 "~" V 15075 7500 50  0001 C CNN
+	1    15100 7400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 5D28EC87
-P 10900 2650
-F 0 "R20" V 10693 2650 50  0000 C CNN
-F 1 "R" V 10784 2650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 10830 2650 50  0001 C CNN
-F 3 "~" H 10900 2650 50  0001 C CNN
-	1    10900 2650
+P 15200 7050
+F 0 "R20" V 14993 7050 50  0000 C CNN
+F 1 "R" V 15084 7050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 15130 7050 50  0001 C CNN
+F 3 "~" H 15200 7050 50  0001 C CNN
+	1    15200 7050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10900 2900 10900 2800
-Text Label 10700 2900 1    50   ~ 0
+	15200 7300 15200 7200
+Text Label 15000 7300 1    50   ~ 0
 GND
 Wire Wire Line
-	10900 2300 10900 2500
+	15200 6700 15200 6900
 $Comp
 L Device:LED D4
 U 1 1 5D292553
-P 10000 3100
-F 0 "D4" H 9991 3316 50  0000 C CNN
-F 1 "STATUS_0" H 10000 3250 50  0000 C CNN
-F 2 "misc:3528_SMD_LED" H 10000 3100 50  0001 C CNN
-F 3 "~" H 10000 3100 50  0001 C CNN
-	1    10000 3100
+P 14300 7500
+F 0 "D4" H 14291 7716 50  0000 C CNN
+F 1 "STATUS_0" H 14300 7650 50  0000 C CNN
+F 2 "misc:3528_SMD_LED" H 14300 7500 50  0001 C CNN
+F 3 "~" H 14300 7500 50  0001 C CNN
+	1    14300 7500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 5D292B44
-P 10000 2800
-F 0 "R18" H 9930 2754 50  0000 R CNN
-F 1 "R" H 9930 2845 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 9930 2800 50  0001 C CNN
-F 3 "~" H 10000 2800 50  0001 C CNN
-	1    10000 2800
+P 14300 7200
+F 0 "R18" H 14230 7154 50  0000 R CNN
+F 1 "R" H 14230 7245 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 14230 7200 50  0001 C CNN
+F 3 "~" H 14300 7200 50  0001 C CNN
+	1    14300 7200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 5D2990A5
-P 10400 3100
-F 0 "D5" H 10391 3316 50  0000 C CNN
-F 1 "STATUS_1" H 10400 3250 50  0000 C CNN
-F 2 "misc:3528_SMD_LED" H 10400 3100 50  0001 C CNN
-F 3 "~" H 10400 3100 50  0001 C CNN
-	1    10400 3100
+P 14700 7500
+F 0 "D5" H 14691 7716 50  0000 C CNN
+F 1 "STATUS_1" H 14700 7650 50  0000 C CNN
+F 2 "misc:3528_SMD_LED" H 14700 7500 50  0001 C CNN
+F 3 "~" H 14700 7500 50  0001 C CNN
+	1    14700 7500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 5D2990AB
-P 10400 2800
-F 0 "R19" H 10330 2754 50  0000 R CNN
-F 1 "R" H 10330 2845 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 10330 2800 50  0001 C CNN
-F 3 "~" H 10400 2800 50  0001 C CNN
-	1    10400 2800
+P 14700 7200
+F 0 "R19" H 14630 7154 50  0000 R CNN
+F 1 "R" H 14630 7245 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 14630 7200 50  0001 C CNN
+F 3 "~" H 14700 7200 50  0001 C CNN
+	1    14700 7200
 	-1   0    0    1   
 $EndComp
-Text Label 10000 2650 1    50   ~ 0
+Text Label 14300 7050 1    50   ~ 0
 STATUS_LED_0
-Text Label 10400 2650 1    50   ~ 0
+Text Label 14700 7050 1    50   ~ 0
 STATUS_LED_1
-Text Label 10000 3250 3    50   ~ 0
+Text Label 14300 7650 3    50   ~ 0
 GND
-Text Label 10400 3250 3    50   ~ 0
+Text Label 14700 7650 3    50   ~ 0
 GND
-Text Label 7550 3050 2    50   ~ 0
+Text Label 7650 5100 2    50   ~ 0
 STATUS_LED_0
-Text Label 7550 3150 2    50   ~ 0
+Text Label 7650 5200 2    50   ~ 0
 STATUS_LED_1
-Text Label 10900 2300 1    50   ~ 0
+Text Label 15200 6700 1    50   ~ 0
 Buzzer
-Text Label 7550 3850 2    50   ~ 0
+Text Label 7650 5900 2    50   ~ 0
 Buzzer
-Text Label 7550 2150 2    50   ~ 0
+Text Label 7650 4200 2    50   ~ 0
 M1_forward
-Text Label 7550 2050 2    50   ~ 0
+Text Label 7650 4100 2    50   ~ 0
 M1_backward
-Text Label 7550 2250 2    50   ~ 0
+Text Label 7650 4300 2    50   ~ 0
 M2_forward
-Text Label 7550 2350 2    50   ~ 0
+Text Label 7650 4400 2    50   ~ 0
 M2_backward
-Text Label 8875 1200 3    50   ~ 0
+Text Label 12575 7600 3    50   ~ 0
 3.3v
 $Comp
 L Device:R R17
 U 1 1 5D2C4CD1
-P 8875 1050
-F 0 "R17" H 8945 1096 50  0000 L CNN
-F 1 "R" H 8945 1005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 8805 1050 50  0001 C CNN
-F 3 "~" H 8875 1050 50  0001 C CNN
-	1    8875 1050
+P 12575 7450
+F 0 "R17" H 12645 7496 50  0000 L CNN
+F 1 "R" H 12645 7405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 12505 7450 50  0001 C CNN
+F 3 "~" H 12575 7450 50  0001 C CNN
+	1    12575 7450
 	1    0    0    -1  
 $EndComp
-Text Label 8275 900  2    50   ~ 0
+Text Label 11975 7300 2    50   ~ 0
 GND
-Text Label 7550 4350 2    50   ~ 0
+Text Label 7650 6400 2    50   ~ 0
 i2c_SDA
-Text Label 7550 4450 2    50   ~ 0
+Text Label 7650 6500 2    50   ~ 0
 i2c_SCL
-Text Label 10250 1050 0    50   ~ 0
+Text Label 13600 7250 0    50   ~ 0
 i2c_SCL
-Text Label 10250 1550 0    50   ~ 0
+Text Label 13600 7750 0    50   ~ 0
 vBatt
-Text Label 10250 1450 0    50   ~ 0
+Text Label 13600 7650 0    50   ~ 0
 GND
-Text Label 9100 675  0    50   ~ 0
+Text Label 12800 7075 0    50   ~ 0
 PUSH_SW
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D2BB906
-P 8475 900
-F 0 "SW1" H 8475 1185 50  0000 C CNN
-F 1 "SW_Push" H 8475 1094 50  0000 C CNN
-F 2 "keyswitches:MX" H 8475 1100 50  0001 C CNN
-F 3 "~" H 8475 1100 50  0001 C CNN
-	1    8475 900 
+P 12175 7300
+F 0 "SW1" H 12175 7585 50  0000 C CNN
+F 1 "SW_Push" H 12175 7494 50  0000 C CNN
+F 2 "keyswitches:MX" H 12175 7500 50  0001 C CNN
+F 3 "~" H 12175 7500 50  0001 C CNN
+	1    12175 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8875 900  8750 900 
+	12575 7300 12450 7300
 Wire Wire Line
-	8750 900  8750 775 
+	12450 7300 12450 7175
 Wire Wire Line
-	8750 775  8925 775 
+	12450 7175 12625 7175
 Wire Wire Line
-	8925 775  8925 675 
+	12625 7175 12625 7075
 Wire Wire Line
-	8925 675  9100 675 
-Connection ~ 8750 900 
+	12625 7075 12800 7075
+Connection ~ 12450 7300
 Wire Wire Line
-	8750 900  8675 900 
-Text Label 7550 2850 2    50   ~ 0
+	12450 7300 12375 7300
+Text Label 7650 4900 2    50   ~ 0
 M1_encoder_A
-Text Label 7550 2950 2    50   ~ 0
+Text Label 7650 5000 2    50   ~ 0
 M1_encoder_B
-Text Label 7550 2650 2    50   ~ 0
+Text Label 7650 4700 2    50   ~ 0
 M2_encoder_A
-Text Label 7550 2750 2    50   ~ 0
+Text Label 7650 4800 2    50   ~ 0
 M2_encoder_B
-NoConn ~ 740  4350
-NoConn ~ 740  4850
-NoConn ~ 9550 2050
-NoConn ~ 9550 2150
-NoConn ~ 9550 2250
-Text Label 7550 3250 2    50   ~ 0
+NoConn ~ 9650 4100
+NoConn ~ 9650 4200
+NoConn ~ 9650 4300
+Text Label 7650 5300 2    50   ~ 0
 PUSH_SW
-Text Label 7550 1950 2    50   ~ 0
+Text Label 7650 4000 2    50   ~ 0
 GND
-NoConn ~ 9550 4150
-NoConn ~ 9550 4250
-NoConn ~ 9550 3950
-NoConn ~ 9550 3850
-NoConn ~ 9550 3750
-NoConn ~ 9550 3650
-NoConn ~ 9550 3550
-NoConn ~ 9550 3450
-NoConn ~ 9550 3350
-NoConn ~ 9550 3250
-NoConn ~ 9550 3150
-NoConn ~ 9550 3050
-NoConn ~ 9550 2950
-NoConn ~ 9550 2850
-NoConn ~ 9550 2750
-NoConn ~ 9550 2350
-NoConn ~ 9550 2450
-NoConn ~ 9550 2550
-NoConn ~ 9550 2650
-NoConn ~ 9550 1950
-NoConn ~ 7550 3350
-NoConn ~ 7550 3750
-NoConn ~ 7550 3650
-Text Label 7550 3550 2    50   ~ 0
+NoConn ~ 9650 6200
+NoConn ~ 9650 6300
+NoConn ~ 9650 6000
+NoConn ~ 9650 5900
+NoConn ~ 9650 5800
+NoConn ~ 9650 5700
+NoConn ~ 9650 5600
+NoConn ~ 9650 5500
+NoConn ~ 9650 5400
+NoConn ~ 9650 5300
+NoConn ~ 9650 5200
+NoConn ~ 9650 5100
+NoConn ~ 9650 5000
+NoConn ~ 9650 4900
+NoConn ~ 9650 4800
+NoConn ~ 9650 4400
+NoConn ~ 9650 4500
+NoConn ~ 9650 4600
+NoConn ~ 9650 4700
+NoConn ~ 9650 4000
+NoConn ~ 7650 5400
+NoConn ~ 7650 5800
+NoConn ~ 7650 5700
+Text Label 7650 5600 2    50   ~ 0
 GND
 $Comp
 L Device:Q_NMOS_DGS T3
@@ -873,439 +871,441 @@ GND
 $Comp
 L SN754410NE:SN754410NE U2
 U 1 1 5D1BEE18
-P 5750 5650
-F 0 "U2" H 5750 6620 50  0000 C CNN
-F 1 "SN754410NE" H 5750 6529 50  0000 C CNN
-F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 5750 5650 50  0001 L BNN
-F 3 "PDIP-16 Texas Instruments" H 5750 5650 50  0001 L BNN
-F 4 "Texas Instruments" H 5750 5650 50  0001 L BNN "Field4"
-F 5 "None" H 5750 5650 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 5750 5650 50  0001 L BNN "Field6"
-F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 5750 5650 50  0001 L BNN "Field7"
-F 8 "SN754410NE" H 5750 5650 50  0001 L BNN "Field8"
-	1    5750 5650
+P 6050 8850
+F 0 "U2" H 6050 9820 50  0000 C CNN
+F 1 "SN754410NE" H 6050 9729 50  0000 C CNN
+F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 6050 8850 50  0001 L BNN
+F 3 "PDIP-16 Texas Instruments" H 6050 8850 50  0001 L BNN
+F 4 "Texas Instruments" H 6050 8850 50  0001 L BNN "Field4"
+F 5 "None" H 6050 8850 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 6050 8850 50  0001 L BNN "Field6"
+F 7 "Peripheral Drivers and Actuators Quad Half-Hs" H 6050 8850 50  0001 L BNN "Field7"
+F 8 "SN754410NE" H 6050 8850 50  0001 L BNN "Field8"
+	1    6050 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C2
 U 1 1 5E0B1B16
-P 4550 4950
-F 0 "C2" H 4450 4900 50  0000 R CNN
-F 1 "0.1uF" H 4459 4995 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 4950 50  0001 C CNN
-F 3 "~" H 4550 4950 50  0001 C CNN
-	1    4550 4950
+P 4850 8150
+F 0 "C2" H 4750 8100 50  0000 R CNN
+F 1 "0.1uF" H 4759 8195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 8150 50  0001 C CNN
+F 3 "~" H 4850 8150 50  0001 C CNN
+	1    4850 8150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:CP1_Small C3
 U 1 1 5E0B1E54
-P 4550 5250
-F 0 "C3" H 4350 5300 50  0000 L CNN
-F 1 "1.0uF" H 4250 5200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 5250 50  0001 C CNN
-F 3 "~" H 4550 5250 50  0001 C CNN
-	1    4550 5250
+P 4850 8450
+F 0 "C3" H 4650 8500 50  0000 L CNN
+F 1 "1.0uF" H 4550 8400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 8450 50  0001 C CNN
+F 3 "~" H 4850 8450 50  0001 C CNN
+	1    4850 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 5050 4550 5050
+	5350 8250 4850 8250
 Wire Wire Line
-	4450 5150 4550 5150
-Connection ~ 4550 5050
+	4750 8350 4850 8350
+Connection ~ 4850 8250
 Wire Wire Line
-	4550 5050 4450 5050
-Connection ~ 4550 5150
+	4850 8250 4750 8250
+Connection ~ 4850 8350
 Wire Wire Line
-	4550 5150 5050 5150
-Text Label 4550 4850 2    50   ~ 0
+	4850 8350 5350 8350
+Text Label 4850 8050 2    50   ~ 0
 GND
-Text Label 4550 5350 3    50   ~ 0
+Text Label 4850 8550 3    50   ~ 0
 GND
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5E60A04C
-P 10050 1450
-F 0 "J4" H 10156 1628 50  0000 C CNN
-F 1 "I2C_Conn" H 10150 1550 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10050 1450 50  0001 C CNN
-F 3 "~" H 10050 1450 50  0001 C CNN
-	1    10050 1450
+P 13400 7650
+F 0 "J4" H 13506 7828 50  0000 C CNN
+F 1 "I2C_Conn" H 13500 7750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 13400 7650 50  0001 C CNN
+F 3 "~" H 13400 7650 50  0001 C CNN
+	1    13400 7650
 	1    0    0    -1  
 $EndComp
-Text Label 10250 1150 0    50   ~ 0
+Text Label 13600 7350 0    50   ~ 0
 i2c_SDA
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 5E60EB54
-P 10050 1050
-F 0 "J2" H 10156 1228 50  0000 C CNN
-F 1 "BT_Conn" H 10150 1150 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10050 1050 50  0001 C CNN
-F 3 "~" H 10050 1050 50  0001 C CNN
-	1    10050 1050
+P 13400 7250
+F 0 "J2" H 13506 7428 50  0000 C CNN
+F 1 "BT_Conn" H 13500 7350 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 13400 7250 50  0001 C CNN
+F 3 "~" H 13400 7250 50  0001 C CNN
+	1    13400 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B D6
 U 1 1 5E73F901
-P 4700 7350
-F 0 "D6" H 4850 7050 50  0000 L CNN
-F 1 "WS2812B" H 4850 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4750 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4800 6975 50  0001 L TNN
-	1    4700 7350
+P 10450 8700
+F 0 "D6" H 10600 8400 50  0000 L CNN
+F 1 "WS2812B" H 10600 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10500 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10550 8325 50  0001 L TNN
+	1    10450 8700
 	-1   0    0    1   
 $EndComp
-Text Label 4700 7050 1    50   ~ 0
+Text Label 10450 8400 1    50   ~ 0
 GND
 $Comp
 L LED:WS2812B D7
 U 1 1 5E753007
-P 5500 7350
-F 0 "D7" H 5650 7050 50  0000 L CNN
-F 1 "WS2812B" H 5650 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5550 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5600 6975 50  0001 L TNN
-	1    5500 7350
+P 11250 8700
+F 0 "D7" H 11400 8400 50  0000 L CNN
+F 1 "WS2812B" H 11400 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11300 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11350 8325 50  0001 L TNN
+	1    11250 8700
 	-1   0    0    1   
 $EndComp
-Text Label 5500 7050 1    50   ~ 0
+Text Label 11250 8400 1    50   ~ 0
 GND
 $Comp
 L LED:WS2812B D8
 U 1 1 5E7574E8
-P 6300 7350
-F 0 "D8" H 6450 7050 50  0000 L CNN
-F 1 "WS2812B" H 6450 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6350 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 6975 50  0001 L TNN
-	1    6300 7350
+P 12050 8700
+F 0 "D8" H 12200 8400 50  0000 L CNN
+F 1 "WS2812B" H 12200 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12100 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12150 8325 50  0001 L TNN
+	1    12050 8700
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:WS2812B D9
 U 1 1 5E757D3C
-P 7100 7350
-F 0 "D9" H 7250 7050 50  0000 L CNN
-F 1 "WS2812B" H 7250 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7150 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 6975 50  0001 L TNN
-	1    7100 7350
+P 12850 8700
+F 0 "D9" H 13000 8400 50  0000 L CNN
+F 1 "WS2812B" H 13000 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12900 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12950 8325 50  0001 L TNN
+	1    12850 8700
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:WS2812B D10
 U 1 1 5E758FA4
-P 7900 7350
-F 0 "D10" H 8050 7050 50  0000 L CNN
-F 1 "WS2812B" H 8050 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7950 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 6975 50  0001 L TNN
-	1    7900 7350
+P 13650 8700
+F 0 "D10" H 13800 8400 50  0000 L CNN
+F 1 "WS2812B" H 13800 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13700 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13750 8325 50  0001 L TNN
+	1    13650 8700
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED:WS2812B D11
 U 1 1 5E75DC2B
-P 8700 7350
-F 0 "D11" H 8850 7050 50  0000 L CNN
-F 1 "WS2812B" H 8850 6950 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8750 7050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8800 6975 50  0001 L TNN
-	1    8700 7350
+P 14450 8700
+F 0 "D11" H 14600 8400 50  0000 L CNN
+F 1 "WS2812B" H 14600 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14500 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14550 8325 50  0001 L TNN
+	1    14450 8700
 	-1   0    0    1   
 $EndComp
-Text Label 6300 7050 1    50   ~ 0
+Text Label 12050 8400 1    50   ~ 0
 GND
-Text Label 7100 7050 1    50   ~ 0
+Text Label 12850 8400 1    50   ~ 0
 GND
-Text Label 7900 7050 1    50   ~ 0
+Text Label 13650 8400 1    50   ~ 0
 GND
-Text Label 8700 7050 1    50   ~ 0
+Text Label 14450 8400 1    50   ~ 0
 GND
 $Comp
 L Device:C C1
 U 1 1 5E7696F4
-P 4950 8050
-F 0 "C1" H 5065 8096 50  0000 L CNN
-F 1 "104" H 5065 8005 50  0000 L CNN
-F 2 "" H 4988 7900 50  0001 C CNN
-F 3 "~" H 4950 8050 50  0001 C CNN
-	1    4950 8050
+P 10700 9400
+F 0 "C1" H 10815 9446 50  0000 L CNN
+F 1 "104" H 10815 9355 50  0000 L CNN
+F 2 "" H 10738 9250 50  0001 C CNN
+F 3 "~" H 10700 9400 50  0001 C CNN
+	1    10700 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5E76A1C1
-P 5700 8050
-F 0 "C4" H 5815 8096 50  0000 L CNN
-F 1 "104" H 5815 8005 50  0000 L CNN
-F 2 "" H 5738 7900 50  0001 C CNN
-F 3 "~" H 5700 8050 50  0001 C CNN
-	1    5700 8050
+P 11450 9400
+F 0 "C4" H 11565 9446 50  0000 L CNN
+F 1 "104" H 11565 9355 50  0000 L CNN
+F 2 "" H 11488 9250 50  0001 C CNN
+F 3 "~" H 11450 9400 50  0001 C CNN
+	1    11450 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5E76AA57
-P 6550 8050
-F 0 "C5" H 6665 8096 50  0000 L CNN
-F 1 "104" H 6665 8005 50  0000 L CNN
-F 2 "" H 6588 7900 50  0001 C CNN
-F 3 "~" H 6550 8050 50  0001 C CNN
-	1    6550 8050
+P 12300 9400
+F 0 "C5" H 12415 9446 50  0000 L CNN
+F 1 "104" H 12415 9355 50  0000 L CNN
+F 2 "" H 12338 9250 50  0001 C CNN
+F 3 "~" H 12300 9400 50  0001 C CNN
+	1    12300 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C6
 U 1 1 5E76C090
-P 7350 8050
-F 0 "C6" H 7465 8096 50  0000 L CNN
-F 1 "104" H 7465 8005 50  0000 L CNN
-F 2 "" H 7388 7900 50  0001 C CNN
-F 3 "~" H 7350 8050 50  0001 C CNN
-	1    7350 8050
+P 13100 9400
+F 0 "C6" H 13215 9446 50  0000 L CNN
+F 1 "104" H 13215 9355 50  0000 L CNN
+F 2 "" H 13138 9250 50  0001 C CNN
+F 3 "~" H 13100 9400 50  0001 C CNN
+	1    13100 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 5E76C6FC
-P 8150 8000
-F 0 "C7" H 8265 8046 50  0000 L CNN
-F 1 "104" H 8265 7955 50  0000 L CNN
-F 2 "" H 8188 7850 50  0001 C CNN
-F 3 "~" H 8150 8000 50  0001 C CNN
-	1    8150 8000
+P 13900 9350
+F 0 "C7" H 14015 9396 50  0000 L CNN
+F 1 "104" H 14015 9305 50  0000 L CNN
+F 2 "" H 13938 9200 50  0001 C CNN
+F 3 "~" H 13900 9350 50  0001 C CNN
+	1    13900 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 5E76CDAE
-P 8950 8000
-F 0 "C8" H 9065 8046 50  0000 L CNN
-F 1 "104" H 9065 7955 50  0000 L CNN
-F 2 "" H 8988 7850 50  0001 C CNN
-F 3 "~" H 8950 8000 50  0001 C CNN
-	1    8950 8000
+P 14700 9350
+F 0 "C8" H 14815 9396 50  0000 L CNN
+F 1 "104" H 14815 9305 50  0000 L CNN
+F 2 "" H 14738 9200 50  0001 C CNN
+F 3 "~" H 14700 9350 50  0001 C CNN
+	1    14700 9350
 	1    0    0    -1  
 $EndComp
-Text Label 4700 8000 3    50   ~ 0
+Text Label 10450 9350 3    50   ~ 0
 5v
 Wire Wire Line
-	4700 7650 4700 7900
+	10450 9000 10450 9250
 Wire Wire Line
-	5500 7650 5500 7900
+	11250 9000 11250 9250
 Wire Wire Line
-	6300 7650 6300 7900
+	12050 9000 12050 9250
 Wire Wire Line
-	7900 7650 7900 7850
+	13650 9000 13650 9200
 Wire Wire Line
-	8700 7650 8700 7850
-Text Label 5500 8000 3    50   ~ 0
+	14450 9000 14450 9200
+Text Label 11250 9350 3    50   ~ 0
 5v
-Text Label 6300 8000 3    50   ~ 0
+Text Label 12050 9350 3    50   ~ 0
 5v
-Text Label 7100 8000 3    50   ~ 0
+Text Label 12850 9350 3    50   ~ 0
 5v
-Text Label 7900 8000 3    50   ~ 0
+Text Label 13650 9350 3    50   ~ 0
 5v
-Text Label 8700 8000 3    50   ~ 0
+Text Label 14450 9350 3    50   ~ 0
 5v
 Wire Wire Line
-	4950 7900 4700 7900
-Connection ~ 4700 7900
+	10700 9250 10450 9250
+Connection ~ 10450 9250
 Wire Wire Line
-	4700 7900 4700 8000
+	10450 9250 10450 9350
 Wire Wire Line
-	5700 7900 5500 7900
-Connection ~ 5500 7900
+	11450 9250 11250 9250
+Connection ~ 11250 9250
 Wire Wire Line
-	5500 7900 5500 8000
+	11250 9250 11250 9350
 Wire Wire Line
-	6550 7900 6300 7900
-Connection ~ 6300 7900
+	12300 9250 12050 9250
+Connection ~ 12050 9250
 Wire Wire Line
-	6300 7900 6300 8000
+	12050 9250 12050 9350
 Wire Wire Line
-	7350 7900 7100 7900
+	13100 9250 12850 9250
 Wire Wire Line
-	7100 7650 7100 7900
-Connection ~ 7100 7900
+	12850 9000 12850 9250
+Connection ~ 12850 9250
 Wire Wire Line
-	7100 7900 7100 8000
+	12850 9250 12850 9350
 Wire Wire Line
-	8150 7850 7900 7850
-Connection ~ 7900 7850
+	13900 9200 13650 9200
+Connection ~ 13650 9200
 Wire Wire Line
-	7900 7850 7900 8000
+	13650 9200 13650 9350
 Wire Wire Line
-	8950 7850 8700 7850
-Connection ~ 8700 7850
+	14700 9200 14450 9200
+Connection ~ 14450 9200
 Wire Wire Line
-	8700 7850 8700 8000
+	14450 9200 14450 9350
 Wire Wire Line
-	5200 7350 5000 7350
-Text Label 4950 8200 3    50   ~ 0
+	10950 8700 10750 8700
+Text Label 10700 9550 3    50   ~ 0
 GND
-Text Label 5700 8200 3    50   ~ 0
+Text Label 11450 9550 3    50   ~ 0
 GND
-Text Label 6550 8200 3    50   ~ 0
+Text Label 12300 9550 3    50   ~ 0
 GND
-Text Label 7350 8200 3    50   ~ 0
+Text Label 13100 9550 3    50   ~ 0
 GND
-Text Label 8150 8150 3    50   ~ 0
+Text Label 13900 9500 3    50   ~ 0
 GND
-Text Label 8950 8150 3    50   ~ 0
+Text Label 14700 9500 3    50   ~ 0
 GND
 Wire Wire Line
-	9000 7350 9550 7350
-Text Label 9550 7350 0    50   ~ 0
+	14750 8700 15300 8700
+Text Label 15300 8700 0    50   ~ 0
 RGB_DATA
 Wire Wire Line
-	8400 7350 8200 7350
+	14150 8700 13950 8700
 Wire Wire Line
-	7600 7350 7400 7350
+	13350 8700 13150 8700
 Wire Wire Line
-	6800 7350 6600 7350
+	12550 8700 12350 8700
 Wire Wire Line
-	6000 7350 5800 7350
+	11750 8700 11550 8700
 $Comp
 L Regulator_Switching:LM2596S-5 U6
 U 1 1 5E812135
-P 8750 5650
-F 0 "U6" H 8750 6017 50  0000 C CNN
-F 1 "LM2596S-5" H 8750 5926 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8800 5400 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 8750 5650 50  0001 C CNN
-	1    8750 5650
+P 13450 1975
+F 0 "U6" H 13450 2342 50  0000 C CNN
+F 1 "LM2596S-5" H 13450 2251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 13500 1725 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 13450 1975 50  0001 C CNN
+	1    13450 1975
 	1    0    0    -1  
 $EndComp
 $Comp
 L mouse-rescue:EG1218-dk_Slide-Switches S?
 U 1 1 5E819689
-P 7550 5450
-F 0 "S?" H 7550 5729 50  0000 C CNN
-F 1 "EG1218" H 7550 5638 50  0000 C CNN
-F 2 "misc:Switch_amazon" H 7750 5650 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 7750 5750 60  0001 L CNN
-F 4 "EG1903-ND" H 7750 5850 60  0001 L CNN "Digi-Key_PN"
-F 5 "EG1218" H 7750 5950 60  0001 L CNN "MPN"
-F 6 "Switches" H 7750 6050 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 7750 6150 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 7750 6250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 7750 6350 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE SPDT 200MA 30V" H 7750 6450 60  0001 L CNN "Description"
-F 11 "E-Switch" H 7750 6550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7750 6650 60  0001 L CNN "Status"
-	1    7550 5450
+P 12250 1775
+F 0 "S?" H 12250 2054 50  0000 C CNN
+F 1 "EG1218" H 12250 1963 50  0000 C CNN
+F 2 "misc:Switch_amazon" H 12450 1975 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 12450 2075 60  0001 L CNN
+F 4 "EG1903-ND" H 12450 2175 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 12450 2275 60  0001 L CNN "MPN"
+F 6 "Switches" H 12450 2375 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 12450 2475 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 12450 2575 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 12450 2675 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 12450 2775 60  0001 L CNN "Description"
+F 11 "E-Switch" H 12450 2875 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12450 2975 60  0001 L CNN "Status"
+	1    12250 1775
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5E820C97
-P 7250 5900
-F 0 "BT?" H 7000 6000 50  0000 L CNN
-F 1 "Battery_Cell" H 6700 5900 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 7250 5960 50  0001 C CNN
-F 3 "~" V 7250 5960 50  0001 C CNN
-	1    7250 5900
+P 11950 2225
+F 0 "BT?" H 11700 2325 50  0000 L CNN
+F 1 "Battery_Cell" H 11400 2225 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 11950 2285 50  0001 C CNN
+F 3 "~" V 11950 2285 50  0001 C CNN
+	1    11950 2225
 	1    0    0    -1  
 $EndComp
-Text Label 8250 6200 3    50   ~ 0
+Text Label 12950 2525 3    50   ~ 0
 GND
-Text Label 8750 5950 3    50   ~ 0
+Text Label 13450 2275 3    50   ~ 0
 GND
-Text Label 7250 6000 3    50   ~ 0
+Text Label 11950 2325 3    50   ~ 0
 GND
 Wire Wire Line
-	7350 5450 7250 5450
+	12050 1775 11950 1775
 Wire Wire Line
-	7250 5450 7250 5700
+	11950 1775 11950 2025
 Wire Wire Line
-	7250 5450 7100 5450
-Connection ~ 7250 5450
-Text Label 7100 5450 2    50   ~ 0
+	11950 1775 11800 1775
+Connection ~ 11950 1775
+Text Label 11800 1775 2    50   ~ 0
 vBatt
 Wire Wire Line
-	8250 5750 8250 6200
-Text Label 8000 6200 3    50   ~ 0
+	12950 2075 12950 2525
+Text Label 12700 2525 3    50   ~ 0
 GND
-Text Label 10100 5750 0    50   ~ 0
+Text Label 14800 2075 0    50   ~ 0
 5v
 $Comp
 L Device:L L?
 U 1 1 5E8A9E63
-P 9700 5750
-F 0 "L?" V 9890 5750 50  0000 C CNN
-F 1 "33uH" V 9799 5750 50  0000 C CNN
-F 2 "" H 9700 5750 50  0001 C CNN
-F 3 "~" H 9700 5750 50  0001 C CNN
-	1    9700 5750
+P 14400 2075
+F 0 "L?" V 14590 2075 50  0000 C CNN
+F 1 "33uH" V 14499 2075 50  0000 C CNN
+F 2 "" H 14400 2075 50  0001 C CNN
+F 3 "~" H 14400 2075 50  0001 C CNN
+	1    14400 2075
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10100 5750 10000 5750
+	14800 2075 14700 2075
 $Comp
 L Device:D_Schottky D?
 U 1 1 5E8B6F40
-P 9450 5900
-F 0 "D?" V 9404 5979 50  0000 L CNN
-F 1 "1n5824" V 9495 5979 50  0000 L CNN
-F 2 "" H 9450 5900 50  0001 C CNN
-F 3 "~" H 9450 5900 50  0001 C CNN
-	1    9450 5900
+P 14150 2225
+F 0 "D?" V 14104 2304 50  0000 L CNN
+F 1 "1n5824" V 14195 2304 50  0000 L CNN
+F 2 "" H 14150 2225 50  0001 C CNN
+F 3 "~" H 14150 2225 50  0001 C CNN
+	1    14150 2225
 	0    1    1    0   
 $EndComp
-Text Label 9450 6050 3    50   ~ 0
+Text Label 14150 2375 3    50   ~ 0
 GND
 $Comp
 L Device:CP1 C?
 U 1 1 5E8B972D
-P 10000 5900
-F 0 "C?" H 10115 5946 50  0000 L CNN
-F 1 "220uF" H 10115 5855 50  0000 L CNN
-F 2 "" H 10000 5900 50  0001 C CNN
-F 3 "~" H 10000 5900 50  0001 C CNN
-	1    10000 5900
+P 14700 2225
+F 0 "C?" H 14815 2271 50  0000 L CNN
+F 1 "220uF" H 14815 2180 50  0000 L CNN
+F 2 "" H 14700 2225 50  0001 C CNN
+F 3 "~" H 14700 2225 50  0001 C CNN
+	1    14700 2225
 	1    0    0    -1  
 $EndComp
-Connection ~ 10000 5750
+Connection ~ 14700 2075
 Wire Wire Line
-	10000 5750 9850 5750
+	14700 2075 14550 2075
 $Comp
 L Device:CP1 C?
 U 1 1 5E8BA3C3
-P 8000 5700
-F 0 "C?" H 7800 5650 50  0000 L CNN
-F 1 "680uF" H 7750 5550 50  0000 L CNN
-F 2 "" H 8000 5700 50  0001 C CNN
-F 3 "~" H 8000 5700 50  0001 C CNN
-	1    8000 5700
+P 12700 2025
+F 0 "C?" H 12500 1975 50  0000 L CNN
+F 1 "680uF" H 12450 1875 50  0000 L CNN
+F 2 "" H 12700 2025 50  0001 C CNN
+F 3 "~" H 12700 2025 50  0001 C CNN
+	1    12700 2025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 5550 8000 5550
-Connection ~ 8000 5550
+	12450 1875 12700 1875
+Connection ~ 12700 1875
 Wire Wire Line
-	8000 5550 8250 5550
+	12700 1875 12950 1875
 Wire Wire Line
-	8000 5850 8000 6200
+	12700 2175 12700 2525
 Wire Wire Line
-	9250 5750 9450 5750
-Connection ~ 9450 5750
+	13950 2075 14150 2075
+Connection ~ 14150 2075
 Wire Wire Line
-	9450 5750 9550 5750
+	14150 2075 14250 2075
 Wire Wire Line
-	9250 5550 9400 5550
+	13950 1875 14100 1875
 Wire Wire Line
-	9400 5550 9400 5400
+	14100 1875 14100 1725
 Wire Wire Line
-	9400 5400 10000 5400
+	14100 1725 14700 1725
 Wire Wire Line
-	10000 5400 10000 5750
-Text Label 10000 6050 3    50   ~ 0
+	14700 1725 14700 2075
+Text Label 14700 2375 3    50   ~ 0
 GND
-Text Label 9550 4050 0    50   ~ 0
+Text Label 9650 6100 0    50   ~ 0
 5v
+NoConn ~ 1675 7050
+NoConn ~ 1675 7550
 $EndSCHEMATC

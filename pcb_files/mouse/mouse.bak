@@ -47,34 +47,10 @@ F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 450 6750 50  0
 	1    2600 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5D1C070D
-P 7900 5700
-F 0 "BT1" H 8018 5796 50  0000 L CNN
-F 1 "Battery_Cell" H 8018 5705 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 7900 5760 50  0001 C CNN
-F 3 "~" V 7900 5760 50  0001 C CNN
-	1    7900 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 5650 8700 5800
-Wire Wire Line
-	9550 4050 10250 4050
-Wire Wire Line
-	10250 4050 10250 6200
-Wire Wire Line
-	10250 6200 9000 6200
 Text Label 7550 3450 2    50   ~ 0
 3.3v
 Text Label 4450 5050 2    50   ~ 0
 5v
-Wire Wire Line
-	7900 5500 7600 5500
-Connection ~ 7900 5500
-Text Label 7600 5500 2    50   ~ 0
-vBatt
 Text Label 4450 5150 2    50   ~ 0
 5v
 Text Label 5050 5350 2    50   ~ 0
@@ -392,32 +368,12 @@ Text Label 7550 4150 2    50   ~ 0
 Reciever_3
 Text Label 9550 4450 0    50   ~ 0
 Emitter_0
-Connection ~ 9000 6200
-Text Label 7700 6000 2    50   ~ 0
-GND
-Wire Wire Line
-	9000 5950 9000 6200
-Wire Wire Line
-	7700 6200 8150 6200
-Text Label 7700 6200 2    50   ~ 0
-5v
 Text Label 7550 4550 2    50   ~ 0
 Emitter_1
 Text Label 7550 4050 2    50   ~ 0
 Emitter_2
 Text Label 7550 4250 2    50   ~ 0
 Emitter_3
-$Comp
-L Regulator_Linear:LM1084-5.0 U3
-U 1 1 5D2418A8
-P 9000 5650
-F 0 "U3" V 8954 5755 50  0000 L CNN
-F 1 "LM1084-5.0" V 9045 5755 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9000 5900 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 9000 5650 50  0001 C CNN
-	1    9000 5650
-	0    1    1    0   
-$EndComp
 $Comp
 L Motor:Motor_DC M3
 U 1 1 5D240B05
@@ -915,32 +871,6 @@ Text Label 6550 700  0    50   ~ 0
 Text Label 6650 2400 0    50   ~ 0
 GND
 $Comp
-L Device:CP1 CP1
-U 1 1 5E08B3B9
-P 8150 6050
-F 0 "CP1" H 8035 6004 50  0000 R CNN
-F 1 "10uF (Tantalum)" H 8035 6095 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 6050 50  0001 C CNN
-F 3 "~" H 8150 6050 50  0001 C CNN
-	1    8150 6050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7900 5800 8150 5800
-Wire Wire Line
-	7700 6000 7900 6000
-Wire Wire Line
-	7900 6000 7900 5800
-Connection ~ 7900 5800
-Connection ~ 8150 6200
-Wire Wire Line
-	8150 5900 8150 5800
-Wire Wire Line
-	8150 6200 9000 6200
-Connection ~ 8150 5800
-Wire Wire Line
-	8150 5800 8700 5800
-$Comp
 L SN754410NE:SN754410NE U2
 U 1 1 5D1BEE18
 P 5750 5650
@@ -993,34 +923,6 @@ GND
 Text Label 4550 5350 3    50   ~ 0
 GND
 $Comp
-L mouse-rescue:EG1218-dk_Slide-Switches S1
-U 1 1 5E600D6A
-P 8350 5200
-F 0 "S1" H 8350 5479 50  0000 C CNN
-F 1 "EG1218" H 8350 5388 50  0000 C CNN
-F 2 "misc:Switch_amazon" H 8550 5400 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 8550 5500 60  0001 L CNN
-F 4 "EG1903-ND" H 8550 5600 60  0001 L CNN "Digi-Key_PN"
-F 5 "EG1218" H 8550 5700 60  0001 L CNN "MPN"
-F 6 "Switches" H 8550 5800 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 8550 5900 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 8550 6000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 8550 6100 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE SPDT 200MA 30V" H 8550 6200 60  0001 L CNN "Description"
-F 11 "E-Switch" H 8550 6300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8550 6400 60  0001 L CNN "Status"
-	1    8350 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 5300 9000 5300
-Wire Wire Line
-	9000 5300 9000 5350
-Wire Wire Line
-	8150 5200 7900 5200
-Wire Wire Line
-	7900 5200 7900 5500
-$Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5E60A04C
 P 10050 1450
@@ -1045,10 +947,10 @@ F 3 "~" H 10050 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D6
 U 1 1 5E73F901
 P 4700 7350
-F 0 "D?" H 4850 7050 50  0000 L CNN
+F 0 "D6" H 4850 7050 50  0000 L CNN
 F 1 "WS2812B" H 4850 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4750 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4800 6975 50  0001 L TNN
@@ -1058,10 +960,10 @@ $EndComp
 Text Label 4700 7050 1    50   ~ 0
 GND
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D7
 U 1 1 5E753007
 P 5500 7350
-F 0 "D?" H 5650 7050 50  0000 L CNN
+F 0 "D7" H 5650 7050 50  0000 L CNN
 F 1 "WS2812B" H 5650 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5550 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5600 6975 50  0001 L TNN
@@ -1071,10 +973,10 @@ $EndComp
 Text Label 5500 7050 1    50   ~ 0
 GND
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D8
 U 1 1 5E7574E8
 P 6300 7350
-F 0 "D?" H 6450 7050 50  0000 L CNN
+F 0 "D8" H 6450 7050 50  0000 L CNN
 F 1 "WS2812B" H 6450 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6350 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 6975 50  0001 L TNN
@@ -1082,10 +984,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6400 6975 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D9
 U 1 1 5E757D3C
 P 7100 7350
-F 0 "D?" H 7250 7050 50  0000 L CNN
+F 0 "D9" H 7250 7050 50  0000 L CNN
 F 1 "WS2812B" H 7250 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7150 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 6975 50  0001 L TNN
@@ -1093,10 +995,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 6975 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D10
 U 1 1 5E758FA4
 P 7900 7350
-F 0 "D?" H 8050 7050 50  0000 L CNN
+F 0 "D10" H 8050 7050 50  0000 L CNN
 F 1 "WS2812B" H 8050 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7950 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 6975 50  0001 L TNN
@@ -1104,10 +1006,10 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 6975 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D11
 U 1 1 5E75DC2B
 P 8700 7350
-F 0 "D?" H 8850 7050 50  0000 L CNN
+F 0 "D11" H 8850 7050 50  0000 L CNN
 F 1 "WS2812B" H 8850 6950 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8750 7050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8800 6975 50  0001 L TNN
@@ -1123,10 +1025,10 @@ GND
 Text Label 8700 7050 1    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5E7696F4
 P 4950 8050
-F 0 "C?" H 5065 8096 50  0000 L CNN
+F 0 "C1" H 5065 8096 50  0000 L CNN
 F 1 "104" H 5065 8005 50  0000 L CNN
 F 2 "" H 4988 7900 50  0001 C CNN
 F 3 "~" H 4950 8050 50  0001 C CNN
@@ -1134,10 +1036,10 @@ F 3 "~" H 4950 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5E76A1C1
 P 5700 8050
-F 0 "C?" H 5815 8096 50  0000 L CNN
+F 0 "C4" H 5815 8096 50  0000 L CNN
 F 1 "104" H 5815 8005 50  0000 L CNN
 F 2 "" H 5738 7900 50  0001 C CNN
 F 3 "~" H 5700 8050 50  0001 C CNN
@@ -1145,10 +1047,10 @@ F 3 "~" H 5700 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5E76AA57
 P 6550 8050
-F 0 "C?" H 6665 8096 50  0000 L CNN
+F 0 "C5" H 6665 8096 50  0000 L CNN
 F 1 "104" H 6665 8005 50  0000 L CNN
 F 2 "" H 6588 7900 50  0001 C CNN
 F 3 "~" H 6550 8050 50  0001 C CNN
@@ -1156,10 +1058,10 @@ F 3 "~" H 6550 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5E76C090
 P 7350 8050
-F 0 "C?" H 7465 8096 50  0000 L CNN
+F 0 "C6" H 7465 8096 50  0000 L CNN
 F 1 "104" H 7465 8005 50  0000 L CNN
 F 2 "" H 7388 7900 50  0001 C CNN
 F 3 "~" H 7350 8050 50  0001 C CNN
@@ -1167,10 +1069,10 @@ F 3 "~" H 7350 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5E76C6FC
 P 8150 8000
-F 0 "C?" H 8265 8046 50  0000 L CNN
+F 0 "C7" H 8265 8046 50  0000 L CNN
 F 1 "104" H 8265 7955 50  0000 L CNN
 F 2 "" H 8188 7850 50  0001 C CNN
 F 3 "~" H 8150 8000 50  0001 C CNN
@@ -1178,10 +1080,10 @@ F 3 "~" H 8150 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5E76CDAE
 P 8950 8000
-F 0 "C?" H 9065 8046 50  0000 L CNN
+F 0 "C8" H 9065 8046 50  0000 L CNN
 F 1 "104" H 9065 7955 50  0000 L CNN
 F 2 "" H 8988 7850 50  0001 C CNN
 F 3 "~" H 8950 8000 50  0001 C CNN
@@ -1268,4 +1170,142 @@ Wire Wire Line
 	6800 7350 6600 7350
 Wire Wire Line
 	6000 7350 5800 7350
+$Comp
+L Regulator_Switching:LM2596S-5 U6
+U 1 1 5E812135
+P 8750 5650
+F 0 "U6" H 8750 6017 50  0000 C CNN
+F 1 "LM2596S-5" H 8750 5926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8800 5400 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 8750 5650 50  0001 C CNN
+	1    8750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L mouse-rescue:EG1218-dk_Slide-Switches S?
+U 1 1 5E819689
+P 7550 5450
+F 0 "S?" H 7550 5729 50  0000 C CNN
+F 1 "EG1218" H 7550 5638 50  0000 C CNN
+F 2 "misc:Switch_amazon" H 7750 5650 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 7750 5750 60  0001 L CNN
+F 4 "EG1903-ND" H 7750 5850 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 7750 5950 60  0001 L CNN "MPN"
+F 6 "Switches" H 7750 6050 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 7750 6150 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 7750 6250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 7750 6350 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 7750 6450 60  0001 L CNN "Description"
+F 11 "E-Switch" H 7750 6550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7750 6650 60  0001 L CNN "Status"
+	1    7550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5E820C97
+P 7250 5900
+F 0 "BT?" H 7000 6000 50  0000 L CNN
+F 1 "Battery_Cell" H 6700 5900 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 7250 5960 50  0001 C CNN
+F 3 "~" V 7250 5960 50  0001 C CNN
+	1    7250 5900
+	1    0    0    -1  
+$EndComp
+Text Label 8250 6200 3    50   ~ 0
+GND
+Text Label 8750 5950 3    50   ~ 0
+GND
+Text Label 7250 6000 3    50   ~ 0
+GND
+Wire Wire Line
+	7350 5450 7250 5450
+Wire Wire Line
+	7250 5450 7250 5700
+Wire Wire Line
+	7250 5450 7100 5450
+Connection ~ 7250 5450
+Text Label 7100 5450 2    50   ~ 0
+vBatt
+Wire Wire Line
+	8250 5750 8250 6200
+Text Label 8000 6200 3    50   ~ 0
+GND
+Text Label 10100 5750 0    50   ~ 0
+5v
+$Comp
+L Device:L L?
+U 1 1 5E8A9E63
+P 9700 5750
+F 0 "L?" V 9890 5750 50  0000 C CNN
+F 1 "33uH" V 9799 5750 50  0000 C CNN
+F 2 "" H 9700 5750 50  0001 C CNN
+F 3 "~" H 9700 5750 50  0001 C CNN
+	1    9700 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 5750 10000 5750
+$Comp
+L Device:D_Schottky D?
+U 1 1 5E8B6F40
+P 9450 5900
+F 0 "D?" V 9404 5979 50  0000 L CNN
+F 1 "1n5824" V 9495 5979 50  0000 L CNN
+F 2 "" H 9450 5900 50  0001 C CNN
+F 3 "~" H 9450 5900 50  0001 C CNN
+	1    9450 5900
+	0    1    1    0   
+$EndComp
+Text Label 9450 6050 3    50   ~ 0
+GND
+$Comp
+L Device:CP1 C?
+U 1 1 5E8B972D
+P 10000 5900
+F 0 "C?" H 10115 5946 50  0000 L CNN
+F 1 "220uF" H 10115 5855 50  0000 L CNN
+F 2 "" H 10000 5900 50  0001 C CNN
+F 3 "~" H 10000 5900 50  0001 C CNN
+	1    10000 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 5750
+Wire Wire Line
+	10000 5750 9850 5750
+$Comp
+L Device:CP1 C?
+U 1 1 5E8BA3C3
+P 8000 5700
+F 0 "C?" H 7800 5650 50  0000 L CNN
+F 1 "680uF" H 7750 5550 50  0000 L CNN
+F 2 "" H 8000 5700 50  0001 C CNN
+F 3 "~" H 8000 5700 50  0001 C CNN
+	1    8000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5550 8000 5550
+Connection ~ 8000 5550
+Wire Wire Line
+	8000 5550 8250 5550
+Wire Wire Line
+	8000 5850 8000 6200
+Wire Wire Line
+	9250 5750 9450 5750
+Connection ~ 9450 5750
+Wire Wire Line
+	9450 5750 9550 5750
+Wire Wire Line
+	9250 5550 9400 5550
+Wire Wire Line
+	9400 5550 9400 5400
+Wire Wire Line
+	9400 5400 10000 5400
+Wire Wire Line
+	10000 5400 10000 5750
+Text Label 10000 6050 3    50   ~ 0
+GND
+Text Label 9550 4050 0    50   ~ 0
+5v
 $EndSCHEMATC
