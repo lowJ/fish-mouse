@@ -414,28 +414,6 @@ GND
 Wire Wire Line
 	15200 6700 15200 6900
 $Comp
-L Device:LED D4
-U 1 1 5D292553
-P 14300 7500
-F 0 "D4" H 14291 7716 50  0000 C CNN
-F 1 "STATUS_0" H 14300 7650 50  0000 C CNN
-F 2 "misc:3528_SMD_LED" H 14300 7500 50  0001 C CNN
-F 3 "~" H 14300 7500 50  0001 C CNN
-	1    14300 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 5D292B44
-P 14300 7200
-F 0 "R18" H 14230 7154 50  0000 R CNN
-F 1 "R" H 14230 7245 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 14230 7200 50  0001 C CNN
-F 3 "~" H 14300 7200 50  0001 C CNN
-	1    14300 7200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED D5
 U 1 1 5D2990A5
 P 14700 7500
@@ -457,16 +435,12 @@ F 3 "~" H 14700 7200 50  0001 C CNN
 	1    14700 7200
 	-1   0    0    1   
 $EndComp
-Text Label 14300 7050 1    50   ~ 0
-STATUS_LED_0
 Text Label 14700 7050 1    50   ~ 0
 STATUS_LED_1
-Text Label 14300 7650 3    50   ~ 0
-GND
 Text Label 14700 7650 3    50   ~ 0
 GND
 Text Label 7650 5100 2    50   ~ 0
-STATUS_LED_0
+RGB_DATA
 Text Label 7650 5200 2    50   ~ 0
 STATUS_LED_1
 Text Label 15200 6700 1    50   ~ 0
@@ -500,7 +474,7 @@ Text Label 7650 6400 2    50   ~ 0
 i2c_SDA
 Text Label 7650 6500 2    50   ~ 0
 i2c_SCL
-Text Label 13600 7250 0    50   ~ 0
+Text Label 13975 7250 0    50   ~ 0
 i2c_SCL
 Text Label 13600 7750 0    50   ~ 0
 vBatt
@@ -931,7 +905,7 @@ F 3 "~" H 13400 7650 50  0001 C CNN
 	1    13400 7650
 	1    0    0    -1  
 $EndComp
-Text Label 13600 7350 0    50   ~ 0
+Text Label 13950 7350 0    50   ~ 0
 i2c_SDA
 $Comp
 L Connector:Conn_01x02_Male J2
@@ -1308,4 +1282,84 @@ Text Label 9650 6100 0    50   ~ 0
 5v
 NoConn ~ 1675 7050
 NoConn ~ 1675 7550
+Wire Wire Line
+	13600 7350 13700 7350
+Wire Wire Line
+	13600 7250 13900 7250
+Wire Wire Line
+	13900 7250 13900 7000
+Connection ~ 13900 7250
+Wire Wire Line
+	13900 7250 13975 7250
+Wire Wire Line
+	13700 7350 13700 7050
+Connection ~ 13700 7350
+Wire Wire Line
+	13700 7350 13950 7350
+$Comp
+L Device:R R?
+U 1 1 5E798BF8
+P 13700 6900
+F 0 "R?" H 13525 6950 50  0000 L CNN
+F 1 "4.7k" H 13475 6850 50  0000 L CNN
+F 2 "" V 13630 6900 50  0001 C CNN
+F 3 "~" H 13700 6900 50  0001 C CNN
+	1    13700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E798D08
+P 13900 6850
+F 0 "R?" H 13970 6896 50  0000 L CNN
+F 1 "4.7k" H 13970 6805 50  0000 L CNN
+F 2 "" V 13830 6850 50  0001 C CNN
+F 3 "~" H 13900 6850 50  0001 C CNN
+	1    13900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5E799FC8
+P 14800 5875
+F 0 "MH?" H 14900 5921 50  0000 L CNN
+F 1 "M4" H 14900 5830 50  0000 L CNN
+F 2 "" H 14800 5875 50  0001 C CNN
+F 3 "~" H 14800 5875 50  0001 C CNN
+	1    14800 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5E79A0A3
+P 13975 5900
+F 0 "MH?" H 14075 5946 50  0000 L CNN
+F 1 "M4" H 14075 5855 50  0000 L CNN
+F 2 "" H 13975 5900 50  0001 C CNN
+F 3 "~" H 13975 5900 50  0001 C CNN
+	1    13975 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5E79A15B
+P 13975 5500
+F 0 "MH?" H 14075 5546 50  0000 L CNN
+F 1 "M4" H 14075 5455 50  0000 L CNN
+F 2 "" H 13975 5500 50  0001 C CNN
+F 3 "~" H 13975 5500 50  0001 C CNN
+	1    13975 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5E79A200
+P 14800 5500
+F 0 "MH?" H 14900 5546 50  0000 L CNN
+F 1 "M4" H 14900 5455 50  0000 L CNN
+F 2 "" H 14800 5500 50  0001 C CNN
+F 3 "~" H 14800 5500 50  0001 C CNN
+	1    14800 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
