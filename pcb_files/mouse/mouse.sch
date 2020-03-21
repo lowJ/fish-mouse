@@ -31,7 +31,7 @@ U 1 1 5D1C0154
 P 3000 9700
 F 0 "U4" H 3000 10317 50  0000 C CNN
 F 1 "Encoder_3081" H 3000 10226 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3150 9200 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical" H 3150 9200 50  0001 L CNN
 F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 850 11300 50  0001 C CNN
 	1    3000 9700
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5D1C0226
 P 3000 8400
 F 0 "U5" H 3000 9017 50  0000 C CNN
 F 1 "Encoder_3081" H 3000 8926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3150 7900 50  0001 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical" H 3150 7900 50  0001 L CNN
 F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 850 10000 50  0001 C CNN
 	1    3000 8400
 	1    0    0    -1  
@@ -1180,10 +1180,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 13450 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse-rescue:EG1218-dk_Slide-Switches S?
+L mouse-rescue:EG1218-dk_Slide-Switches S1
 U 1 1 5E819689
 P 12250 1775
-F 0 "S?" H 12250 2054 50  0000 C CNN
+F 0 "S1" H 12250 2054 50  0000 C CNN
 F 1 "EG1218" H 12250 1963 50  0000 C CNN
 F 2 "misc:Switch_amazon" H 12450 1975 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 12450 2075 60  0001 L CNN
@@ -1200,10 +1200,10 @@ F 12 "Active" H 12450 2975 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5E820C97
 P 11950 2225
-F 0 "BT?" H 11700 2325 50  0000 L CNN
+F 0 "BT1" H 11700 2325 50  0000 L CNN
 F 1 "Battery_Cell" H 11400 2225 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 11950 2285 50  0001 C CNN
 F 3 "~" V 11950 2285 50  0001 C CNN
@@ -1232,10 +1232,10 @@ GND
 Text Label 14800 2075 0    50   ~ 0
 5v
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 5E8A9E63
 P 14400 2075
-F 0 "L?" V 14590 2075 50  0000 C CNN
+F 0 "L1" V 14590 2075 50  0000 C CNN
 F 1 "33uH" V 14499 2075 50  0000 C CNN
 F 2 "" H 14400 2075 50  0001 C CNN
 F 3 "~" H 14400 2075 50  0001 C CNN
@@ -1245,10 +1245,10 @@ $EndComp
 Wire Wire Line
 	14800 2075 14700 2075
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D12
 U 1 1 5E8B6F40
 P 14150 2225
-F 0 "D?" V 14104 2304 50  0000 L CNN
+F 0 "D12" V 14104 2304 50  0000 L CNN
 F 1 "1n5824" V 14195 2304 50  0000 L CNN
 F 2 "" H 14150 2225 50  0001 C CNN
 F 3 "~" H 14150 2225 50  0001 C CNN
@@ -1258,10 +1258,10 @@ $EndComp
 Text Label 14150 2375 3    50   ~ 0
 GND
 $Comp
-L Device:CP1 C?
+L Device:CP1 C10
 U 1 1 5E8B972D
 P 14700 2225
-F 0 "C?" H 14815 2271 50  0000 L CNN
+F 0 "C10" H 14815 2271 50  0000 L CNN
 F 1 "220uF" H 14815 2180 50  0000 L CNN
 F 2 "" H 14700 2225 50  0001 C CNN
 F 3 "~" H 14700 2225 50  0001 C CNN
@@ -1272,10 +1272,10 @@ Connection ~ 14700 2075
 Wire Wire Line
 	14700 2075 14550 2075
 $Comp
-L Device:CP1 C?
+L Device:CP1 C9
 U 1 1 5E8BA3C3
 P 12700 2025
-F 0 "C?" H 12500 1975 50  0000 L CNN
+F 0 "C9" H 12500 1975 50  0000 L CNN
 F 1 "680uF" H 12450 1875 50  0000 L CNN
 F 2 "" H 12700 2025 50  0001 C CNN
 F 3 "~" H 12700 2025 50  0001 C CNN
