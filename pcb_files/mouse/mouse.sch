@@ -1362,4 +1362,15 @@ F 3 "~" H 14800 5500 50  0001 C CNN
 	1    14800 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5E7A547E
+P 13225 5675
+F 0 "MH?" H 13325 5721 50  0000 L CNN
+F 1 "MountingHole" H 13325 5630 50  0000 L CNN
+F 2 "" H 13225 5675 50  0001 C CNN
+F 3 "~" H 13225 5675 50  0001 C CNN
+	1    13225 5675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
