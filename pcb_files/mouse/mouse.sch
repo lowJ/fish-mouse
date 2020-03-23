@@ -413,36 +413,8 @@ Text Label 15000 7300 1    50   ~ 0
 GND
 Wire Wire Line
 	15200 6700 15200 6900
-$Comp
-L Device:LED D5
-U 1 1 5D2990A5
-P 14700 7500
-F 0 "D5" H 14691 7716 50  0000 C CNN
-F 1 "STATUS_1" H 14700 7650 50  0000 C CNN
-F 2 "misc:3528_SMD_LED" H 14700 7500 50  0001 C CNN
-F 3 "~" H 14700 7500 50  0001 C CNN
-	1    14700 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 5D2990AB
-P 14700 7200
-F 0 "R19" H 14630 7154 50  0000 R CNN
-F 1 "R" H 14630 7245 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14630 7200 50  0001 C CNN
-F 3 "~" H 14700 7200 50  0001 C CNN
-	1    14700 7200
-	-1   0    0    1   
-$EndComp
-Text Label 14700 7050 1    50   ~ 0
-STATUS_LED_1
-Text Label 14700 7650 3    50   ~ 0
-GND
 Text Label 7650 5100 2    50   ~ 0
 RGB_DATA
-Text Label 7650 5200 2    50   ~ 0
-STATUS_LED_1
 Text Label 15200 6700 1    50   ~ 0
 Buzzer
 Text Label 7650 5900 2    50   ~ 0
@@ -1323,4 +1295,121 @@ Wire Wire Line
 	12650 3675 12650 3525
 Text Label 12425 3675 2    50   ~ 0
 vBatt
+Text Label 11100 7575 3    50   ~ 0
+3.3v
+$Comp
+L Device:R R19
+U 1 1 5E7B1BAC
+P 11100 7425
+F 0 "R19" H 11170 7471 50  0000 L CNN
+F 1 "R" H 11170 7380 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11030 7425 50  0001 C CNN
+F 3 "~" H 11100 7425 50  0001 C CNN
+	1    11100 7425
+	1    0    0    -1  
+$EndComp
+Text Label 10500 7275 2    50   ~ 0
+GND
+Text Label 11325 7050 0    50   ~ 0
+PUSH_SW1
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5E7B1BB4
+P 10700 7275
+F 0 "SW2" H 10700 7560 50  0000 C CNN
+F 1 "SW_Push" H 10700 7469 50  0000 C CNN
+F 2 "keyswitches:MX" H 10700 7475 50  0001 C CNN
+F 3 "~" H 10700 7475 50  0001 C CNN
+	1    10700 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 7275 10975 7275
+Wire Wire Line
+	10975 7275 10975 7150
+Wire Wire Line
+	10975 7150 11150 7150
+Wire Wire Line
+	11150 7150 11150 7050
+Wire Wire Line
+	11150 7050 11325 7050
+Connection ~ 10975 7275
+Wire Wire Line
+	10975 7275 10900 7275
+Text Label 7650 5200 2    50   ~ 0
+PUSH_SW1
+$Comp
+L LED:WS2812B D5
+U 1 1 5E7C5A74
+P 9650 8700
+F 0 "D5" H 9800 8400 50  0000 L CNN
+F 1 "WS2812B" H 9800 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9700 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9750 8325 50  0001 L TNN
+	1    9650 8700
+	-1   0    0    1   
+$EndComp
+Text Label 9650 8400 1    50   ~ 0
+GND
+$Comp
+L Device:C C12
+U 1 1 5E7C5A7B
+P 9900 9400
+F 0 "C12" H 10015 9446 50  0000 L CNN
+F 1 "0.1uF" H 10015 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9938 9250 50  0001 C CNN
+F 3 "~" H 9900 9400 50  0001 C CNN
+	1    9900 9400
+	1    0    0    -1  
+$EndComp
+Text Label 9650 9350 3    50   ~ 0
+5v
+Wire Wire Line
+	9650 9000 9650 9250
+Wire Wire Line
+	9900 9250 9650 9250
+Connection ~ 9650 9250
+Wire Wire Line
+	9650 9250 9650 9350
+Wire Wire Line
+	10150 8700 9950 8700
+Text Label 9900 9550 3    50   ~ 0
+GND
+$Comp
+L LED:WS2812B D4
+U 1 1 5E7CAC28
+P 8850 8700
+F 0 "D4" H 9000 8400 50  0000 L CNN
+F 1 "WS2812B" H 9000 8300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8900 8400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8950 8325 50  0001 L TNN
+	1    8850 8700
+	-1   0    0    1   
+$EndComp
+Text Label 8850 8400 1    50   ~ 0
+GND
+$Comp
+L Device:C C11
+U 1 1 5E7CAC2F
+P 9100 9400
+F 0 "C11" H 9215 9446 50  0000 L CNN
+F 1 "0.1uF" H 9215 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9138 9250 50  0001 C CNN
+F 3 "~" H 9100 9400 50  0001 C CNN
+	1    9100 9400
+	1    0    0    -1  
+$EndComp
+Text Label 8850 9350 3    50   ~ 0
+5v
+Wire Wire Line
+	8850 9000 8850 9250
+Wire Wire Line
+	9100 9250 8850 9250
+Connection ~ 8850 9250
+Wire Wire Line
+	8850 9250 8850 9350
+Wire Wire Line
+	9350 8700 9150 8700
+Text Label 9100 9550 3    50   ~ 0
+GND
 $EndSCHEMATC
