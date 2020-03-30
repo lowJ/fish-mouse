@@ -1106,32 +1106,32 @@ Wire Wire Line
 $Comp
 L mouse-rescue:EG1218-dk_Slide-Switches S1
 U 1 1 5E819689
-P 12875 3525
-F 0 "S1" H 12875 3804 50  0000 C CNN
-F 1 "EG1218" H 12875 3713 50  0000 C CNN
-F 2 "misc:Switch_amazon" H 13075 3725 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13075 3825 60  0001 L CNN
-F 4 "EG1903-ND" H 13075 3925 60  0001 L CNN "Digi-Key_PN"
-F 5 "EG1218" H 13075 4025 60  0001 L CNN "MPN"
-F 6 "Switches" H 13075 4125 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 13075 4225 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13075 4325 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 13075 4425 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE SPDT 200MA 30V" H 13075 4525 60  0001 L CNN "Description"
-F 11 "E-Switch" H 13075 4625 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13075 4725 60  0001 L CNN "Status"
-	1    12875 3525
-	1    0    0    -1  
+P 14825 3025
+F 0 "S1" H 14825 3304 50  0000 C CNN
+F 1 "EG1218" H 14825 3213 50  0000 C CNN
+F 2 "misc:Switch_amazon" H 15025 3225 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 15025 3325 60  0001 L CNN
+F 4 "EG1903-ND" H 15025 3425 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 15025 3525 60  0001 L CNN "MPN"
+F 6 "Switches" H 15025 3625 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 15025 3725 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 15025 3825 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 15025 3925 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 15025 4025 60  0001 L CNN "Description"
+F 11 "E-Switch" H 15025 4125 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15025 4225 60  0001 L CNN "Status"
+	1    14825 3025
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5E820C97
-P 12650 4100
-F 0 "BT1" H 12400 4200 50  0000 L CNN
-F 1 "Battery_Cell" H 12100 4100 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 12650 4160 50  0001 C CNN
-F 3 "~" V 12650 4160 50  0001 C CNN
-	1    12650 4100
+P 13050 4000
+F 0 "BT1" H 12800 4100 50  0000 L CNN
+F 1 "Battery_Cell" H 12500 4000 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 13050 4060 50  0001 C CNN
+F 3 "~" V 13050 4060 50  0001 C CNN
+	1    13050 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1246,14 +1246,12 @@ Text Label 13700 3975 3    50   ~ 0
 GND
 Wire Wire Line
 	14000 3425 14325 3425
-Text Label 14500 3425 0    50   ~ 0
+Text Label 15025 3025 0    50   ~ 0
 5v
-Text Label 12650 4200 3    50   ~ 0
+Text Label 13050 4100 3    50   ~ 0
 GND
 Wire Wire Line
-	12650 3900 12650 3675
-Wire Wire Line
-	12650 3525 12675 3525
+	13050 3800 13050 3575
 Wire Wire Line
 	13400 3425 13275 3425
 Connection ~ 14325 3425
@@ -1276,13 +1274,11 @@ Wire Wire Line
 	13275 3150 13275 3425
 Connection ~ 13275 3425
 Wire Wire Line
-	13275 3425 13075 3425
+	13050 3575 12825 3575
+Connection ~ 13050 3575
 Wire Wire Line
-	12650 3675 12425 3675
-Connection ~ 12650 3675
-Wire Wire Line
-	12650 3675 12650 3525
-Text Label 12425 3675 2    50   ~ 0
+	13050 3575 13050 3425
+Text Label 12825 3575 2    50   ~ 0
 vBatt
 Text Label 12550 6575 3    50   ~ 0
 3.3v
@@ -1454,8 +1450,82 @@ NoConn ~ 11950 6075
 NoConn ~ 11975 7100
 NoConn ~ 12375 7100
 NoConn ~ 12350 6075
-NoConn ~ 13075 3625
 Text Label 14325 3725 3    50   ~ 0
 GND
 NoConn ~ 8550 8700
+Wire Wire Line
+	13050 3425 13275 3425
+Wire Wire Line
+	14625 3125 14500 3125
+Wire Wire Line
+	14500 3125 14500 3425
+Wire Wire Line
+	14625 2925 14525 2925
+Wire Wire Line
+	14525 2925 14525 2775
+Wire Wire Line
+	14525 2775 14400 2775
+Text Label 14400 2775 2    50   ~ 0
+USB_VBUS
+$Comp
+L Connector:USB_C_Receptacle J1
+U 1 1 5E8500F8
+P 11050 1350
+F 0 "J1" H 11155 2917 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 11155 2826 50  0000 C CNN
+F 2 "" H 11200 1350 50  0001 C CNN
+F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 11200 1350 50  0001 C CNN
+	1    11050 1350
+	0    1    1    0   
+$EndComp
+Text Label 12250 2500 3    50   ~ 0
+USB_VBUS
+Wire Wire Line
+	12250 2500 12250 2050
+Wire Wire Line
+	12250 2050 12350 2050
+Connection ~ 12250 2050
+Wire Wire Line
+	12250 2050 12250 1950
+Wire Wire Line
+	12150 2050 12150 1950
+Wire Wire Line
+	12150 2050 12050 2050
+Wire Wire Line
+	12050 2050 12050 1950
+Connection ~ 12150 2050
+Wire Wire Line
+	12250 2050 12150 2050
+Text Label 8850 1450 2    50   ~ 0
+GND
+Wire Wire Line
+	9450 1450 8850 1450
+Wire Wire Line
+	12350 2050 12350 1950
+Wire Wire Line
+	9450 1050 9450 1150
+Connection ~ 9450 1450
+Connection ~ 9450 1150
+Wire Wire Line
+	9450 1150 9450 1250
+Connection ~ 9450 1250
+Wire Wire Line
+	9450 1250 9450 1350
+Connection ~ 9450 1350
+Wire Wire Line
+	9450 1350 9450 1450
+Text Label 11250 2275 3    50   ~ 0
+USB_D+
+Text Label 11550 2275 3    50   ~ 0
+USB_D-
+Wire Wire Line
+	11550 2275 11550 1950
+Wire Wire Line
+	11450 1950 11550 1950
+Connection ~ 11550 1950
+Wire Wire Line
+	11250 2275 11250 1950
+Wire Wire Line
+	11350 1950 11250 1950
+Connection ~ 11250 1950
 $EndSCHEMATC
