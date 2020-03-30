@@ -3386,7 +3386,7 @@
   )
   (gr_line (start 192.2272 72.2122) (end 192.2272 102.4128) (layer Edge.Cuts) (width 0.15) (tstamp 5E818CDF))
   (gr_line (start 112.5982 54.6608) (end 207.3402 54.6608) (layer Edge.Cuts) (width 0.15) (tstamp 5E818CDC))
-  (gr_line (start 127.7366 102.1588) (end 127.762 72.2122) (layer Edge.Cuts) (width 0.15) (tstamp 5E818CD9))
+  (gr_line (start 127.7366 102.1588) (end 127.7112 72.2122) (layer Edge.Cuts) (width 0.15) (tstamp 5E818CD9))
 
   (zone (net 2) (net_name /GND) (layer B.Cu) (tstamp 5E818CD0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
