@@ -1541,4 +1541,23 @@ NoConn ~ 11850 1950
 NoConn ~ 10950 1950
 NoConn ~ 11050 1950
 NoConn ~ 3800 6275
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5E83F15C
+P 13400 1300
+F 0 "J3" H 13427 1276 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 13427 1185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13400 1300 50  0001 C CNN
+F 3 "~" H 13400 1300 50  0001 C CNN
+	1    13400 1300
+	1    0    0    -1  
+$EndComp
+Text Label 13200 1200 2    50   ~ 0
+USB_VBUS
+Text Label 13200 1300 2    50   ~ 0
+USB_D-
+Text Label 13200 1400 2    50   ~ 0
+USB_D+
+Text Label 13200 1500 2    50   ~ 0
+GND
 $EndSCHEMATC
