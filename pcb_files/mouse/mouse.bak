@@ -1468,10 +1468,10 @@ Wire Wire Line
 Text Label 14400 2775 2    50   ~ 0
 USB_VBUS
 $Comp
-L Connector:USB_C_Receptacle J?
+L Connector:USB_C_Receptacle J1
 U 1 1 5E8500F8
 P 11050 1350
-F 0 "J?" H 11155 2917 50  0000 C CNN
+F 0 "J1" H 11155 2917 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 11155 2826 50  0000 C CNN
 F 2 "" H 11200 1350 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 11200 1350 50  0001 C CNN
