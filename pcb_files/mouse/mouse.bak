@@ -471,9 +471,9 @@ Text Label 7650 4900 2    50   ~ 0
 M1_encoder_A
 Text Label 7650 5000 2    50   ~ 0
 M1_encoder_B
-Text Label 7650 4700 2    50   ~ 0
-M2_encoder_A
 Text Label 7650 4800 2    50   ~ 0
+M2_encoder_A
+Text Label 7650 4700 2    50   ~ 0
 M2_encoder_B
 NoConn ~ 9650 4100
 NoConn ~ 9650 4200
