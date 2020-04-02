@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad (5.0.0-3-g5ebb6b6)} date Wednesday, April 01, 2020 at 02:53:32 AM
+;DRILL file {KiCad (5.0.0-3-g5ebb6b6)} date Thursday, April 02, 2020 at 01:12:44 PM
 ;FORMAT={-:-/ absolute / inch / decimal}
 FMAT,2
 INCH,TZ
@@ -20,9 +20,9 @@ X6.5662Y-5.6545
 X7.4131Y-3.0817
 X7.4131Y-3.7903
 T3
+X5.3016Y-4.966
 X6.2815Y-2.4435
 X7.2996Y-4.9673
-X5.3016Y-4.966
 T1
 X7.6852Y-2.4505G85X7.6733Y-2.4505
 G05
