@@ -5,6 +5,8 @@ Issues to fix
 1. Add switch to choose USBC GND or Batt GND.(Currently switch toggles between USB 5V and Regulator 5V, but GND stays the same). It will be safer if GNDs can be disconnected when not in use.
 1. Fix footprint of USBC, add drill holes for excess pins, but do not include metal surrounding. Extend smd pads.
 1. On USBC footprint, one of THT pads is off.
+1. Put i2c pullups on other side of pcb
+1. led to show when there is usb power
 1. probally more issues yet to be found...
 
 ![alt text](https://i.gyazo.com/5686d401e48108f4981c156de8899109.jpg "top")
