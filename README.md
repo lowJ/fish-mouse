@@ -9,7 +9,7 @@ Issues to fix
 1. led to show when there is usb power
 1. probally more issues yet to be found...
 
-![alt text](https://i.gyazo.com/5686d401e48108f4981c156de8899109.jpg "top")
+![alt text](https://i.imgur.com/Kb6Vo5O.jpg "top")
 
 <h2> Pictures </h2>
 <details><summary> 3D Renders </summary> 
