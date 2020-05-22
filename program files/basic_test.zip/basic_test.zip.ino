@@ -1,4 +1,3 @@
-#define BUZZ 13
 #define EMIT0 22
 #define RECIV0 23
 #define EMIT1 20
@@ -15,8 +14,20 @@
 #define M2F 3
 #define M2B 2
 
+#define BUZZ 13
+
 #define BUTTON1 11
 #define BUTTON2 12
+
+int countM1 = 0;
+int countM2 = 0;
+
+
+
+
+
+
+
 void setup() {
   pinMode(BUZZ, OUTPUT);
   pinMode(EMIT0, OUTPUT);
@@ -75,9 +86,6 @@ void motor2S(){
   digitalWrite(M2B, 0);
 }
 
-//pow = 50 = 1V
-//pow = 75 = 1.85
-//pow = 100 = 2.55V
 void loop() {
   motor2F(75);
   motor1F(75);
