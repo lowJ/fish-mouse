@@ -4,4 +4,5 @@
   (lib (name encoder_3081)(type Legacy)(uri ${KIPRJMOD}/resources/Symbols/misc/encoder_3081.lib)(options "")(descr ""))
   (lib (name teeensy)(type Legacy)(uri /Users/Jonathan/Downloads/weensy/teeensy.lib)(options "")(descr ""))
   (lib (name mouse-rescue)(type Legacy)(uri ${KIPRJMOD}/mouse-rescue.lib)(options "")(descr ""))
+  (lib (name "teensy(updated)")(type Legacy)(uri F:/teensy_library/teensy.lib)(options "")(descr ""))
 )
