@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L teensy:Teensy3.2 U1
-U 1 1 5D1BEBE0
-P 8900 2300
-F 0 "U1" H 8900 3887 60  0000 C CNN
-F 1 "Teensy3.2" H 8900 3781 60  0000 C CNN
-F 2 "teensy:Teensy30_31_32_LC" H 8900 1500 60  0001 C CNN
-F 3 "" H 8900 1500 60  0000 C CNN
-	1    8900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L encoder_3081:Encoder_3081 U4
 U 1 1 5D1C0154
 P 2400 10200
@@ -47,7 +36,7 @@ F 3 "http://ams.com/eng/content/download/438063/1340357/246195" H 250 10500 50  
 	1    2400 8900
 	1    0    0    -1  
 $EndComp
-Text Label 7900 2500 2    50   ~ 0
+Text Label 7600 2425 2    50   ~ 0
 3.3v
 Text Label 4100 8800 2    50   ~ 0
 5v
@@ -88,9 +77,9 @@ Wire Wire Line
 	4550 10050 4550 10100
 Text Label 4400 10050 2    50   ~ 0
 GND
-Text Label 7900 1500 2    50   ~ 0
+Text Label 7600 1425 2    50   ~ 0
 M1_speed
-Text Label 7900 1600 2    50   ~ 0
+Text Label 7600 1525 2    50   ~ 0
 M2_speed
 Text Label 6100 8800 0    50   ~ 0
 OUT1
@@ -358,21 +347,21 @@ Wire Wire Line
 	1670 3210 1670 3010
 Text Label 5370 3010 0    50   ~ 0
 GND
-Text Label 9900 3400 0    50   ~ 0
+Text Label 9800 3425 0    50   ~ 0
 Reciever_0
-Text Label 9900 3600 0    50   ~ 0
+Text Label 9800 3625 0    50   ~ 0
 Reciever_1
-Text Label 7900 3000 2    50   ~ 0
+Text Label 7600 2925 2    50   ~ 0
 Reciever_2
-Text Label 7900 3200 2    50   ~ 0
+Text Label 7600 3125 2    50   ~ 0
 Reciever_3
-Text Label 9900 3500 0    50   ~ 0
+Text Label 9800 3525 0    50   ~ 0
 Emitter_0
-Text Label 7900 3600 2    50   ~ 0
+Text Label 7600 3525 2    50   ~ 0
 Emitter_1
-Text Label 7900 3100 2    50   ~ 0
+Text Label 7600 3025 2    50   ~ 0
 Emitter_2
-Text Label 7900 3300 2    50   ~ 0
+Text Label 7600 3225 2    50   ~ 0
 Emitter_3
 $Comp
 L Motor:Motor_DC M3
@@ -385,13 +374,13 @@ F 3 "~" H 1425 6860 50  0001 C CNN
 	1    1425 6950
 	1    0    0    -1  
 $EndComp
-Text Label 7900 1200 2    50   ~ 0
+Text Label 7600 1125 2    50   ~ 0
 M1_forward
-Text Label 7900 1100 2    50   ~ 0
+Text Label 7600 1025 2    50   ~ 0
 M1_backward
-Text Label 7900 1300 2    50   ~ 0
+Text Label 7600 1225 2    50   ~ 0
 M2_forward
-Text Label 7900 1400 2    50   ~ 0
+Text Label 7600 1325 2    50   ~ 0
 M2_backward
 Text Label 8225 4650 3    50   ~ 0
 3.3v
@@ -424,44 +413,42 @@ Wire Wire Line
 	8275 4225 8275 4125
 Wire Wire Line
 	8275 4125 8450 4125
-Text Label 7900 1900 2    50   ~ 0
+Text Label 7600 1825 2    50   ~ 0
 M1_encoder_A
-Text Label 7900 2000 2    50   ~ 0
+Text Label 7600 1925 2    50   ~ 0
 M1_encoder_B
-Text Label 7900 1800 2    50   ~ 0
+Text Label 7600 1725 2    50   ~ 0
 M2_encoder_A
-Text Label 7900 1700 2    50   ~ 0
+Text Label 7600 1625 2    50   ~ 0
 M2_encoder_B
-NoConn ~ 9900 1100
-NoConn ~ 9900 1200
-NoConn ~ 9900 1300
-Text Label 7900 2300 2    50   ~ 0
+NoConn ~ 9800 1025
+NoConn ~ 9800 1125
+NoConn ~ 9800 1225
+Text Label 7600 2225 2    50   ~ 0
 PUSH_SW
-Text Label 7900 1000 2    50   ~ 0
+Text Label 7600 925  2    50   ~ 0
 GND
-NoConn ~ 9900 3200
-NoConn ~ 9900 3300
-NoConn ~ 9900 2900
-NoConn ~ 9900 2800
-NoConn ~ 9900 2700
-NoConn ~ 9900 2600
-NoConn ~ 9900 2500
-NoConn ~ 9900 2400
-NoConn ~ 9900 2300
-NoConn ~ 9900 2200
-NoConn ~ 9900 2100
-NoConn ~ 9900 2000
-NoConn ~ 9900 1900
-NoConn ~ 9900 1800
-NoConn ~ 9900 1400
-NoConn ~ 9900 1500
-NoConn ~ 9900 1600
-NoConn ~ 9900 1700
-NoConn ~ 9900 1000
-NoConn ~ 7900 2400
-NoConn ~ 7900 2800
-NoConn ~ 7900 2700
-Text Label 7900 2600 2    50   ~ 0
+NoConn ~ 9800 2825
+NoConn ~ 9800 2725
+NoConn ~ 9800 2625
+NoConn ~ 9800 2525
+NoConn ~ 9800 2425
+NoConn ~ 9800 2325
+NoConn ~ 9800 2225
+NoConn ~ 9800 2125
+NoConn ~ 9800 2025
+NoConn ~ 9800 1925
+NoConn ~ 9800 1825
+NoConn ~ 9800 1725
+NoConn ~ 9800 1325
+NoConn ~ 9800 1425
+NoConn ~ 9800 1525
+NoConn ~ 9800 1625
+NoConn ~ 9800 925 
+NoConn ~ 7600 2325
+NoConn ~ 7600 2725
+NoConn ~ 7600 2625
+Text Label 7600 2525 2    50   ~ 0
 GND
 $Comp
 L Device:Q_NMOS_DGS T3
@@ -864,7 +851,7 @@ F 3 "~" H 5275 6525 50  0001 C CNN
 	1    5275 6525
 	1    0    0    -1  
 $EndComp
-Text Label 9900 3100 0    50   ~ 0
+Text Label 9800 3225 0    50   ~ 0
 5v
 NoConn ~ 1425 6750
 NoConn ~ 1425 7250
@@ -917,7 +904,7 @@ L Regulator_Linear:LM1084-5.0 U3
 U 1 1 5E7860F1
 P 4650 6375
 F 0 "U3" H 4650 6617 50  0000 C CNN
-F 1 "LM1084-5.0" H 4650 6526 50  0000 C CNN
+F 1 "LM1085-5.0" H 4650 6526 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin2" H 4650 6625 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" H 4650 6375 50  0001 C CNN
 	1    4650 6375
@@ -985,10 +972,10 @@ Wire Notes Line
 	500  4950 6800 4950
 Wire Notes Line
 	500  8100 6800 8100
-NoConn ~ 7900 2100
-NoConn ~ 7900 2200
-NoConn ~ 7900 3400
-NoConn ~ 7900 3500
+NoConn ~ 7600 2025
+NoConn ~ 7600 2125
+NoConn ~ 7600 3325
+NoConn ~ 7600 3425
 Wire Notes Line
 	6800 500  6800 11200
 Text Notes 10400 5000 2    79   ~ 0
@@ -1022,13 +1009,24 @@ Wire Wire Line
 Wire Wire Line
 	8000 4350 8100 4350
 Connection ~ 8100 4350
-NoConn ~ 7900 2900
+NoConn ~ 7600 2825
 Text Label 5400 5775 2    50   ~ 0
 VUSB
 Wire Wire Line
 	5575 5875 5400 5875
 Wire Wire Line
 	5400 5875 5400 5775
-Text Label 9900 3000 0    50   ~ 0
+Text Label 9800 3125 0    50   ~ 0
 VUSB
+$Comp
+L teensy:Teensy4.0 U1
+U 1 1 5F23AD3B
+P 8700 2275
+F 0 "U1" H 8700 3890 50  0000 C CNN
+F 1 "Teensy4.0" H 8700 3799 50  0000 C CNN
+F 2 "teensy:Teensy40" H 8300 2475 50  0001 C CNN
+F 3 "" H 8300 2475 50  0001 C CNN
+	1    8700 2275
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -347,15 +347,15 @@ Wire Wire Line
 	1670 3210 1670 3010
 Text Label 5370 3010 0    50   ~ 0
 GND
-Text Label 9800 3450 0    50   ~ 0
+Text Label 9800 3525 0    50   ~ 0
 Reciever_0
-Text Label 9800 3650 0    50   ~ 0
+Text Label 7600 3625 2    50   ~ 0
 Reciever_1
 Text Label 7600 2925 2    50   ~ 0
 Reciever_2
 Text Label 7600 3125 2    50   ~ 0
 Reciever_3
-Text Label 9800 3550 0    50   ~ 0
+Text Label 9800 3625 0    50   ~ 0
 Emitter_0
 Text Label 7600 3525 2    50   ~ 0
 Emitter_1
@@ -1029,4 +1029,6 @@ F 3 "" H 8300 2475 50  0001 C CNN
 	1    8700 2275
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9800 3325
+NoConn ~ 9800 3425
 $EndSCHEMATC
