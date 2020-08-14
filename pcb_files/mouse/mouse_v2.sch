@@ -363,17 +363,6 @@ Text Label 7600 3025 2    50   ~ 0
 Emitter_2
 Text Label 7600 3225 2    50   ~ 0
 Emitter_3
-$Comp
-L Motor:Motor_DC M3
-U 1 1 5D240B05
-P 1425 6950
-F 0 "M3" H 1583 6946 50  0000 L CNN
-F 1 "CASTER_BALL" H 1583 6855 50  0000 L CNN
-F 2 "misc:Mouse_caster" H 1425 6860 50  0001 C CNN
-F 3 "~" H 1425 6860 50  0001 C CNN
-	1    1425 6950
-	1    0    0    -1  
-$EndComp
 Text Label 7600 1125 2    50   ~ 0
 M1_forward
 Text Label 7600 1025 2    50   ~ 0
@@ -751,7 +740,7 @@ L SN754410NE:SN754410NE U2
 U 1 1 5D1BEE18
 P 5400 9400
 F 0 "U2" H 5400 10370 50  0000 C CNN
-F 1 "SN754410NE" H 5400 10279 50  0000 C CNN
+F 1 "SN754410NE (Half-Bridge)" H 5400 10279 50  0000 C CNN
 F 2 "SN754410NE.kicad_mod:DIP254P762X508-16" H 5400 9400 50  0001 L BNN
 F 3 "PDIP-16 Texas Instruments" H 5400 9400 50  0001 L BNN
 F 4 "Texas Instruments" H 5400 9400 50  0001 L BNN "Field4"
@@ -815,7 +804,7 @@ U 1 1 5E819689
 P 5775 5975
 F 0 "S1" H 5775 6254 50  0000 C CNN
 F 1 "EG1218" H 5775 6163 50  0000 C CNN
-F 2 "misc:PW_SLIDE_SW" H 5975 6175 50  0001 L CNN
+F 2 "misc:SWITCH_SLIDE_500SSP1S2M2QEA" H 5975 6175 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 5975 6275 60  0001 L CNN
 F 4 "EG1903-ND" H 5975 6375 60  0001 L CNN "Digi-Key_PN"
 F 5 "EG1218" H 5975 6475 60  0001 L CNN "MPN"
@@ -853,50 +842,48 @@ F 3 "~" H 5275 6525 50  0001 C CNN
 $EndComp
 Text Label 9800 3225 0    50   ~ 0
 5v
-NoConn ~ 1425 6750
-NoConn ~ 1425 7250
 $Comp
-L Mechanical:MountingHole MH4
+L Mechanical:MountingHole SK1
 U 1 1 5E799FC8
-P 2000 6325
-F 0 "MH4" H 2100 6371 50  0000 L CNN
-F 1 "M3" H 2100 6280 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 6325 50  0001 C CNN
-F 3 "~" H 2000 6325 50  0001 C CNN
-	1    2000 6325
+P 2000 5550
+F 0 "SK1" H 2100 5596 50  0000 L CNN
+F 1 "M3" H 2100 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 5550 50  0001 C CNN
+F 3 "~" H 2000 5550 50  0001 C CNN
+	1    2000 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole MH2
 U 1 1 5E79A0A3
-P 1175 6350
-F 0 "MH2" H 1275 6396 50  0000 L CNN
-F 1 "M3" H 1275 6305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1175 6350 50  0001 C CNN
-F 3 "~" H 1175 6350 50  0001 C CNN
-	1    1175 6350
+P 1175 5575
+F 0 "MH2" H 1275 5621 50  0000 L CNN
+F 1 "M3" H 1275 5530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1175 5575 50  0001 C CNN
+F 3 "~" H 1175 5575 50  0001 C CNN
+	1    1175 5575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole MH1
 U 1 1 5E79A15B
-P 1175 5950
-F 0 "MH1" H 1275 5996 50  0000 L CNN
-F 1 "M3" H 1275 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1175 5950 50  0001 C CNN
-F 3 "~" H 1175 5950 50  0001 C CNN
-	1    1175 5950
+P 1175 5175
+F 0 "MH1" H 1275 5221 50  0000 L CNN
+F 1 "M3" H 1275 5130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1175 5175 50  0001 C CNN
+F 3 "~" H 1175 5175 50  0001 C CNN
+	1    1175 5175
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH3
+L Mechanical:MountingHole SK2
 U 1 1 5E79A200
-P 2000 5950
-F 0 "MH3" H 2100 5996 50  0000 L CNN
-F 1 "M3" H 2100 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 5950 50  0001 C CNN
-F 3 "~" H 2000 5950 50  0001 C CNN
-	1    2000 5950
+P 2000 5175
+F 0 "SK2" H 2100 5221 50  0000 L CNN
+F 1 "M3" H 2100 5130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 5175 50  0001 C CNN
+F 3 "~" H 2000 5175 50  0001 C CNN
+	1    2000 5175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -964,8 +951,8 @@ Text Notes 6700 11150 2    79   ~ 0
 Motor Control\n
 Text Notes 6700 8000 2    79   ~ 0
 Power Supply
-Text Notes 2800 8000 2    79   ~ 0
-Caster and Motors\n
+Text Notes 2875 5950 2    79   ~ 0
+Mount Designators\n
 Wire Notes Line
 	2900 8100 2900 4950
 Wire Notes Line
@@ -973,9 +960,6 @@ Wire Notes Line
 Wire Notes Line
 	500  8100 6800 8100
 NoConn ~ 7600 2025
-NoConn ~ 7600 2125
-NoConn ~ 7600 3325
-NoConn ~ 7600 3425
 Wire Notes Line
 	6800 500  6800 11200
 Text Notes 10400 5000 2    79   ~ 0
@@ -1009,7 +993,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 4350 8100 4350
 Connection ~ 8100 4350
-NoConn ~ 7600 2825
 Text Label 5400 5775 2    50   ~ 0
 VUSB
 Wire Wire Line
@@ -1031,4 +1014,154 @@ F 3 "" H 8300 2475 50  0001 C CNN
 $EndComp
 NoConn ~ 9800 3325
 NoConn ~ 9800 3425
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5F35DDB2
+P 1075 6775
+F 0 "BZ1" H 1228 6804 50  0000 L CNN
+F 1 "Buzzer" H 1228 6713 50  0000 L CNN
+F 2 "misc:9x5.5mm Buzzer" V 1050 6875 50  0001 C CNN
+F 3 "~" V 1050 6875 50  0001 C CNN
+	1    1075 6775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5F361454
+P 2150 6300
+F 0 "D4" H 2141 6516 50  0000 C CNN
+F 1 "LED" H 2141 6425 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2150 6300 50  0001 C CNN
+F 3 "~" H 2150 6300 50  0001 C CNN
+	1    2150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5F367A92
+P 2425 6550
+F 0 "R19" H 2495 6596 50  0000 L CNN
+F 1 "R" H 2495 6505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2355 6550 50  0001 C CNN
+F 3 "~" H 2425 6550 50  0001 C CNN
+	1    2425 6550
+	1    0    0    -1  
+$EndComp
+Text Notes 2875 8025 2    79   ~ 0
+Indicators\n
+Wire Notes Line
+	2900 6000 475  6000
+Wire Wire Line
+	2425 6400 2425 6300
+Wire Wire Line
+	2425 6300 2300 6300
+$Comp
+L Device:LED D5
+U 1 1 5F396452
+P 2150 6825
+F 0 "D5" H 2141 7041 50  0000 C CNN
+F 1 "LED" H 2141 6950 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2150 6825 50  0001 C CNN
+F 3 "~" H 2150 6825 50  0001 C CNN
+	1    2150 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5F396459
+P 2425 7075
+F 0 "R20" H 2495 7121 50  0000 L CNN
+F 1 "R" H 2495 7030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2355 7075 50  0001 C CNN
+F 3 "~" H 2425 7075 50  0001 C CNN
+	1    2425 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 6925 2425 6825
+Wire Wire Line
+	2425 6825 2300 6825
+$Comp
+L Device:LED D6
+U 1 1 5F399A50
+P 2150 7350
+F 0 "D6" H 2141 7566 50  0000 C CNN
+F 1 "LED" H 2141 7475 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2150 7350 50  0001 C CNN
+F 3 "~" H 2150 7350 50  0001 C CNN
+	1    2150 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5F399A57
+P 2425 7600
+F 0 "R21" H 2495 7646 50  0000 L CNN
+F 1 "R" H 2495 7555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2355 7600 50  0001 C CNN
+F 3 "~" H 2425 7600 50  0001 C CNN
+	1    2425 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7450 2425 7350
+Wire Wire Line
+	2425 7350 2300 7350
+Wire Wire Line
+	2000 6300 1800 6300
+Wire Wire Line
+	1800 6300 1800 6825
+Wire Wire Line
+	2000 7350 1800 7350
+Connection ~ 1800 7350
+Wire Wire Line
+	1800 7350 1800 7725
+Wire Wire Line
+	2000 6825 1800 6825
+Connection ~ 1800 6825
+Wire Wire Line
+	1800 6825 1800 7350
+Text Label 2500 6700 0    50   ~ 0
+LED_1
+Text Label 2500 7225 0    50   ~ 0
+LED_2
+Text Label 2500 7750 0    50   ~ 0
+LED_3
+Wire Wire Line
+	2500 6700 2425 6700
+Wire Wire Line
+	2500 7225 2425 7225
+Wire Wire Line
+	2500 7750 2425 7750
+Text Label 1800 7725 3    50   ~ 0
+GND
+$Comp
+L Device:R R18
+U 1 1 5F3C1532
+P 975 7150
+F 0 "R18" H 905 7104 50  0000 R CNN
+F 1 "R" H 905 7195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 905 7150 50  0001 C CNN
+F 3 "~" H 975 7150 50  0001 C CNN
+	1    975  7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	975  7000 975  6875
+Text Label 975  7300 3    50   ~ 0
+Buzzer
+Text Label 1350 6975 0    50   ~ 0
+GND
+Wire Wire Line
+	1175 6975 1175 6875
+Wire Wire Line
+	1175 6975 1350 6975
+Text Label 7600 3425 2    50   ~ 0
+LED_3
+Text Label 7600 3325 2    50   ~ 0
+LED_2
+Text Label 7600 2825 2    50   ~ 0
+LED_1
+Text Label 7600 2125 2    50   ~ 0
+Buzzer
 $EndSCHEMATC
