@@ -1,4 +1,4 @@
-# fish-mouse
+# UCI Micromouse
 
 Issues to fix
 1. Switche footprint needs bigger drill holes.
