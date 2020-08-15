@@ -13,7 +13,7 @@
 
 <details><summary> PCB traces </summary> 
   
-![alt text](https://i.gyazo.com/5c6fd6a8261336d81391e4fb3ab51d00.png "pcb traces")
+![alt text](https://github.com/micromouseuci/UCI-Micromouse/blob/master/images/Schematic.PNG "pcb traces")
 </details>
 
 <details><summary> Schematic </summary> 
