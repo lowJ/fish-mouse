@@ -1,4 +1,4 @@
-452110112374770
+477671217029214
 Package_TO_SOT_THT
 Fairchild_TO-220F-6L
 Fairchild TO-220F-6L, http://www.mouser.com/ds/2/149/FSL136MRT-113334.pdf
@@ -1651,6 +1651,111 @@ DIP254P762X508-16
 0
 16
 16
+custom
+9x5.5mm Buzzer
+
+
+0
+2
+2
+custom
+3528_SMD_LED
+
+
+0
+2
+2
+custom
+CST-931AP_buzzer
+
+
+0
+2
+2
+custom
+KSC_SW
+
+
+0
+4
+4
+custom
+Motor_mouse
+
+
+0
+0
+0
+custom
+Mouse_caster
+
+
+0
+0
+0
+custom
+PE-53933SNL
+
+
+0
+2
+2
+custom
+PW_SLIDE_SW
+
+
+0
+6
+3
+custom
+SWITCH_SLIDE_500SSP1S2M2QEA
+
+
+0
+3
+3
+custom
+Switch_amazon
+
+
+0
+3
+3
+custom
+TN0104(TO-92)
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+custom
+TO-92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+custom
+USB_C
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+custom
+USB_C_REDUCED_PINS
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+16
+13
+custom
+VRM_LM108X
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 keyswitches
 Kailh_socket
 MX-style keyswitch with Kailh socket mount
@@ -1765,6 +1870,13 @@ misc
 2
 misc
 3528_SMD_LED
+
+
+0
+2
+2
+misc
+CST-931AP_buzzer
 
 
 0
