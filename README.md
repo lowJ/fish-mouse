@@ -75,4 +75,8 @@ Note: This is not a full parts list
 * goForward() - Use encoders to go straight.
 * turnAround() - turnRight * 2
 
+#### Resources
+<ul>
+ <a href="https://micromouseuci.github.io/">Club Website</a>
+
 
