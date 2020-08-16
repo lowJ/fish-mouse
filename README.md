@@ -1,31 +1,24 @@
-# fish-mouse
+# UCI Micromouse
 
-Issues to fix
-1. Switche footprint needs bigger drill holes.
-1. Add switch to choose USBC GND or Batt GND.(Currently switch toggles between USB 5V and Regulator 5V, but GND stays the same). It will be safer if GNDs can be disconnected when not in use.
-1. Fix footprint of USBC, add drill holes for excess pins, but do not include metal surrounding. Extend smd pads.
-1. On USBC footprint, one of THT pads is off.
-1. Put i2c pullups on other side of pcb
-1. led to show when there is usb power
-1. probally more issues yet to be found...
+
 
 ![alt text](https://i.imgur.com/Kb6Vo5O.jpg "top")
 
 <h2> Pictures </h2>
-<details><summary> 3D Renders </summary> 
+<!--<details><summary> 3D Renders </summary> -->
  
-![alt text](https://i.gyazo.com/e77168a4619b628cfedec8a1f364aaf0.png "top")
-![alt text](https://i.gyazo.com/c8c2ac69ebd2ae9f82ab681595781440.png "wo components")
-</details>
+<!--![alt text](https://i.gyazo.com/e77168a4619b628cfedec8a1f364aaf0.png "top")-->
+<!--![alt text](https://i.gyazo.com/c8c2ac69ebd2ae9f82ab681595781440.png "wo components")-->
+<!--</details>-->
 
 <details><summary> PCB traces </summary> 
   
-![alt text](https://i.gyazo.com/5c6fd6a8261336d81391e4fb3ab51d00.png "pcb traces")
+![alt text](https://github.com/micromouseuci/UCI-Micromouse/blob/master/images/PCB.PNG "pcb traces")
 </details>
 
 <details><summary> Schematic </summary> 
   
-![alt text](https://i.gyazo.com/89efa0ac9cc537552984ef675a00df28.png "schematic")
+![alt text](https://github.com/micromouseuci/UCI-Micromouse/blob/master/images/Schematic.PNG "schematic")
 </details>
 
 <h2> Parts and Labels [Labels not fully updated!] </h2>
