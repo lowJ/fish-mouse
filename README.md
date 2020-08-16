@@ -76,8 +76,8 @@ Note: This is not a full parts list
 * turnAround() - turnRight * 2
 
 #### Resources
-<ul>
- <a href="https://micromouseuci.github.io/" target="_blank_">Club Website</a>
-</ul>
+<li>
+ <a href="https://micromouseuci.github.io/" target="_blank">Club Website</a>
+</li>
 
 
