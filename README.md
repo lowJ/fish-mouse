@@ -4,6 +4,8 @@
 
 ![alt text](https://i.imgur.com/Kb6Vo5O.jpg "top")
 
+This is the official GitHub of Micromouse @ UCI. This repository is here to allow you to build your own mouse for competition. 
+
 <h2> Pictures </h2>
 <!--<details><summary> 3D Renders </summary> -->
  
