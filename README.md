@@ -77,6 +77,7 @@ Note: This is not a full parts list
 
 #### Resources
 <ul>
- <a href="https://micromouseuci.github.io/">Club Website</a>
+ <a href="https://micromouseuci.github.io/" target="_blank_">Club Website</a>
+</ul>
 
 
