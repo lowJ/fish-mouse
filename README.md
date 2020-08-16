@@ -78,6 +78,7 @@ Note: This is not a full parts list
 #### Resources
 
  * <a href="https://micromouseuci.github.io/" target="_blank">Club Website</a>
+ * <a href="https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj" target="_blank">Club Drive</a>
 
 
 
