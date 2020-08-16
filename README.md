@@ -6,7 +6,7 @@
 
 This is the official GitHub of Micromouse @ UCI. This repository is here to allow you to build your own mouse for competition. 
 
-#### Resources
+#### Club Resources
 
  * [__Official Club Website__](https://micromouseuci.github.io/) - Get updates on club meetings and club information
  * [__Micromouse @UCI Team Drive__](https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj) - Reference Sheets, Lecture Slides, and more informative documents
