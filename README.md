@@ -2,7 +2,6 @@
 
 
 
-![alt text](https://i.imgur.com/Kb6Vo5O.jpg "top")
 
 This is the official GitHub of Micromouse @ UCI. This repository is here to allow you to build your own mouse for competition. 
 
@@ -11,22 +10,6 @@ This is the official GitHub of Micromouse @ UCI. This repository is here to allo
  * [__Official Club Website__](https://micromouseuci.github.io/) - Get updates on club meetings and club information
  * [__Micromouse @UCI Team Drive__](https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj) - Reference Sheets, Lecture Slides, and more informative documents
 
-<h2> Pictures </h2>
-<!--<details><summary> 3D Renders </summary> -->
- 
-<!--![alt text](https://i.gyazo.com/e77168a4619b628cfedec8a1f364aaf0.png "top")-->
-<!--![alt text](https://i.gyazo.com/c8c2ac69ebd2ae9f82ab681595781440.png "wo components")-->
-<!--</details>-->
-
-<details><summary> PCB traces </summary> 
-  
-![alt text](https://github.com/micromouseuci/UCI-Micromouse/blob/master/images/PCB.PNG "pcb traces")
-</details>
-
-<details><summary> Schematic </summary> 
-  
-![alt text](https://github.com/micromouseuci/UCI-Micromouse/blob/master/images/Schematic.PNG "schematic")
-</details>
 
 <h2> Parts and Labels [Labels not fully updated!] </h2>
 
