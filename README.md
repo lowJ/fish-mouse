@@ -8,6 +8,7 @@ This is the official GitHub of Micromouse @ UCI. This repository is here to allo
 #### Club Resources
  * [__Official Club Website__](https://micromouseuci.github.io/) - Get updates on club meetings and club information
  * [__Micromouse @UCI Team Drive__](https://drive.google.com/drive/folders/1fHwfOaCsH3-F_LZoAcfiGgn9cWiebsPj) - Reference Sheets, Lecture Slides, and more informative documents
+ * [__YouTube Playlist__] - Helpful videos on important concepts
 
 <h2> Parts and Labels</h2>
 
