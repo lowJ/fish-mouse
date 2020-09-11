@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Encoder_3081
+D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
+K Magnetic Hall Encoder
+F http://ams.com/eng/content/download/438063/1340357/246195
+$ENDCMP
+#
+#End Doc Library
